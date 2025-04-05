@@ -19,9 +19,10 @@ namespace ItemsSystem.Player
 
         private void OnDestroy() => Expose();
 
-        public void DisplayItem(CarryObject item)
+        private void DisplayItem(CarryObject item)
         {
-            _itemHolder.CurrentObject?.ResetObject();
+            if(!item)
+                return;
             
             switch (item.ItemType)
             {
@@ -38,6 +39,7 @@ namespace ItemsSystem.Player
 
         private void DisplayWeapon(CarryObject weapon)
         {
+            weapon.gameObject.SetActive(true);
         }
 
         private void DisplayObjectItem(CarryObject item)

@@ -40,6 +40,8 @@ namespace ItemsSystem.Player
         
         public void TakeItem(CarryObject carryObject)
         {
+            CurrentObject?.ResetObject();
+            
             _isTakingItem = true;
             CurrentObject = carryObject;
             OnCurrentItemChanged?.Invoke(carryObject);

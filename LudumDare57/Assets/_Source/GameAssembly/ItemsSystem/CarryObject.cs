@@ -6,7 +6,7 @@ namespace ItemsSystem
     {
         [field: SerializeField] public ItemType ItemType { get; private set; }
         [field: SerializeField] public bool IsPowerDepend { get; private set; }
-        [field: SerializeField] public float WeightSpeedDownPercent { get; private set; } = 1f;
+        [field: SerializeField][field: Range(0, 1f)] public float WeightSpeedDownPercent { get; private set; } = 1f;
 
         [SerializeField] public Rigidbody2D rb;
 

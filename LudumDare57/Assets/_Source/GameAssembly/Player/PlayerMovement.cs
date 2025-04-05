@@ -67,7 +67,7 @@ namespace Player
             velocity.x = _moveInput.x * _settings.PlayerSpeed;
 
             // Apply object weight
-            if (_itemHolder.CurrentObject)
+            if (_itemHolder.CurrentObject && _itemHolder.CurrentObject.IsPowerDepend)
                 velocity.x *= _itemHolder.CurrentObject.WeightSpeedDownPercent;
 
 

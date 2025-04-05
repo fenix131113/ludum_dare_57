@@ -7,6 +7,7 @@ namespace InputSystem
     public class PlayerInput : ITickable
     {
         public event Action<Vector2> OnMove;
+        public event Action<float> OnScroll;
         public event Action OnJump;
         public event Action OnFall;
         public event Action OnInteract;
@@ -17,6 +18,7 @@ namespace InputSystem
             ReadJumpInput();
             ReadFallInput();
             ReadInteractInput();
+            ReadScrollInput();
         }
 
         private void ReadMoveInput()
@@ -43,6 +45,12 @@ namespace InputSystem
         {
             if (Input.GetKey(KeyCode.S))
                 OnFall?.Invoke();
-        }  
+        }
+
+        private void ReadScrollInput()
+        {
+            if(Input.mouseScrollDelta.y != 0)
+                OnScroll?.Invoke(Input.mouseScrollDelta.y);
+        }
     }
 }
