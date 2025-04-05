@@ -47,7 +47,7 @@ namespace ItemsSystem.Player
                 (_itemHolder.CurrentObject && _itemHolder.CurrentObject.ItemType == ItemType.OBJECT))
                 return;
 
-            var carry = _currentAvailableCarryObject!.GetComponent<CarryObject>();
+            var carry = _currentAvailableCarryObject!.GetComponent<ACarryObject>();
             _itemHolder.TakeItem(carry);
             _currentAvailableCarryObject = null;
         }

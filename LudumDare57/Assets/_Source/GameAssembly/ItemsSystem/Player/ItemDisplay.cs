@@ -19,7 +19,7 @@ namespace ItemsSystem.Player
 
         private void OnDestroy() => Expose();
 
-        private void DisplayItem(CarryObject item)
+        private void DisplayItem(ACarryObject item)
         {
             if(!item)
                 return;
@@ -37,12 +37,12 @@ namespace ItemsSystem.Player
             }
         }
 
-        private void DisplayWeapon(CarryObject weapon)
+        private void DisplayWeapon(ACarryObject weapon)
         {
             weapon.gameObject.SetActive(true);
         }
 
-        private void DisplayObjectItem(CarryObject item)
+        private void DisplayObjectItem(ACarryObject item)
         {
             item.transform.parent = objectPoint;
             item.DisablePhysics();

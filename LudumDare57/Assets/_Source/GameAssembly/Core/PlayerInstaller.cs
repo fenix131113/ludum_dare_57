@@ -1,5 +1,6 @@
 using InputSystem;
 using ItemsSystem.Player;
+using Player;
 using Player.Data;
 using UnityEngine;
 using VContainer;
@@ -20,6 +21,9 @@ namespace Core
             builder.RegisterInstance(playerSettingsSO);
 
             builder.RegisterComponentInHierarchy<ItemHolder>();
+            builder.RegisterComponentInHierarchy<PlayerMovement>();
+            
+            builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
         }
     }
 }

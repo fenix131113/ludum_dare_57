@@ -8,9 +8,9 @@ namespace ItemsSystem.Player
 {
     public class ItemHolder : MonoBehaviour
     {
-        public CarryObject CurrentObject { get; private set; }
+        public ACarryObject CurrentObject { get; private set; }
 
-        public event Action<CarryObject> OnCurrentItemChanged;
+        public event Action<ACarryObject> OnCurrentItemChanged;
         
         private PlayerInput _input;
         private bool _isTakingItem;
@@ -38,7 +38,7 @@ namespace ItemsSystem.Player
 
         private void OnDestroy() => Expose();
         
-        public void TakeItem(CarryObject carryObject)
+        public void TakeItem(ACarryObject carryObject)
         {
             CurrentObject?.ResetObject();
             

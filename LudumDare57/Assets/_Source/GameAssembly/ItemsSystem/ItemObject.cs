@@ -1,13 +1,17 @@
 ﻿using DG.Tweening;
+using Player;
 using UnityEngine;
+using VContainer;
 
 namespace ItemsSystem
 {
-    public class ItemObject : CarryObject
+    public class ItemObject : ACarryObject
     {
-        [SerializeField] private Rigidbody2D playerRb;
-        
+        private Rigidbody2D _playerRb;
         private Transform _startParent;
+
+        [Inject]
+        private void Construct(PlayerMovement playerMovement) => _playerRb = playerMovement.GetComponent<Rigidbody2D>();
 
         private void Start() => _startParent = transform.parent;
 
@@ -15,8 +19,8 @@ namespace ItemsSystem
         {
             DOTween.Kill(gameObject);
             transform.parent = _startParent;
-            rb.linearVelocity = playerRb.linearVelocity;
-            
+            rb.linearVelocity = _playerRb.linearVelocity;
+
             EnablePhysics();
         }
     }

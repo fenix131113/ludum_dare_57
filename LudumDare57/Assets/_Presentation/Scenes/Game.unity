@@ -149,8 +149,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 372662207}
   - {fileID: 1689499737}
+  - {fileID: 372662207}
   m_Father: {fileID: 1688220430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &49484424
@@ -208,9 +208,10 @@ GameObject:
   m_Component:
   - component: {fileID: 372662207}
   - component: {fileID: 372662208}
-  - component: {fileID: 372662209}
   - component: {fileID: 372662210}
   - component: {fileID: 372662211}
+  - component: {fileID: 372662209}
+  - component: {fileID: 372662212}
   m_Layer: 6
   m_Name: Pistol
   m_TagString: Untagged
@@ -226,7 +227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372662206}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.883, y: 0, z: 0}
   m_LocalScale: {x: 0.5875, y: 0.15937501, z: 1}
   m_ConstrainProportionsScale: 0
@@ -377,6 +378,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &372662212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372662206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11daef7b39b24141937eb728bb590830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootRotatePoint: {fileID: 49484423}
+  shootSpawnPoint: {fileID: 372662207}
+  projectilePrefab: {fileID: 3462464767224161564, guid: 10a6f12e1fdfbf247b88e3af3c95cb55, type: 3}
 --- !u!1 &436472126
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +429,6 @@ MonoBehaviour:
   <IsPowerDepend>k__BackingField: 1
   <WeightSpeedDownPercent>k__BackingField: 1
   rb: {fileID: 436472128}
-  playerRb: {fileID: 1688220431}
 --- !u!50 &436472128
 Rigidbody2D:
   serializedVersion: 5
@@ -550,12 +565,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436472126}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.913, y: -4.183, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.3955097, y: -5.116154, z: 0.009360839}
   m_LocalScale: {x: 0.49775034, y: 0.49775034, z: 0.49775034}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1165281658}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &437932976
 GameObject:
@@ -888,6 +903,8 @@ Transform:
   - {fileID: 1392034627}
   - {fileID: 2086595063}
   - {fileID: 1688220430}
+  - {fileID: 1451677506}
+  - {fileID: 436472131}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1361116715
@@ -1260,12 +1277,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451677503}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.661, y: -4.183, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.1435094, y: -5.116154, z: 0.009360839}
   m_LocalScale: {x: 0.49775034, y: 0.49775034, z: 0.49775034}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1165281658}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1451677507
 BoxCollider2D:
@@ -1356,7 +1373,6 @@ MonoBehaviour:
   <IsPowerDepend>k__BackingField: 1
   <WeightSpeedDownPercent>k__BackingField: 1
   rb: {fileID: 1451677508}
-  playerRb: {fileID: 1688220431}
 --- !u!1 &1688220427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,7 +1406,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e012b4384df67eb4ebdba4a10a8a10f3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1507,7 +1523,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e012b4384df67eb4ebdba4a10a8a10f3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1592,9 +1608,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1689499737}
   - component: {fileID: 1689499741}
-  - component: {fileID: 1689499740}
   - component: {fileID: 1689499739}
   - component: {fileID: 1689499738}
+  - component: {fileID: 1689499740}
   m_Layer: 6
   m_Name: Shotgun
   m_TagString: Untagged
@@ -1703,8 +1719,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <ItemType>k__BackingField: 0
-  <IsPowerDepend>k__BackingField: 1
-  <WeightSpeedDownPercent>k__BackingField: 0.75
+  <IsPowerDepend>k__BackingField: 0
+  <WeightSpeedDownPercent>k__BackingField: 1
   rb: {fileID: 1689499739}
 --- !u!212 &1689499741
 SpriteRenderer:
@@ -1811,8 +1827,8 @@ MonoBehaviour:
     TypeName: 
   autoRun: 1
   autoInjectGameObjects:
-  - {fileID: 1688220427}
-  - {fileID: 1403990971}
+  - {fileID: 1959280666}
+  - {fileID: 1165281657}
   playerSettingsSO: {fileID: 11400000, guid: 45f4517bf6792954899ac04985fc886d, type: 2}
 --- !u!1 &2086595062
 GameObject:
@@ -1992,5 +2008,3 @@ SceneRoots:
   - {fileID: 1959280667}
   - {fileID: 1165281658}
   - {fileID: 97782084}
-  - {fileID: 1451677506}
-  - {fileID: 436472131}

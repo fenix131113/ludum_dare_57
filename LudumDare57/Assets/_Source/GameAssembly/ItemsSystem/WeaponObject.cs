@@ -1,6 +1,6 @@
 ﻿namespace ItemsSystem
 {
-    public class WeaponObject : CarryObject
+    public class WeaponObject : ACarryObject
     {
         public override void ResetObject()
         {

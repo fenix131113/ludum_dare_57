@@ -11,6 +11,7 @@ namespace InputSystem
         public event Action OnJump;
         public event Action OnFall;
         public event Action OnInteract;
+        public event Action OnShoot;
 
         public void Tick()
         {
@@ -19,6 +20,7 @@ namespace InputSystem
             ReadFallInput();
             ReadInteractInput();
             ReadScrollInput();
+            ReadShootInput();
         }
 
         private void ReadMoveInput()
@@ -51,6 +53,12 @@ namespace InputSystem
         {
             if(Input.mouseScrollDelta.y != 0)
                 OnScroll?.Invoke(Input.mouseScrollDelta.y);
+        }
+
+        private void ReadShootInput()
+        {
+            if (Input.GetMouseButtonDown(0))
+                OnShoot?.Invoke();
         }
     }
 }

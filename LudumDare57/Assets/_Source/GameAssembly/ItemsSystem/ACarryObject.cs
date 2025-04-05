@@ -2,7 +2,7 @@
 
 namespace ItemsSystem
 {
-    public abstract class CarryObject : MonoBehaviour
+    public abstract class ACarryObject : MonoBehaviour
     {
         [field: SerializeField] public ItemType ItemType { get; private set; }
         [field: SerializeField] public bool IsPowerDepend { get; private set; }
