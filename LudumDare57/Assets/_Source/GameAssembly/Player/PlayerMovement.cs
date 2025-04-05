@@ -1,6 +1,8 @@
 using System.Collections;
 using Environment;
 using InputSystem;
+using ItemsSystem;
+using ItemsSystem.Player;
 using Player.Data;
 using Services;
 using UnityEngine;
@@ -24,12 +26,14 @@ namespace Player
         private Vector2 _moveInput;
         private float _additionalFallSpeed;
         private bool _canJump = true;
+        private ItemHolder _itemHolder;
 
         [Inject]
-        private void Construct(PlayerInput input, PlayerSettingsSO settings)
+        private void Construct(PlayerInput input, PlayerSettingsSO settings, ItemHolder itemHolder)
         {
             _input = input;
             _settings = settings;
+            _itemHolder = itemHolder;
         }
 
         private void Start() => Bind();
@@ -55,10 +59,18 @@ namespace Player
             rb.linearVelocity = velocity;
         }
 
-        private void FixedUpdate()
+        private void FixedUpdate() => Move();
+
+        private void Move()
         {
             var velocity = rb.linearVelocity;
             velocity.x = _moveInput.x * _settings.PlayerSpeed;
+
+            // Apply object weight
+            if (_itemHolder.CurrentObject)
+                velocity.x *= _itemHolder.CurrentObject.WeightSpeedDownPercent;
+
+
             rb.linearVelocity = velocity;
         }
 
@@ -111,7 +123,7 @@ namespace Player
         private IEnumerator JumpCooldown()
         {
             _canJump = false;
-            
+
             yield return new WaitForSeconds(jumpCooldown);
 
             _canJump = true;

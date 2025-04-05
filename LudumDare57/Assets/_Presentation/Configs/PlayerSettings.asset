@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <PlayerSpeed>k__BackingField: 5
   <JumpForce>k__BackingField: 10
-  <FallIncreaseSpeed>k__BackingField: 0.1
-  <MaxFallSpeed>k__BackingField: 3
+  <FallIncreaseSpeed>k__BackingField: 0.05
+  <MaxFallSpeed>k__BackingField: 1

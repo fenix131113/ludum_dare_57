@@ -1,4 +1,5 @@
 using InputSystem;
+using ItemsSystem.Player;
 using Player.Data;
 using UnityEngine;
 using VContainer;
@@ -17,6 +18,8 @@ namespace Core
                 .AsImplementedInterfaces();
 
             builder.RegisterInstance(playerSettingsSO);
+
+            builder.RegisterComponentInHierarchy<ItemHolder>();
         }
     }
 }
