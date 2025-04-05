@@ -1,12 +1,11 @@
 using InputSystem;
-using InputSystem.Data;
 using Player.Data;
 using UnityEngine;
 using VContainer;
 
 namespace Player
 {
-    public class PlayerMovement : MonoBehaviour, IInputValueCallback<Vector2>, IInputCallback
+    public class PlayerMovement : MonoBehaviour
     {
         [SerializeField] private Rigidbody2D rb;
         [SerializeField] private LayerMask groundLayer;
@@ -15,18 +14,21 @@ namespace Player
         
         private bool _isGrounded;
         private PlayerSettingsSO _settings;
+        private PlayerInput _input;
         private Vector2 _moveInput;
         private float _additionalFallSpeed;
 
         [Inject]
         private void Construct(PlayerInput input, PlayerSettingsSO settings)
         {
+            _input = input;
             _settings = settings;
-            
-            input.RegisterCallback(InputType.MOVE, this);
-            input.RegisterNonValueCallback(InputType.JUMP, this);
         }
-        
+
+        private void Start() => Bind();
+
+        private void OnDestroy() => Expose();
+
         private void Update()
         {
             CheckGround();
@@ -55,10 +57,10 @@ namespace Player
         }
 
         // Move Event
-        public void InputCallback(Vector2 value) => _moveInput = value;
+        public void OnMove(Vector2 value) => _moveInput = value;
 
         // Jump Event
-        public void InputCallback() => Jump();
+        public void OnJump() => Jump();
 
         private void FixedUpdate()
         {
@@ -73,6 +75,17 @@ namespace Player
                 return;
             
             rb.AddForce(Vector2.up * _settings.JumpForce, ForceMode2D.Impulse);
+        }
+
+        private void Bind()
+        {
+            _input.OnMove += OnMove;
+            _input.OnJump += OnJump;
+        }
+
+        private void Expose()
+        {
+            
         }
     }
 }
