@@ -34,9 +34,9 @@ namespace InputSystem
 
         private void ReadMoveInput()
         {
-            if(!_valueInputCallbacks.ContainsKey(InputType.MOVE))
+            if (!_valueInputCallbacks.ContainsKey(InputType.MOVE))
                 return;
-            
+
             var input = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
             input.Normalize();
 
@@ -50,10 +50,11 @@ namespace InputSystem
 
         private void ReadJumpInput()
         {
-            if (!Input.GetKeyDown(KeyCode.Space) || !_nonValueCallbacks.TryGetValue(InputType.JUMP, out var callback))
+            if (!_nonValueCallbacks.TryGetValue(InputType.JUMP, out var callback))
                 return;
-            
-            callback.ForEach(x => x.InputCallback());
+
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+                callback.ForEach(x => x.InputCallback());
         }
     }
 }
