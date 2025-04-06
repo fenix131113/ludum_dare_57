@@ -1,22 +1,31 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using Core;
+using HealthSystem;
 using UnityEngine;
 
 namespace WeaponSystem
 {
-    public class Bullet : MonoBehaviour, IPoolObject
+    public class Bullet : ATriggerDamage, IPoolObject
     {
+        [field: SerializeField] public override int Damage { get; protected set; }
+
         [SerializeField] private float speed;
         [SerializeField] private float deadTime;
 
         private DictionaryObjectPool _pool;
-        
+
         private void Update() => transform.position += transform.right * (speed * Time.deltaTime);
 
-        private void OnTriggerEnter2D(Collider2D other)
+        protected override void OnTriggerEnter2D(Collider2D other)
         {
             ReturnToPool();
+            base.OnTriggerEnter2D(other);
+        }
+
+        public void ActivateBullet(int overrideDamage = 0)
+        {
+            SetDamageAmount(overrideDamage == 0 ? Damage : overrideDamage);
+            gameObject.SetActive(true);
         }
 
         public void PoolInit(DictionaryObjectPool pool)
@@ -28,7 +37,7 @@ namespace WeaponSystem
         public void ReturnToPool()
         {
             StopAllCoroutines();
-            
+
             _pool.Push(this);
             gameObject.SetActive(false);
         }
@@ -36,7 +45,7 @@ namespace WeaponSystem
         private IEnumerator DespawnCooldown()
         {
             yield return new WaitForSeconds(deadTime);
-            
+
             ReturnToPool();
         }
     }

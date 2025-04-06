@@ -12,6 +12,7 @@ namespace InputSystem
         public event Action OnFall;
         public event Action OnInteract;
         public event Action OnShoot;
+        public event Action OnAim;
         public event Action OnReload;
 
         public void Tick()
@@ -23,6 +24,7 @@ namespace InputSystem
             ReadScrollInput();
             ReadShootInput();
             ReadReloadInput();
+            ReadAimInput();
         }
 
         private void ReadMoveInput()
@@ -61,6 +63,12 @@ namespace InputSystem
         {
             if (Input.GetMouseButton(0))
                 OnShoot?.Invoke();
+        }
+        
+        private void ReadAimInput()
+        {
+            if (Input.GetMouseButton(1))
+                OnAim?.Invoke();
         }
 
         private void ReadReloadInput()

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using InputSystem;
 using ItemsSystem.Objects;
+using ItemsSystem.Player;
 using UnityEngine;
 using VContainer;
-using WeaponSystem;
 
-namespace ItemsSystem.Player
+namespace WeaponSystem
 {
     public sealed class WeaponSelector : MonoBehaviour
     {
@@ -52,7 +52,7 @@ namespace ItemsSystem.Player
 
             _itemHolder.TakeItem(weapons[_selectedWeaponIndex]);
         }
-
+        
         private void ChangeWeaponIndex(bool plus)
         {
             if (plus)

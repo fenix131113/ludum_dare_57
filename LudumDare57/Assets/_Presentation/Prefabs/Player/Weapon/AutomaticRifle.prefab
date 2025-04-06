@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8598202376825372587}
   - component: {fileID: 6445157512696019376}
   - component: {fileID: 4684175716962452051}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: AutomaticRifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,9 +77,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1171077669
+  m_SortingLayer: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11daef7b39b24141937eb728bb590830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Damage>k__BackingField: 1
+  damage: 1
   attackCooldown: 0.15
   <MaxAmmo>k__BackingField: 15
   reloadTime: 2

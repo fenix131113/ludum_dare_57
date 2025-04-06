@@ -15,7 +15,7 @@ namespace WeaponSystem.Weapons
         [Inject]
         private void BaseFirearmConstruct(DictionaryObjectPool pool) => Pool = pool;
 
-        protected override void Shoot()
+        protected override void Attack()
         {
             if(CurrentAmmo == 0 || IsReloading)
                 return;
@@ -26,7 +26,7 @@ namespace WeaponSystem.Weapons
             
             projectile.transform.position = shootSpawnPoint.position; 
             projectile.transform.rotation = shootRotatePoint.rotation; 
-            projectile.gameObject.SetActive(true);
+            projectile.ActivateBullet(GetDamageAmount());
             projectile.PoolInit(Pool);
         }
 

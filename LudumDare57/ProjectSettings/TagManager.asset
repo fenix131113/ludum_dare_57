@@ -15,7 +15,7 @@ TagManager:
   - Platform
   - Item
   - PlayerProjectile
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -40,6 +40,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1171077669
     locked: 0
   m_RenderingLayers:
   - Default

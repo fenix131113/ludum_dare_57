@@ -13,7 +13,7 @@ namespace ItemsSystem.Objects
         [Inject]
         private void Construct(PlayerMovement playerMovement) => PlayerRb = playerMovement.GetComponent<Rigidbody2D>();
 
-        private void Start() => StartParent = transform.parent;
+        protected virtual void Start() => StartParent = transform.parent;
 
         public override void ResetObject()
         {

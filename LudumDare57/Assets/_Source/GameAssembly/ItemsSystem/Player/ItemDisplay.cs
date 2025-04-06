@@ -16,7 +16,7 @@ namespace ItemsSystem.Player
         [Inject]
         private void Construct(ItemHolder itemHolder) => _itemHolder = itemHolder;
 
-        private void Start() => Bind();
+        private void Awake() => Bind();
 
         private void OnDestroy() => Expose();
 

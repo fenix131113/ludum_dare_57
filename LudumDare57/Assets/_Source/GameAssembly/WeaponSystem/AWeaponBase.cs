@@ -1,18 +1,20 @@
 ﻿using System.Collections;
+using HealthSystem;
 using InputSystem;
 using UnityEngine;
 using VContainer;
 
 namespace WeaponSystem
 {
-    public abstract class AWeaponBase : MonoBehaviour
+    public abstract class AWeaponBase : MonoBehaviour, IDamageApplier
     {
-        [field: SerializeField] public int Damage { get; protected set; }
-            
+        [SerializeField] private int damage;
         [SerializeField] protected float attackCooldown;
 
         protected PlayerInput Input;
-        protected bool CanShoot = true;
+        protected bool CanAttack = true;
+
+        private Coroutine _cooldownCoroutine;
 
         [Inject]
         private void Construct(PlayerInput input) => Input = input;
@@ -21,18 +23,30 @@ namespace WeaponSystem
 
         private void OnDestroy() => Expose();
 
-        protected abstract void Shoot();
+        protected abstract void Attack();
 
         private void ShootInvoker()
         {
-            if (!gameObject.activeSelf || !CanShoot)
+            if (!gameObject.activeSelf || !CanAttack || !CanAttackCondition())
                 return;
-
-            StartCoroutine(CooldownRoutine());
-            Shoot();
+            
+            _cooldownCoroutine = StartCoroutine(CooldownRoutine());
+            Attack();
         }
 
-        public void SetDamage(int newDamage) => Damage = newDamage; 
+        public void ResetCooldownInstantly()
+        {
+            if (_cooldownCoroutine != null)
+                StopCoroutine(_cooldownCoroutine);
+
+            CanAttack = true;
+        }
+
+        public void SetDamageAmount(int newDamage) => damage = newDamage;
+        
+        public int GetDamageAmount() => damage;
+
+        protected virtual bool CanAttackCondition() => CanAttack;
 
         protected virtual void Bind() => Input.OnShoot += ShootInvoker;
 
@@ -40,11 +54,11 @@ namespace WeaponSystem
 
         private IEnumerator CooldownRoutine()
         {
-            CanShoot = false;
+            CanAttack = false;
 
             yield return new WaitForSeconds(attackCooldown);
 
-            CanShoot = true;
+            CanAttack = true;
         }
     }
 }
