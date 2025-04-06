@@ -44,7 +44,13 @@ namespace ItemsSystem.Player
             TakeCurrentWeapon();
         }
 
-        private void TakeCurrentWeapon() => _itemHolder.TakeItem(weapons[_selectedWeaponIndex]);
+        private void TakeCurrentWeapon()
+        {
+            if (_itemHolder.CurrentObject && _itemHolder.CurrentObject == weapons[_selectedWeaponIndex])
+                return;
+
+            _itemHolder.TakeItem(weapons[_selectedWeaponIndex]);
+        }
 
         private void ChangeWeaponIndex(bool plus)
         {
@@ -66,7 +72,7 @@ namespace ItemsSystem.Player
 
         public void AddWeapon(WeaponObject weapon)
         {
-            if(weapons.Contains(weapon))
+            if (weapons.Contains(weapon))
                 return;
 
             weapons.Add(weapon);
