@@ -4,7 +4,7 @@ using VContainer;
 
 namespace WeaponSystem
 {
-    public class Pistol : AWeaponBase
+    public class Pistol : AAmmoWeapon
     {
         [SerializeField] private Transform shootRotatePoint;
         [SerializeField] private Transform shootSpawnPoint;
@@ -17,6 +17,11 @@ namespace WeaponSystem
 
         protected override void Shoot()
         {
+            if(CurrentAmmo == 0 || IsReloading)
+                return;
+
+            CurrentAmmo--;
+            
             var bulletExists = _pool.TryPop<Bullet>(out var bullet);
 
             var projectile = bulletExists

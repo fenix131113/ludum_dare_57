@@ -8,12 +8,20 @@ using VContainer.Unity;
 
 namespace Core
 {
-    public class PlayerInstaller : LifetimeScope
+    public class GameInstaller : LifetimeScope
     {
         [SerializeField] private PlayerSettingsSO playerSettingsSO;
 
         protected override void Configure(IContainerBuilder builder)
         {
+            #region Core
+
+            builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
+
+            #endregion
+
+            #region Player
+
             builder.Register<PlayerInput>(Lifetime.Singleton)
                 .AsSelf()
                 .AsImplementedInterfaces();
@@ -22,8 +30,8 @@ namespace Core
 
             builder.RegisterComponentInHierarchy<ItemHolder>();
             builder.RegisterComponentInHierarchy<PlayerMovement>();
-            
-            builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
+
+            #endregion
         }
     }
 }
