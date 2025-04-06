@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Core
 {
-    public class DictionaryObjectPool
+    public sealed class DictionaryObjectPool
     {
         private readonly Dictionary<Type, List<IPoolObject>> _freeObjects = new();
 

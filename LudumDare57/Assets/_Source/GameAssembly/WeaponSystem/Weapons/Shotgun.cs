@@ -2,7 +2,7 @@
 
 namespace WeaponSystem.Weapons
 {
-    public class Shotgun : BasicFirearm
+    public sealed class Shotgun : BasicFirearm
     {
         [SerializeField] private float spreadDegrees;
         [SerializeField] private int fractionAmount;

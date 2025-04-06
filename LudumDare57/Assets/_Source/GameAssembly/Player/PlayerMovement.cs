@@ -10,7 +10,7 @@ using VContainer;
 
 namespace Player
 {
-    public class PlayerMovement : MonoBehaviour
+    public sealed class PlayerMovement : MonoBehaviour
     {
         [SerializeField] private Rigidbody2D rb;
         [SerializeField] private LayerMask groundLayer;

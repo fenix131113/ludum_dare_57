@@ -2,7 +2,7 @@
 
 namespace Player
 {
-    public class ShootPointRotate : MonoBehaviour
+    public sealed class ShootPointRotate : MonoBehaviour
     {
         [SerializeField] private Transform sightCenter;
 

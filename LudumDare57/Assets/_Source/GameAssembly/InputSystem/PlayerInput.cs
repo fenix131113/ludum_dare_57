@@ -4,7 +4,7 @@ using VContainer.Unity;
 
 namespace InputSystem
 {
-    public class PlayerInput : ITickable
+    public sealed class PlayerInput : ITickable
     {
         public event Action<Vector2> OnMove;
         public event Action<float> OnScroll;

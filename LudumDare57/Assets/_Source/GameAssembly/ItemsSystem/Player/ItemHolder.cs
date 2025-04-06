@@ -6,7 +6,7 @@ using VContainer;
 
 namespace ItemsSystem.Player
 {
-    public class ItemHolder : MonoBehaviour
+    public sealed class ItemHolder : MonoBehaviour
     {
         public ACarryObject CurrentObject { get; private set; }
 

@@ -6,7 +6,7 @@ using WeaponSystem;
 
 namespace ItemsSystem.Player
 {
-    public class WeaponSelector : MonoBehaviour
+    public sealed class WeaponSelector : MonoBehaviour
     {
         [SerializeField] private List<WeaponObject> weapons;
 

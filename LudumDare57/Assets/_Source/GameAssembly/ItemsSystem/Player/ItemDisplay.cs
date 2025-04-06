@@ -5,7 +5,7 @@ using VContainer;
 
 namespace ItemsSystem.Player
 {
-    public class ItemDisplay : MonoBehaviour
+    public sealed class ItemDisplay : MonoBehaviour
     {
         [SerializeField] private Transform objectPoint;
         [SerializeField] private float objectTakeDuration = 0.325f;

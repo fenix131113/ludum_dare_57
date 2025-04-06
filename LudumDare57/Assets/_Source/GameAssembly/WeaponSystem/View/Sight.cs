@@ -2,7 +2,7 @@
 
 namespace WeaponSystem.View
 {
-    public class Sight : MonoBehaviour
+    public sealed class Sight : MonoBehaviour
     {
         private void OnEnable()
         {

@@ -3,7 +3,7 @@ using VContainer.Unity;
 
 namespace Core
 {
-    public class CoreInstaller : LifetimeScope
+    public sealed class CoreInstaller : LifetimeScope
     {
         protected override void Configure(IContainerBuilder builder)
         {

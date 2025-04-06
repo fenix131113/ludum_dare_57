@@ -5,7 +5,7 @@ using VContainer;
 
 namespace ItemsSystem.Player
 {
-    public class ItemTaker : MonoBehaviour
+    public sealed class ItemTaker : MonoBehaviour
     {
         [SerializeField] private LayerMask itemLayer;
 
