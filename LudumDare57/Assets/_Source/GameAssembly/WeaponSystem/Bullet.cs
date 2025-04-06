@@ -18,6 +18,7 @@ namespace WeaponSystem
 
         protected override void OnTriggerEnter2D(Collider2D other)
         {
+            Debug.Log(other.gameObject.name);
             ReturnToPool();
             base.OnTriggerEnter2D(other);
         }

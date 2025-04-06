@@ -71,6 +71,12 @@ namespace WeaponSystem
             }
         }
 
+        private void TakeWeaponWhenEmptyHands(ACarryObject carryObject)
+        {
+            if(!carryObject)
+                TakeCurrentWeapon();
+        }
+
         public void AddWeapon(WeaponObject weapon)
         {
             if (weapons.Contains(weapon))
@@ -79,8 +85,16 @@ namespace WeaponSystem
             weapons.Add(weapon);
         }
 
-        private void Bind() => _input.OnScroll += OnScroll;
+        private void Bind()
+        {
+            _input.OnScroll += OnScroll;
+            _itemHolder.OnCurrentItemChanged += TakeWeaponWhenEmptyHands;
+        }
 
-        private void Expose() => _input.OnScroll -= OnScroll;
+        private void Expose()
+        {
+            _input.OnScroll -= OnScroll;
+            _itemHolder.OnCurrentItemChanged -= TakeWeaponWhenEmptyHands;
+        }
     }
 }

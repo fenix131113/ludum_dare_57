@@ -33,6 +33,7 @@ namespace ItemsSystem.Player
             
             CurrentObject.ResetObject();
             CurrentObject = null;
+            OnCurrentItemChanged?.Invoke(null);
         }
         
         private void Start() => Bind();

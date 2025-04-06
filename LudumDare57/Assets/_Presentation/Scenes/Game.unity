@@ -9958,7 +9958,7 @@ CompositeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -12907,6 +12907,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4649574255130871335, guid: 134446fa5cb7ff7428542bcaa22ed824, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197828520789475288, guid: 134446fa5cb7ff7428542bcaa22ed824, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303965198191785967, guid: 134446fa5cb7ff7428542bcaa22ed824, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8452492219480945115, guid: 134446fa5cb7ff7428542bcaa22ed824, type: 3}

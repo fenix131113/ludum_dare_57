@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using HealthSystem;
+using Player;
 using UnityEngine;
 
 namespace WeaponSystem.Weapons.Pickaxe
@@ -20,6 +21,7 @@ namespace WeaponSystem.Weapons.Pickaxe
         private Rigidbody2D _rb;
         private Transform _startParent;
         private Coroutine _pickaxeReturnCoroutine;
+        private bool _throwOnRightRotate;
 
         private void Awake()
         {
@@ -54,14 +56,17 @@ namespace WeaponSystem.Weapons.Pickaxe
         {
             if (!gameObject.activeInHierarchy || Thrown)
                 return;
-
+            
+            var shootPointRotate = transform.parent.parent;
+            _throwOnRightRotate = shootPointRotate.localScale.y > 0;
+            
             stuckChecker.gameObject.SetActive(true);
             Thrown = true;
             _rb.bodyType = RigidbodyType2D.Dynamic;
             _rb.AddForce(transform.parent.right * throwForce, ForceMode2D.Impulse);
             transform.parent = null;
             damageCollider.enabled = true;
-            
+
             _pickaxeReturnCoroutine = StartCoroutine(ReturnPickaxeCooldown());
         }
 
@@ -80,7 +85,16 @@ namespace WeaponSystem.Weapons.Pickaxe
             transform.rotation = transform.parent.parent.rotation;
             damageCollider.enabled = false;
             
-            if(_pickaxeReturnCoroutine != null)
+            var shootPointRotate = transform.parent.parent;
+
+            var currentRightRotate = shootPointRotate.localScale.y > 0;
+            
+            // Rotate pickaxe after parent assign
+            if (_throwOnRightRotate != currentRightRotate)
+                transform.localScale = new Vector3(transform.localScale.x,
+                    -transform.localScale.y, transform.localScale.z);
+
+            if (_pickaxeReturnCoroutine != null)
                 StopCoroutine(_pickaxeReturnCoroutine);
         }
 
