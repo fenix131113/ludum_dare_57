@@ -74,8 +74,8 @@ GameObject:
   - component: {fileID: 4482782057049611416}
   - component: {fileID: 8072394778245647949}
   - component: {fileID: 171312131363735729}
-  m_Layer: 6
-  m_Name: ItemDetector
+  m_Layer: 2
+  m_Name: InteractableDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,9 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423630ab23db4f7cb1d22086bc3158bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemLayer:
+  targetLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 2304
 --- !u!50 &171312131363735729
 Rigidbody2D:
   serializedVersion: 5

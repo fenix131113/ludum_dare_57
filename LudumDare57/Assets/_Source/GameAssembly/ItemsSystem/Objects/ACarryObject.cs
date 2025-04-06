@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using Interactable;
+using UnityEngine;
 
 namespace ItemsSystem.Objects
 {
-    public abstract class ACarryObject : MonoBehaviour
+    public abstract class ACarryObject : MonoBehaviour, IInteractableObject
     {
         [field: SerializeField] public ItemType ItemType { get; private set; }
         [field: SerializeField] public bool IsPowerDepend { get; private set; }
@@ -23,5 +24,7 @@ namespace ItemsSystem.Objects
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.simulated = true;
         }
+
+        public bool CanInteract() => true;
     }
 }
