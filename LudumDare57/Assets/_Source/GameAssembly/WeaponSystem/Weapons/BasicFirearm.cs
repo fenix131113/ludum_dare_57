@@ -2,18 +2,18 @@
 using UnityEngine;
 using VContainer;
 
-namespace WeaponSystem
+namespace WeaponSystem.Weapons
 {
-    public class Pistol : AAmmoWeapon
+    public class BasicFirearm : AAmmoWeapon
     {
-        [SerializeField] private Transform shootRotatePoint;
-        [SerializeField] private Transform shootSpawnPoint;
-        [SerializeField] private Bullet projectilePrefab;
+        [SerializeField] protected Transform shootRotatePoint;
+        [SerializeField] protected Transform shootSpawnPoint;
+        [SerializeField] protected Bullet projectilePrefab;
 
-        private DictionaryObjectPool _pool;
+        protected DictionaryObjectPool Pool;
 
         [Inject]
-        private void PistolConstruct(DictionaryObjectPool pool) => _pool = pool;
+        private void BaseFirearmConstruct(DictionaryObjectPool pool) => Pool = pool;
 
         protected override void Shoot()
         {
@@ -22,7 +22,7 @@ namespace WeaponSystem
 
             CurrentAmmo--;
             
-            var bulletExists = _pool.TryPop<Bullet>(out var bullet);
+            var bulletExists = Pool.TryPop<Bullet>(out var bullet);
 
             var projectile = bulletExists
                 ? bullet
@@ -31,7 +31,7 @@ namespace WeaponSystem
             projectile!.transform.position = shootSpawnPoint.position; 
             projectile!.transform.rotation = shootRotatePoint.rotation; 
             projectile!.gameObject.SetActive(true);
-            projectile!.PoolInit(_pool);
+            projectile!.PoolInit(Pool);
         }
     }
 }

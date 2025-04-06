@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using InputSystem;
 using UnityEngine;
 using VContainer;
@@ -21,11 +20,15 @@ namespace ItemsSystem.Player
             _itemHolder = itemHolder;
         }
 
-        private void Start() => Bind();
+        private void Start()
+        {
+            Bind();
+            TakeCurrentWeapon();
+        }
 
         private void OnDestroy() => Expose();
 
-        private void Scroll(float scrollValue)
+        private void OnScroll(float scrollValue)
         {
             switch (scrollValue)
             {
@@ -36,9 +39,11 @@ namespace ItemsSystem.Player
                     ChangeWeaponIndex(false);
                     break;
             }
-            
-            _itemHolder.TakeItem(weapons[_selectedWeaponIndex]);
+
+            TakeCurrentWeapon();
         }
+
+        private void TakeCurrentWeapon() => _itemHolder.TakeItem(weapons[_selectedWeaponIndex]);
 
         private void ChangeWeaponIndex(bool plus)
         {
@@ -52,14 +57,14 @@ namespace ItemsSystem.Player
             else
             {
                 if (_selectedWeaponIndex - 1 < 0)
-                    _selectedWeaponIndex = 1;
+                    _selectedWeaponIndex = weapons.Count - 1;
                 else
                     _selectedWeaponIndex--;
             }
         }
 
-        private void Bind() => _input.OnScroll += Scroll;
+        private void Bind() => _input.OnScroll += OnScroll;
 
-        private void Expose() => _input.OnScroll -= Scroll;
+        private void Expose() => _input.OnScroll -= OnScroll;
     }
 }

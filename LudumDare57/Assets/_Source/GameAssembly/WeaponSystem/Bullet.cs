@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Core;
 using UnityEngine;
 
@@ -12,6 +13,11 @@ namespace WeaponSystem
         private DictionaryObjectPool _pool;
         
         private void Update() => transform.position += transform.right * (speed * Time.deltaTime);
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            ReturnToPool();
+        }
 
         public void PoolInit(DictionaryObjectPool pool)
         {

@@ -26,7 +26,6 @@ namespace WeaponSystem
 
         private void ShootInvoker()
         {
-            Debug.Log(gameObject.activeSelf + " - "  + CanShoot);
             if (!gameObject.activeSelf || !CanShoot)
                 return;
 

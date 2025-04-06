@@ -45,7 +45,11 @@ namespace WeaponSystem
             _reloadTimer = reloadTime;
         }
 
-        private void Reload() => IsReloading = true;
+        private void Reload()
+        {
+            if (CurrentAmmo < maxAmmo)
+                IsReloading = true;
+        }
 
         public void CancelReload() => ResetReloadTimer();
         public void RestoreAmmo() => CurrentAmmo = maxAmmo;
