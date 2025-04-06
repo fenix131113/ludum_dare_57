@@ -11,9 +11,13 @@ namespace Core
     public class GameInstaller : LifetimeScope
     {
         [SerializeField] private PlayerSettingsSO playerSettingsSO;
+        
+        private static GameInstaller _instance;
 
         protected override void Configure(IContainerBuilder builder)
         {
+            _instance = this;
+            
             #region Core
 
             builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
@@ -34,5 +38,7 @@ namespace Core
 
             #endregion
         }
+
+        public static GameObject InstantiateInjectedObject(GameObject go) => _instance.Container.Instantiate(go);
     }
 }
