@@ -1,7 +1,35 @@
-﻿namespace Player
+﻿using System;
+using UnityEngine;
+
+namespace Player
 {
-    public class PlayerStats
+    public sealed class PlayerStats : MonoBehaviour
     {
+        public int Coins { get; private set; }
         
+        public event Action OnCoinsChanged;
+
+        private void Awake() => DontDestroyOnLoad(gameObject);
+
+        public void AddCoins(int amount)
+        {
+            Coins = Mathf.Clamp(Coins + Mathf.Abs(amount), 0, int.MaxValue);
+            OnCoinsChanged?.Invoke();
+        }
+
+        public bool TryRemoveCoins(int amount)
+        {
+            if (Coins < amount)
+                return false;
+
+            Coins = Mathf.Clamp(Coins - Mathf.Abs(amount), 0, int.MaxValue);
+            OnCoinsChanged?.Invoke();
+            return true;
+        }
+
+        public void ResetStats()
+        {
+            Coins = 0;
+        }
     }
 }
