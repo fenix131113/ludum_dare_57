@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using WeaponSystem;
 
-namespace ItemsSystem
+namespace ItemsSystem.Objects
 {
     [RequireComponent(typeof(AWeaponBase))]
     public class WeaponObject : ACarryObject

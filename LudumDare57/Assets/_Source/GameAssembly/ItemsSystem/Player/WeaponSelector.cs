@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using InputSystem;
+using ItemsSystem.Objects;
 using UnityEngine;
 using VContainer;
 using WeaponSystem;

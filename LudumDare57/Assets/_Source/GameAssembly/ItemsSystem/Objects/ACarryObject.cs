@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ItemsSystem
+namespace ItemsSystem.Objects
 {
     public abstract class ACarryObject : MonoBehaviour
     {
@@ -8,7 +8,7 @@ namespace ItemsSystem
         [field: SerializeField] public bool IsPowerDepend { get; private set; }
         [field: SerializeField][field: Range(0, 1f)] public float WeightSpeedDownPercent { get; private set; } = 1f;
 
-        [SerializeField] public Rigidbody2D rb;
+        [SerializeField] protected Rigidbody2D rb;
 
         public abstract void ResetObject();
 

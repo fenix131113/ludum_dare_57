@@ -1,4 +1,5 @@
 ﻿using InputSystem;
+using ItemsSystem.Objects;
 using Services;
 using UnityEngine;
 using VContainer;
