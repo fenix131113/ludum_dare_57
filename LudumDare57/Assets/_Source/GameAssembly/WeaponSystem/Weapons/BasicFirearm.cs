@@ -21,17 +21,24 @@ namespace WeaponSystem.Weapons
                 return;
 
             CurrentAmmo--;
+
+            var projectile = GetBullet();
             
+            projectile.transform.position = shootSpawnPoint.position; 
+            projectile.transform.rotation = shootRotatePoint.rotation; 
+            projectile.gameObject.SetActive(true);
+            projectile.PoolInit(Pool);
+        }
+
+        private Bullet GetBullet()
+        {
             var bulletExists = Pool.TryPop<Bullet>(out var bullet);
 
             var projectile = bulletExists
                 ? bullet
                 : Instantiate(projectilePrefab);
 
-            projectile!.transform.position = shootSpawnPoint.position; 
-            projectile!.transform.rotation = shootRotatePoint.rotation; 
-            projectile!.gameObject.SetActive(true);
-            projectile!.PoolInit(Pool);
+            return projectile;
         }
     }
 }

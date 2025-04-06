@@ -192,8 +192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11daef7b39b24141937eb728bb590830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Damage>k__BackingField: 1
   attackCooldown: 0.15
-  maxAmmo: 15
+  <MaxAmmo>k__BackingField: 15
   reloadTime: 2
   shootRotatePoint: {fileID: 0}
   shootSpawnPoint: {fileID: 0}

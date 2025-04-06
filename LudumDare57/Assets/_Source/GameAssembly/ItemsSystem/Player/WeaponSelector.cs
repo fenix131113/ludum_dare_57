@@ -2,6 +2,7 @@
 using InputSystem;
 using UnityEngine;
 using VContainer;
+using WeaponSystem;
 
 namespace ItemsSystem.Player
 {
@@ -61,6 +62,14 @@ namespace ItemsSystem.Player
                 else
                     _selectedWeaponIndex--;
             }
+        }
+
+        public void AddWeapon(WeaponObject weapon)
+        {
+            if(weapons.Contains(weapon))
+                return;
+
+            weapons.Add(weapon);
         }
 
         private void Bind() => _input.OnScroll += OnScroll;

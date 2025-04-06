@@ -7,6 +7,8 @@ namespace WeaponSystem
 {
     public abstract class AWeaponBase : MonoBehaviour
     {
+        [field: SerializeField] public int Damage { get; protected set; }
+            
         [SerializeField] protected float attackCooldown;
 
         protected PlayerInput Input;
@@ -15,10 +17,7 @@ namespace WeaponSystem
         [Inject]
         private void Construct(PlayerInput input) => Input = input;
 
-        protected virtual void Start()
-        {
-            Bind();
-        }
+        protected virtual void Start() => Bind();
 
         private void OnDestroy() => Expose();
 
@@ -32,6 +31,8 @@ namespace WeaponSystem
             StartCoroutine(CooldownRoutine());
             Shoot();
         }
+
+        public void SetDamage(int newDamage) => Damage = newDamage; 
 
         protected virtual void Bind() => Input.OnShoot += ShootInvoker;
 

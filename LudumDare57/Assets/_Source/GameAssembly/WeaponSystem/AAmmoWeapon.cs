@@ -4,7 +4,8 @@ namespace WeaponSystem
 {
     public abstract class AAmmoWeapon : AWeaponBase
     {
-        [SerializeField] protected int maxAmmo;
+        [field: SerializeField] public int MaxAmmo { get; protected set; }
+        
         [SerializeField] protected float reloadTime;
 
         protected int CurrentAmmo;
@@ -36,7 +37,6 @@ namespace WeaponSystem
             }
         }
 
-
         protected virtual void OnReloadComplete() => RestoreAmmo();
 
         protected void ResetReloadTimer()
@@ -47,12 +47,14 @@ namespace WeaponSystem
 
         private void Reload()
         {
-            if (CurrentAmmo < maxAmmo)
+            if (CurrentAmmo < MaxAmmo)
                 IsReloading = true;
         }
 
         public void CancelReload() => ResetReloadTimer();
-        public void RestoreAmmo() => CurrentAmmo = maxAmmo;
+        public void RestoreAmmo() => CurrentAmmo = MaxAmmo;
+        
+        public void ChangeMaxAmmo(int newMax) => MaxAmmo = newMax;
 
         protected override void Bind()
         {
