@@ -30,6 +30,7 @@ namespace Core
 
             builder.RegisterComponentInHierarchy<ItemHolder>();
             builder.RegisterComponentInHierarchy<PlayerMovement>();
+            builder.RegisterComponentInHierarchy<PlayerHealth>();
 
             #endregion
         }
