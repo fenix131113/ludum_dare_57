@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e7fe13da728035b46871ed256cb0c88f
+guid: 3be37b7d3c1457f4fa16832dc309c192
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1335657268040408301
-    second: Tilts_0
+      213: 8135663367076951168
+    second: Mine_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,130 +139,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilts_0
+      name: Mine_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084b7ce4abea7e070800000000000000
+      internalID: 8135663367076951168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8383be7d97938a1488f5a9cad8da25dc
+      internalID: 175625708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bdf6543b1153543aca12a52c1e1bb2
+      internalID: -423693938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_3
       rect:
         serializedVersion: 2
         x: 0
         y: 32
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 12}
-        - {x: 12, y: 9}
-        - {x: 9, y: 8}
-        - {x: 5, y: 4}
-        - {x: 3, y: 1}
-        - {x: 1, y: -1}
-        - {x: -2, y: -5}
-        - {x: -5, y: -7}
-        - {x: -6, y: -10}
-        - {x: -10, y: -14}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-      - - {x: -2, y: -5}
-        - {x: -2, y: -5}
-        - {x: -2, y: -5}
-        - {x: -2, y: -5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31368c49acac67de0800000000000000
-      internalID: -1335657268040408301
+      spriteID: 6966d5f83a35c5b41a9d92712f6b965a
+      internalID: -1679322582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilts_2
+      name: Mine_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 16
         y: 32
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 12}
-        - {x: 14, y: 11}
-        - {x: 11, y: 9}
-        - {x: 8, y: 5}
-        - {x: 4.537407, y: 3.5374146}
-        - {x: 2, y: 1}
-        - {x: 0, y: -3}
-        - {x: -2, y: -5}
-        - {x: -4, y: -7}
-        - {x: -6, y: -10}
-        - {x: -8, y: -12}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00773685a72002043846b43a8d40d1d4
-      internalID: 1867543717
+      spriteID: 49aea6987c915894a86de737323168c9
+      internalID: 2141420330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilts_4
+      name: Mine_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f540dd1f79d97946882f0eedaef8263
+      internalID: -396920730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2443ea0359fc6bd4b81a0867c5798e4c
+      internalID: 1706413748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd830d6664f75c4095b868cf9afbe80
+      internalID: -289243313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b77e9f4aacee3b4c8cf71e38e7f472a
+      internalID: -1862473874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_9
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -11, y: 16}
-        - {x: -11, y: 15}
-        - {x: -16, y: 13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: 2, y: 0}
+        - {x: 0, y: 0}
+        - {x: -6, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: 2}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: c1340af1fb78ab640b0293cd9f90bfb4
-      internalID: 804446370
+      spriteID: 7f19185fc0c989445acb9c32c412dec4
+      internalID: -209854422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilts_6
+      name: Mine_10
       rect:
         serializedVersion: 2
-        x: 64
+        x: 16
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -11, y: 16}
-        - {x: -11, y: 15}
-        - {x: -16, y: 13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: 8, y: 8}
+        - {x: 2, y: 8}
+        - {x: 8, y: 2}
       tessellationDetail: 0
       bones: []
-      spriteID: b38c59fc1c513984f9f1eb19d50d618d
-      internalID: -203675848
+      spriteID: 4cdaeadebf50e7246b252385140c7708
+      internalID: -2045545040
       vertices: []
       indices: 
       edges: []
@@ -271,7 +394,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c1740d86744fc8c44afc0a1219373dd2
+    spriteID: fb634861f4f93af4eb00eb0cd6dc468d
     internalID: 0
     vertices: []
     indices: 
@@ -281,14 +404,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tilts_0: -1335657268040408301
-      Tilts_1: 1835179592
-      Tilts_2: 1867543717
-      Tilts_3: -1102165614
-      Tilts_4: 804446370
-      Tilts_5: -685661361
-      Tilts_6: -203675848
-      Tilts_7: 1730689856
+      Mine_0: 8135663367076951168
+      Mine_1: 175625708
+      Mine_10: -2045545040
+      Mine_2: -423693938
+      Mine_3: -1679322582
+      Mine_4: 2141420330
+      Mine_5: -396920730
+      Mine_6: 1706413748
+      Mine_7: -289243313
+      Mine_8: -1862473874
+      Mine_9: -209854422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

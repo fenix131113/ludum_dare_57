@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 4c5a18a99fea72146bb1f858db57d6d7
+guid: 4b90980bd8496a3479e341369e60cb44
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4891925732340873308
-    second: PlayerLift_0
+      213: 910297520220164635
+    second: DirtParts_0
+  - first:
+      213: -3938207112713408161
+    second: DirtParts_1
+  - first:
+      213: -257637395302876345
+    second: DirtParts_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -139,23 +145,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerLift_0
+      name: DirtParts_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 12, y: -9}
+        - {x: 12, y: 4}
+        - {x: 9, y: 7}
+        - {x: -1, y: 12}
+        - {x: -11, y: 12}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 5, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1254ac85c602ac00800000000000000
+      internalID: 910297520220164635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DirtParts_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -14}
+        - {x: 9, y: -14}
+        - {x: 12, y: -9}
+        - {x: 12, y: 5}
+        - {x: 0, y: 14}
+        - {x: -16, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51fcca1f7da859c0800000000000000
+      internalID: -3938207112713408161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DirtParts_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 288
-        height: 114
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+        - {x: -16, y: 14}
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a7ca3807736c1cb0800000000000000
-      internalID: -4891925732340873308
+      spriteID: 74b7d1c6720bc6cf0800000000000000
+      internalID: -257637395302876345
       vertices: []
       indices: 
       edges: []
@@ -164,7 +232,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: eccca95d6c69de24ea8aafb2fe8ce832
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +242,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerLift_0: -4891925732340873308
+      DirtParts_0: 910297520220164635
+      DirtParts_1: -3938207112713408161
+      DirtParts_2: -257637395302876345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

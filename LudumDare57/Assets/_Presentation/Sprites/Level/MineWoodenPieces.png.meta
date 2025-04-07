@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: e7fe13da728035b46871ed256cb0c88f
+guid: 35e1b48d12d93cd468d8764bc16be83c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1335657268040408301
-    second: Tilts_0
+      213: 5085977746292419422
+    second: MineWoodenPieces_0
+  - first:
+      213: 805257016167588842
+    second: MineWoodenPieces_1
+  - first:
+      213: 6696002385315277195
+    second: MineWoodenPieces_2
+  - first:
+      213: 2758160566108910454
+    second: MineWoodenPieces_3
+  - first:
+      213: -1797717486515281198
+    second: MineWoodenPieces_4
+  - first:
+      213: 1248820035569872169
+    second: MineWoodenPieces_5
+  - first:
+      213: -8779355047523235922
+    second: MineWoodenPieces_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +92,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -139,130 +157,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilts_0
+      name: MineWoodenPieces_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 184
+        width: 9
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 12}
-        - {x: 12, y: 9}
-        - {x: 9, y: 8}
-        - {x: 5, y: 4}
-        - {x: 3, y: 1}
-        - {x: 1, y: -1}
-        - {x: -2, y: -5}
-        - {x: -5, y: -7}
-        - {x: -6, y: -10}
-        - {x: -10, y: -14}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-      - - {x: -2, y: -5}
-        - {x: -2, y: -5}
-        - {x: -2, y: -5}
-        - {x: -2, y: -5}
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
       bones: []
-      spriteID: 31368c49acac67de0800000000000000
-      internalID: -1335657268040408301
+      spriteID: e5b2d4740d5059640800000000000000
+      internalID: 5085977746292419422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilts_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 12}
-        - {x: 14, y: 11}
-        - {x: 11, y: 9}
-        - {x: 8, y: 5}
-        - {x: 4.537407, y: 3.5374146}
-        - {x: 2, y: 1}
-        - {x: 0, y: -3}
-        - {x: -2, y: -5}
-        - {x: -4, y: -7}
-        - {x: -6, y: -10}
-        - {x: -8, y: -12}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00773685a72002043846b43a8d40d1d4
-      internalID: 1867543717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilts_4
+      name: MineWoodenPieces_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 32
+        y: 152
+        width: 6
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -11, y: 16}
-        - {x: -11, y: 15}
-        - {x: -16, y: 13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
       bones: []
-      spriteID: c1340af1fb78ab640b0293cd9f90bfb4
-      internalID: 804446370
+      spriteID: ae36f816df8dc2b00800000000000000
+      internalID: 805257016167588842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilts_6
+      name: MineWoodenPieces_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 0
+        y: 120
+        width: 6
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -11, y: 16}
-        - {x: -11, y: 15}
-        - {x: -16, y: 13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
       bones: []
-      spriteID: b38c59fc1c513984f9f1eb19d50d618d
-      internalID: -203675848
+      spriteID: b89a2e741bafcec50800000000000000
+      internalID: 6696002385315277195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineWoodenPieces_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 105
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6737968eb64f64620800000000000000
+      internalID: 2758160566108910454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineWoodenPieces_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2afb188793d07e0800000000000000
+      internalID: -1797717486515281198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineWoodenPieces_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 40
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d6880b433b45110800000000000000
+      internalID: 1248820035569872169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineWoodenPieces_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7485b6917792680800000000000000
+      internalID: -8779355047523235922
       vertices: []
       indices: 
       edges: []
@@ -271,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c1740d86744fc8c44afc0a1219373dd2
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -281,14 +324,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tilts_0: -1335657268040408301
-      Tilts_1: 1835179592
-      Tilts_2: 1867543717
-      Tilts_3: -1102165614
-      Tilts_4: 804446370
-      Tilts_5: -685661361
-      Tilts_6: -203675848
-      Tilts_7: 1730689856
+      MineWoodenPieces_0: 5085977746292419422
+      MineWoodenPieces_1: 805257016167588842
+      MineWoodenPieces_2: 6696002385315277195
+      MineWoodenPieces_3: 2758160566108910454
+      MineWoodenPieces_4: -1797717486515281198
+      MineWoodenPieces_5: 1248820035569872169
+      MineWoodenPieces_6: -8779355047523235922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

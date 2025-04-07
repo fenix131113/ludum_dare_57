@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 4c5a18a99fea72146bb1f858db57d6d7
+guid: 83e6a74af91264c46a3eda4849bd29e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4891925732340873308
-    second: PlayerLift_0
+      213: -2554494231559545595
+    second: RockParts_0
+  - first:
+      213: 4635878520387418506
+    second: RockParts_1
+  - first:
+      213: -721779944151364998
+    second: RockParts_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -139,23 +145,83 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerLift_0
+      name: RockParts_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 15, y: -10}
+        - {x: 14, y: 14}
+        - {x: -7, y: 14}
+        - {x: -16, y: 13}
+        - {x: -16, y: -15}
+        - {x: 12, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ddb1bd70d9c8cd0800000000000000
+      internalID: -2554494231559545595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockParts_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 14.5}
+        - {x: -16, y: 14.5}
+        - {x: -16, y: -15.5}
+        - {x: 16, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a893e8dc3f2f55040800000000000000
+      internalID: 4635878520387418506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockParts_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 288
-        height: 114
+        width: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 9, y: -10.5}
+        - {x: 15, y: -4.5}
+        - {x: 15, y: 13.5}
+        - {x: -16, y: 13.5}
+        - {x: -16, y: -15.5}
+        - {x: 0, y: -15.5}
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a7ca3807736c1cb0800000000000000
-      internalID: -4891925732340873308
+      spriteID: a7a4bd607f8bbf5f0800000000000000
+      internalID: -721779944151364998
       vertices: []
       indices: 
       edges: []
@@ -164,7 +230,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 7ee9e9acc77a2f441b13b23d8337d54b
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +240,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerLift_0: -4891925732340873308
+      RockParts_0: -2554494231559545595
+      RockParts_1: 4635878520387418506
+      RockParts_2: -721779944151364998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
