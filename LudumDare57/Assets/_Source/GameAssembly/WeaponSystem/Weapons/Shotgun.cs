@@ -23,6 +23,7 @@ namespace WeaponSystem.Weapons
                 projectile.transform.position = shootSpawnPoint.position;
                 projectile.transform.rotation = rotation;
                 projectile.ActivateBullet(GetDamageAmount());
+                projectile.gameObject.SetActive(true);
                 projectile.PoolInit(Pool);
             }
         }

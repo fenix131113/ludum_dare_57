@@ -3,6 +3,7 @@ using ItemsSystem.Player;
 using Player;
 using Player.Data;
 using UnityEngine;
+using Upgrades;
 using VContainer;
 using VContainer.Unity;
 
@@ -22,7 +23,9 @@ namespace Core
 
             builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
             builder.Register<GameState>(Lifetime.Singleton);
-            builder.RegisterComponentInHierarchy<PlayerStats>();
+
+            var playerStats = FindAnyObjectByType<PlayerStats>();
+            builder.RegisterInstance(playerStats);
 
             #endregion
 

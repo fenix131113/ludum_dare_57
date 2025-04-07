@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Levels.Shop.View;
+using NUnit.Framework;
 using Player;
 using UnityEngine;
 using Upgrades;
@@ -33,13 +34,30 @@ namespace Levels.Shop
 
         private void SelectTrader()
         {
-            var traderIndex = Random.Range(0, 3);
+            var allowTraders = new List<Trader>();
 
-            _currentTrader = traderIndex switch
+            if (abilitiesUpgrades.Any(ability => !_playerStats.Upgrades.ContainsKey(ability) ||
+                                                 _playerStats.Upgrades[ability] < ability.MaxLevel))
+                allowTraders.Add(sofaTrader);
+            
+            if (statsUpgrades.Any(ability => !_playerStats.Upgrades.ContainsKey(ability) ||
+                                             _playerStats.Upgrades[ability] < ability.MaxLevel))
+                allowTraders.Add(volosovTrader);
+            
+            if (weaponUpgrades.Any(ability => !_playerStats.Upgrades.ContainsKey(ability) ||
+                                             _playerStats.Upgrades[ability] < ability.MaxLevel))
+                allowTraders.Add(graykTrader);
+
+            if(allowTraders.Count == 0)
+                return;
+            
+            var selectedTrader = allowTraders[Random.Range(0, allowTraders.Count)];
+
+            _currentTrader = selectedTrader.UpgradeType switch
             {
-                0 => sofaTrader,
-                1 => volosovTrader,
-                2 => graykTrader,
+                UpgradeType.ABILITIES => sofaTrader,
+                UpgradeType.STATS => volosovTrader,
+                UpgradeType.WEAPON => graykTrader,
                 _ => throw new ArgumentException("Invalid trader index!")
             };
 
@@ -75,7 +93,7 @@ namespace Levels.Shop
                 sellUpgrades[i] = (selected, _playerStats.Upgrades.GetValueOrDefault(selected, 0) + 1);
                 excepted.Remove(sellUpgrades[i].Item1);
             }
-            
+
             shopHUD.ShowCards(sellUpgrades);
         }
     }

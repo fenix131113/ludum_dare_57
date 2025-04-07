@@ -2,7 +2,6 @@ using System.Collections;
 using Core;
 using Environment;
 using InputSystem;
-using ItemsSystem;
 using ItemsSystem.Player;
 using Player.Data;
 using Services;
@@ -13,6 +12,10 @@ namespace Player
 {
     public sealed class PlayerMovement : MonoBehaviour
     {
+        private static readonly int _groundedKey = Animator.StringToHash("IsGrounded");
+        private static readonly int _jumpKey = Animator.StringToHash("Jump");
+        private static readonly int _isRunningKey = Animator.StringToHash("IsRunning");
+        
         [SerializeField] private Rigidbody2D rb;
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private LayerMask platformLayer;
@@ -20,13 +23,14 @@ namespace Player
         [SerializeField] private Vector2 groundCheckSize = Vector2.one;
         [SerializeField] private float checkPlatformDistance = 1f;
         [SerializeField] private float jumpCooldown = .5f;
+        [SerializeField] private Animator anim;
 
         private bool _isGrounded;
         private PlayerSettingsSO _settings;
         private PlayerInput _input;
         private Vector2 _moveInput;
         private float _additionalFallSpeed;
-        private float _extraSpeed;
+        private float _extraSpeed = 1f;
         private bool _canJump = true;
         private ItemHolder _itemHolder;
         private GameState _gameState;
@@ -47,6 +51,7 @@ namespace Player
         private void Update()
         {
             CheckGround();
+            anim.SetBool(_groundedKey, _isGrounded);
 
             var velocity = rb.linearVelocity;
             velocity.y -= _additionalFallSpeed;
@@ -63,7 +68,10 @@ namespace Player
             rb.linearVelocity = velocity;
         }
 
-        private void FixedUpdate() => Move();
+        private void FixedUpdate()
+        {
+            Move();
+        }
 
         private void Move()
         {
@@ -78,6 +86,8 @@ namespace Player
                 velocity.x *= _itemHolder.CurrentObject.WeightSpeedDownPercent;
 
             rb.linearVelocity = velocity;
+
+            anim.SetBool(_isRunningKey, rb.linearVelocity.x != 0);
         }
 
         private void CheckGround()
@@ -102,7 +112,9 @@ namespace Player
             if (!_isGrounded || !_canJump || _gameState.GameCycleBlocked)
                 return;
 
+            anim.SetTrigger(_jumpKey);
             StartCoroutine(JumpCooldown());
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(Vector2.up * _settings.JumpForce, ForceMode2D.Impulse);
         }
 
