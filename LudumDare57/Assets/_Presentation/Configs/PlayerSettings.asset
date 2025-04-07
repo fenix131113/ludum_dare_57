@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerSettings
   m_EditorClassIdentifier: 
   <MaxHealth>k__BackingField: 3
-  <PlayerSpeed>k__BackingField: 4
+  <PlayerSpeed>k__BackingField: 5
   <JumpForce>k__BackingField: 8
   <FallIncreaseSpeed>k__BackingField: 0.05
   <MaxFallSpeed>k__BackingField: 1
