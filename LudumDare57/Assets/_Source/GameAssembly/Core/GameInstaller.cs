@@ -3,7 +3,6 @@ using ItemsSystem.Player;
 using Player;
 using Player.Data;
 using UnityEngine;
-using Upgrades;
 using VContainer;
 using VContainer.Unity;
 
@@ -11,8 +10,10 @@ namespace Core
 {
     public class GameInstaller : LifetimeScope
     {
-        [SerializeField] private PlayerSettingsSO playerSettingsSO;
+        [field: SerializeField] public Transform DefaultSpawnParent { get; private set; }
         
+        [SerializeField] private PlayerSettingsSO playerSettingsSO;
+
         private static GameInstaller _instance;
 
         protected override void Configure(IContainerBuilder builder)
@@ -46,6 +47,6 @@ namespace Core
             #endregion
         }
 
-        public static GameObject InstantiateInjectedObject(GameObject go) => _instance.Container.Instantiate(go);
+        public static GameObject InstantiateInjectedObject(GameObject go) => _instance.Container.Instantiate(go, _instance.DefaultSpawnParent);
     }
 }
