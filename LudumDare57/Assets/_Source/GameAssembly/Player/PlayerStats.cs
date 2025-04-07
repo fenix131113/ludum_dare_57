@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Upgrades;
 
 namespace Player
 {
     public sealed class PlayerStats : MonoBehaviour
     {
         public int Coins { get; private set; }
+        public Dictionary<UpgradeSO, int> Upgrades { get; private set; } = new();
         
         public event Action OnCoinsChanged;
 
@@ -30,6 +33,7 @@ namespace Player
         public void ResetStats()
         {
             Coins = 0;
+            OnCoinsChanged?.Invoke();
         }
     }
 }

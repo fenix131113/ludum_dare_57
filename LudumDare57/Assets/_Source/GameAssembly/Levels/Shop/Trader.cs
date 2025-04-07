@@ -2,12 +2,15 @@
 using Core;
 using Interactable;
 using UnityEngine;
+using Upgrades;
 using VContainer;
 
 namespace Levels.Shop
 {
-    public class Trader : MonoBehaviour, IInteractableObject
+    public sealed class Trader : MonoBehaviour, IInteractableObject
     {
+        [field: SerializeField] public UpgradeType UpgradeType { get; private set; }
+        
         private GameState _gameState;
         
         public event Action OnInteract;
@@ -17,6 +20,9 @@ namespace Levels.Shop
 
         public void Interact()
         {
+            if(_gameState.GameCycleBlocked)
+                return;
+            
             _gameState.SetGameCycleBlocked(true);
             OnInteract?.Invoke();
         }

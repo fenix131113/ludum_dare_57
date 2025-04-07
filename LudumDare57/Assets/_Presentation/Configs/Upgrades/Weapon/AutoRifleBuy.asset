@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ceb11cf56bc414ca20d138022a8b195, type: 3}
+  m_Name: AutoRifleBuy
+  m_EditorClassIdentifier: 
+  <UpgradeItem>k__BackingField: 10
+  <UpgradeName>k__BackingField: Auto Rifle
+  <Description>k__BackingField: 
+  <MaxLevel>k__BackingField: 1
+  <Cost>k__BackingField: 7d000000
+  <UpgradeType>k__BackingField: 2
+  <FloatValue>k__BackingField: []
+  <IntValue>k__BackingField: 

@@ -22,6 +22,7 @@ namespace Core
 
             builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
             builder.Register<GameState>(Lifetime.Singleton);
+            builder.RegisterComponentInHierarchy<PlayerStats>();
 
             #endregion
 

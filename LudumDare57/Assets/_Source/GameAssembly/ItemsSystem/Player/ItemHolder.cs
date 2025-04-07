@@ -1,4 +1,5 @@
 ﻿using System;
+using Core;
 using DG.Tweening;
 using InputSystem;
 using ItemsSystem.Objects;
@@ -14,14 +15,19 @@ namespace ItemsSystem.Player
         public event Action<ACarryObject> OnCurrentItemChanged;
         
         private PlayerInput _input;
+        private GameState _gameState;
         private bool _isTakingItem;
 
         [Inject]
-        private void Construct(PlayerInput input) => _input = input;
+        private void Construct(PlayerInput input, GameState gameState)
+        {
+            _input = input;
+            _gameState = gameState;
+        }
 
         private void OnInteract()
         {
-            if (!CurrentObject || CurrentObject.ItemType != ItemType.OBJECT)
+            if (!CurrentObject || CurrentObject.ItemType != ItemType.OBJECT || _gameState.GameCycleBlocked)
                 return;
 
             // Prevent double interaction
