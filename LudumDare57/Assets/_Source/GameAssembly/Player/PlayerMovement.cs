@@ -13,8 +13,8 @@ namespace Player
     public sealed class PlayerMovement : MonoBehaviour
     {
         private static readonly int _groundedKey = Animator.StringToHash("IsGrounded");
-        private static readonly int _jumpKey = Animator.StringToHash("Jump");
         private static readonly int _isRunningKey = Animator.StringToHash("IsRunning");
+        private static readonly int _jumpKey = Animator.StringToHash("Jump");
         
         [SerializeField] private Rigidbody2D rb;
         [SerializeField] private LayerMask groundLayer;

@@ -14,10 +14,10 @@ namespace Core
             SetGameCycleBlocked(false);
         }
         
-        public void SetGameCycleBlocked(bool value)
+        public void SetGameCycleBlocked(bool value, bool visibleCursor = false)
         {
             GameCycleBlocked = value;
-            Cursor.visible = value;
+            Cursor.visible = visibleCursor;
             OnGameCycleBlockedChanged?.Invoke(value);
         }
     }

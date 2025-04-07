@@ -23,7 +23,7 @@ namespace Levels.Shop
             if(_gameState.GameCycleBlocked)
                 return;
             
-            _gameState.SetGameCycleBlocked(true);
+            _gameState.SetGameCycleBlocked(true, true);
             OnInteract?.Invoke();
         }
 
