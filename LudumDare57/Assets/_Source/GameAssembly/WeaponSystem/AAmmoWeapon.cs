@@ -38,6 +38,12 @@ namespace WeaponSystem
             }
         }
 
+        protected override void Attack()
+        {
+            if(CurrentAmmo == 0 && !IsReloading)
+                Reload();
+        }
+
         protected virtual void OnReloadComplete() => RestoreAmmo();
 
         protected void ResetReloadTimer()
@@ -46,7 +52,7 @@ namespace WeaponSystem
             _reloadTimer = reloadTime * _reloadTimeMultiplier;
         }
 
-        private void Reload()
+        protected void Reload()
         {
             if (CurrentAmmo < MaxAmmo)
                 IsReloading = true;

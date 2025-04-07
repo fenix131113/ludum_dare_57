@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 69216e93ff47e154ead290bfb5bca328
+guid: 68becc66ac215b1498588d5dddc99960
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 758169183105991307
-    second: VolosovIdle_0
+      213: 1094184221821593618
+    second: SofaIdle_0
   - first:
-      213: 134231158609505169
-    second: VolosovIdle_1
+      213: -3312757774405744703
+    second: SofaIdle_1
   - first:
-      213: 5559513391881852191
-    second: VolosovIdle_2
+      213: 7423860038191756832
+    second: SofaIdle_2
   - first:
-      213: -2442621836121523925
-    second: VolosovIdle_3
+      213: 4174830950056582241
+    second: SofaIdle_3
   - first:
-      213: -7966956929712171052
-    second: VolosovIdle_4
+      213: -7882056945128887361
+    second: SofaIdle_4
   - first:
-      213: -2117336616562598330
-    second: VolosovIdle_5
-  - first:
-      213: 903603877691661860
-    second: VolosovIdle_6
-  - first:
-      213: 5018846135964317686
-    second: VolosovIdle_7
+      213: 874033630721704680
+    second: SofaIdle_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -160,13 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VolosovIdle_0
+      name: SofaIdle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 30
-        height: 47
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b824ea6eade858a00800000000000000
-      internalID: 758169183105991307
+      spriteID: 2186384a0c25f2f00800000000000000
+      internalID: 1094184221821593618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_1
+      name: SofaIdle_1
       rect:
         serializedVersion: 2
-        x: 30
+        x: 26
         y: 0
-        width: 30
-        height: 47
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19b65be0782ecd100800000000000000
-      internalID: 134231158609505169
+      spriteID: 1c7c1ad1b58b602d0800000000000000
+      internalID: -3312757774405744703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_2
+      name: SofaIdle_2
       rect:
         serializedVersion: 2
-        x: 60
+        x: 52
         y: 0
-        width: 30
-        height: 47
+        width: 21
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f15152f69fb572d40800000000000000
-      internalID: 5559513391881852191
+      spriteID: 02633a61f59d60760800000000000000
+      internalID: 7423860038191756832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_3
+      name: SofaIdle_3
       rect:
         serializedVersion: 2
-        x: 90
+        x: 78
         y: 0
-        width: 30
-        height: 47
+        width: 21
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b293d51b1601a1ed0800000000000000
-      internalID: -2442621836121523925
+      spriteID: 16cdd6f31aaffe930800000000000000
+      internalID: 4174830950056582241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_4
+      name: SofaIdle_4
       rect:
         serializedVersion: 2
-        x: 120
+        x: 103
         y: 0
-        width: 30
-        height: 47
+        width: 22
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d75ba712eeaf6190800000000000000
-      internalID: -7966956929712171052
+      spriteID: fbb213628fe4d9290800000000000000
+      internalID: -7882056945128887361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_5
+      name: SofaIdle_5
       rect:
         serializedVersion: 2
-        x: 150
+        x: 129
         y: 0
-        width: 30
-        height: 47
+        width: 22
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,52 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64edbdbb095bd92e0800000000000000
-      internalID: -2117336616562598330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VolosovIdle_6
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 0
-        width: 30
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42e1a7370fe3a8c00800000000000000
-      internalID: 903603877691661860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VolosovIdle_7
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 30
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f7be7c38f586a540800000000000000
-      internalID: 5018846135964317686
+      spriteID: 8e289e0d4f0312c00800000000000000
+      internalID: 874033630721704680
       vertices: []
       indices: 
       edges: []
@@ -339,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: db889b81eba9ab9438d24e9ec824b115
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -349,14 +299,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      VolosovIdle_0: 758169183105991307
-      VolosovIdle_1: 134231158609505169
-      VolosovIdle_2: 5559513391881852191
-      VolosovIdle_3: -2442621836121523925
-      VolosovIdle_4: -7966956929712171052
-      VolosovIdle_5: -2117336616562598330
-      VolosovIdle_6: 903603877691661860
-      VolosovIdle_7: 5018846135964317686
+      SofaIdle_0: 1094184221821593618
+      SofaIdle_1: -3312757774405744703
+      SofaIdle_2: 7423860038191756832
+      SofaIdle_3: 4174830950056582241
+      SofaIdle_4: -7882056945128887361
+      SofaIdle_5: 874033630721704680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

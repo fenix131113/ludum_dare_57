@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 69216e93ff47e154ead290bfb5bca328
+guid: 2ee99bd030641c543953f3509c1f3048
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 758169183105991307
-    second: VolosovIdle_0
+      213: -711507431753645849
+    second: RunnerJumpAnim_0
   - first:
-      213: 134231158609505169
-    second: VolosovIdle_1
+      213: -5996713246771187598
+    second: RunnerJumpAnim_1
   - first:
-      213: 5559513391881852191
-    second: VolosovIdle_2
+      213: 2353829749741240569
+    second: RunnerJumpAnim_2
   - first:
-      213: -2442621836121523925
-    second: VolosovIdle_3
+      213: -297727570704770383
+    second: RunnerJumpAnim_3
   - first:
-      213: -7966956929712171052
-    second: VolosovIdle_4
+      213: 5438661148537282363
+    second: RunnerJumpAnim_4
   - first:
-      213: -2117336616562598330
-    second: VolosovIdle_5
+      213: 1924297122388930160
+    second: RunnerJumpAnim_5
   - first:
-      213: 903603877691661860
-    second: VolosovIdle_6
-  - first:
-      213: 5018846135964317686
-    second: VolosovIdle_7
+      213: 28418858396418377
+    second: RunnerJumpAnim_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +92,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -160,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VolosovIdle_0
+      name: RunnerJumpAnim_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 30
-        height: 47
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b824ea6eade858a00800000000000000
-      internalID: 758169183105991307
+      spriteID: 7e00643b2c73026f0800000000000000
+      internalID: -711507431753645849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_1
+      name: RunnerJumpAnim_1
       rect:
         serializedVersion: 2
-        x: 30
+        x: 32
         y: 0
-        width: 30
-        height: 47
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19b65be0782ecd100800000000000000
-      internalID: 134231158609505169
+      spriteID: 270f252f21567cca0800000000000000
+      internalID: -5996713246771187598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_2
+      name: RunnerJumpAnim_2
       rect:
         serializedVersion: 2
-        x: 60
+        x: 64
         y: 0
-        width: 30
-        height: 47
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f15152f69fb572d40800000000000000
-      internalID: 5559513391881852191
+      spriteID: 9f0c21fafab7aa020800000000000000
+      internalID: 2353829749741240569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_3
+      name: RunnerJumpAnim_3
       rect:
         serializedVersion: 2
-        x: 90
+        x: 96
         y: 0
-        width: 30
-        height: 47
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b293d51b1601a1ed0800000000000000
-      internalID: -2442621836121523925
+      spriteID: 1ba5d441a524edbf0800000000000000
+      internalID: -297727570704770383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_4
+      name: RunnerJumpAnim_4
       rect:
         serializedVersion: 2
-        x: 120
+        x: 128
         y: 0
-        width: 30
-        height: 47
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d75ba712eeaf6190800000000000000
-      internalID: -7966956929712171052
+      spriteID: b3f5844df710a7b40800000000000000
+      internalID: 5438661148537282363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_5
+      name: RunnerJumpAnim_5
       rect:
         serializedVersion: 2
-        x: 150
+        x: 160
         y: 0
-        width: 30
-        height: 47
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64edbdbb095bd92e0800000000000000
-      internalID: -2117336616562598330
+      spriteID: 07e6c46990a74ba10800000000000000
+      internalID: 1924297122388930160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VolosovIdle_6
+      name: RunnerJumpAnim_6
       rect:
         serializedVersion: 2
-        x: 180
+        x: 192
         y: 0
-        width: 30
-        height: 47
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,30 +304,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42e1a7370fe3a8c00800000000000000
-      internalID: 903603877691661860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VolosovIdle_7
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 30
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f7be7c38f586a540800000000000000
-      internalID: 5018846135964317686
+      spriteID: 94104a71dc6f46000800000000000000
+      internalID: 28418858396418377
       vertices: []
       indices: 
       edges: []
@@ -339,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: db889b81eba9ab9438d24e9ec824b115
+    spriteID: 11917dd5591158f49a8e7d6fbc023023
     internalID: 0
     vertices: []
     indices: 
@@ -349,14 +324,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      VolosovIdle_0: 758169183105991307
-      VolosovIdle_1: 134231158609505169
-      VolosovIdle_2: 5559513391881852191
-      VolosovIdle_3: -2442621836121523925
-      VolosovIdle_4: -7966956929712171052
-      VolosovIdle_5: -2117336616562598330
-      VolosovIdle_6: 903603877691661860
-      VolosovIdle_7: 5018846135964317686
+      RunnerJumpAnim_0: -711507431753645849
+      RunnerJumpAnim_1: -5996713246771187598
+      RunnerJumpAnim_2: 2353829749741240569
+      RunnerJumpAnim_3: -297727570704770383
+      RunnerJumpAnim_4: 5438661148537282363
+      RunnerJumpAnim_5: 1924297122388930160
+      RunnerJumpAnim_6: 28418858396418377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

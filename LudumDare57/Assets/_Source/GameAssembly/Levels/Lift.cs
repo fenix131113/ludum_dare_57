@@ -1,6 +1,5 @@
 ﻿using Core;
 using Interactable;
-using Player;
 using Services;
 using UnityEngine;
 using VContainer;
@@ -10,7 +9,6 @@ namespace Levels
     public class Lift : MonoBehaviour
     {
         [SerializeField] private Lever exitLever;
-        [SerializeField] private PlayerMovement playerMovement;
         [SerializeField] private float animTime;
 
         private GameState _gameState;

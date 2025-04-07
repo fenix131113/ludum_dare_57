@@ -17,6 +17,8 @@ namespace WeaponSystem.Weapons
 
         protected override void Attack()
         {
+            base.Attack();
+            
             if(CurrentAmmo == 0 || IsReloading)
                 return;
 
