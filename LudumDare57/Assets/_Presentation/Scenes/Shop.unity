@@ -904,21 +904,16 @@ MonoBehaviour:
   statsUpgrades:
   - {fileID: 11400000, guid: 01203eb02e5fb1f4ca6bd2a826df3a6d, type: 2}
   - {fileID: 11400000, guid: 1257b72a939da7f4aa9012a6cc1dda78, type: 2}
-  - {fileID: 11400000, guid: 94c509bb6b6996b4ebf301e9b3b9625c, type: 2}
   weaponUpgrades:
   - {fileID: 11400000, guid: d404bcfdf4a047349a445c3c864bf3b6, type: 2}
   - {fileID: 11400000, guid: 7388c12642eacdf4bbc50e8e76252b24, type: 2}
   - {fileID: 11400000, guid: 4c6b5df4747c9cf4d99945a06b9ac82f, type: 2}
-  - {fileID: 11400000, guid: 350c3e14f2250a64db219ec9ebe619ec, type: 2}
-  - {fileID: 11400000, guid: 2b6cf7471eb3b784aad3cab9265e6692, type: 2}
   - {fileID: 11400000, guid: b3ccd6d984d8976409cc146c7913104d, type: 2}
   - {fileID: 11400000, guid: b811632d0a8297c47b65306bffce01bc, type: 2}
   - {fileID: 11400000, guid: fda8a741cfe8bfe47b23001173363a5c, type: 2}
   - {fileID: 11400000, guid: 0ec3d7263ee4eed4d8a5ad956467b008, type: 2}
   - {fileID: 11400000, guid: 5ad566efeea633540b8f65ca7daabb61, type: 2}
   abilitiesUpgrades:
-  - {fileID: 11400000, guid: 928a7c99138588a4e82a490659be2090, type: 2}
-  - {fileID: 11400000, guid: 1ba5a8274b38e6f45bea3566bcd89140, type: 2}
   - {fileID: 11400000, guid: d9c80f2b39c42e245948e4ef0e4034ec, type: 2}
 --- !u!1 &1432369146
 GameObject:
@@ -1229,9 +1224,25 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1079278191408462376, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079278191408462376, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.0030003
+      objectReference: {fileID: 0}
     - target: {fileID: 1164099220343125872, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
       propertyPath: m_Name
       value: ---GENERAL---
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095949800286455, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.214
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095949800286455, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.0030003
       objectReference: {fileID: 0}
     - target: {fileID: 3492448124124389884, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2051,6 +2062,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4537559755221518440, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436587699509352967, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
+      propertyPath: questsDepend
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8003947482781123206, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}

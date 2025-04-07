@@ -1,4 +1,5 @@
 ﻿using System;
+using Levels.Quests;
 using UnityEngine;
 
 namespace Interactable
@@ -7,6 +8,8 @@ namespace Interactable
     {
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private Sprite activateSprite;
+        [SerializeField] private bool questsDepend;
+        [SerializeField] private QuestsManager questsManager;
         
         private bool _pressed;
 
@@ -19,6 +22,12 @@ namespace Interactable
             OnLeverPressed?.Invoke();
         }
 
-        public bool CanInteract() => !_pressed; // TODO: Add missions depends
+        public bool CanInteract()
+        {
+            if(questsDepend && !questsManager.IsQuestComplete)
+                return false;
+            
+            return !_pressed;
+        }
     }
 }
