@@ -1714,7 +1714,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1723,6 +1723,94 @@ TextureImporter:
       bones: []
       spriteID: 441f32e92448e4b4fb2dd1d0a170b25b
       internalID: -960670825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-mine16-export_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8bcdd4f5854c140bdfeb84a11f4ee2
+      internalID: -1516487187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-mine16-export_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21322d882d1d93e4ba398429013ce043
+      internalID: 1012980551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-mine16-export_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb20c2f1a3faea4cb42ae9f3ddb4899
+      internalID: 878333146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-mine16-export_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd65f3d16df2d74cbf06844ab0796a0
+      internalID: -1524844290
       vertices: []
       indices: 
       edges: []
@@ -1792,6 +1880,10 @@ TextureImporter:
       Sprite-mine16-export_57: 602413745
       Sprite-mine16-export_58: 1278642974
       Sprite-mine16-export_59: -960670825
+      Sprite-mine16-export_60: -1516487187
+      Sprite-mine16-export_61: 1012980551
+      Sprite-mine16-export_62: 878333146
+      Sprite-mine16-export_63: -1524844290
       Sprite-mine16-export_7: -1712858058
       Sprite-mine16-export_8: -1501849798
       Sprite-mine16-export_9: -1208794855
