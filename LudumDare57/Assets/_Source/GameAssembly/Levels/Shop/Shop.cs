@@ -64,15 +64,16 @@ namespace Levels.Shop
 
             _currentTrader.gameObject.SetActive(true);
 
-            var sellUpgrades = new UpgradeSO[3];
+            var sellUpgrades = new (UpgradeSO, int)[3];
 
             for (var i = 0; i < 3; i++)
             {
                 if (excepted.Count == 0)
                     continue;
 
-                sellUpgrades[i] = excepted[Random.Range(0, excepted.Count)];
-                excepted.Remove(sellUpgrades[i]);
+                var selected = excepted[Random.Range(0, excepted.Count)];
+                sellUpgrades[i] = (selected, _playerStats.Upgrades.GetValueOrDefault(selected, 0) + 1);
+                excepted.Remove(sellUpgrades[i].Item1);
             }
             
             shopHUD.ShowCards(sellUpgrades);

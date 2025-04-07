@@ -11,6 +11,7 @@ namespace WeaponSystem
         protected int CurrentAmmo;
 
         private float _reloadTimer;
+        private float _reloadTimeMultiplier;
 
         public bool IsReloading { get; private set; }
 
@@ -42,7 +43,7 @@ namespace WeaponSystem
         protected void ResetReloadTimer()
         {
             IsReloading = false;
-            _reloadTimer = reloadTime;
+            _reloadTimer = reloadTime * _reloadTimeMultiplier;
         }
 
         private void Reload()
@@ -52,9 +53,12 @@ namespace WeaponSystem
         }
 
         public void CancelReload() => ResetReloadTimer();
+        
         public void RestoreAmmo() => CurrentAmmo = MaxAmmo;
         
         public void ChangeMaxAmmo(int newMax) => MaxAmmo = newMax;
+        
+        public void SetReloadTimeMultiplier(float multiplier) => _reloadTimeMultiplier = multiplier;
 
         protected override void Bind()
         {

@@ -1,7 +1,9 @@
-﻿using TMPro;
+﻿using Player;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Upgrades;
+using VContainer;
 
 namespace Levels.Shop.View
 {
@@ -12,20 +14,34 @@ namespace Levels.Shop.View
         [SerializeField] private TMP_Text nameLabel;
         [SerializeField] private TMP_Text descriptionLabel;
 
-        private UpgradeSO _upgrade;
+        private (UpgradeSO, int) _upgrade;
 
-        public void ActivateCard(UpgradeSO upgrade)
+        private PlayerStats _playerStats;
+
+        [Inject]
+        private void Construct(PlayerStats playerStats) => _playerStats = playerStats;
+
+        public void ActivateCard((UpgradeSO, int) upgrade)
         {
             _upgrade = upgrade;
             gameObject.SetActive(true);
-            costLabel.text = _upgrade.Cost.ToString();
-            descriptionLabel.text = _upgrade.Description;
-            nameLabel.text = _upgrade.UpgradeName;
+            costLabel.text = _upgrade.Item1.Cost[upgrade.Item2 - 1].ToString() + "$";
+            descriptionLabel.text = _upgrade.Item1.Description;
+            nameLabel.text = _upgrade.Item1.UpgradeName;
         }
 
         private void OnCardClicked()
         {
+            if (_playerStats.Coins < _upgrade.Item1.Cost[_upgrade.Item2 - 1])
+                return;
             
+            if(!_playerStats.TryRemoveCoins(_upgrade.Item1.Cost[_upgrade.Item2 - 1]))
+                   return;
+            
+            if (!_playerStats.Upgrades.TryAdd(_upgrade.Item1, _upgrade.Item2))
+                _playerStats.Upgrades[_upgrade.Item1]++;
+            
+            gameObject.SetActive(false);
         }
         
         private void Start() => Bind();

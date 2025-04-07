@@ -39,11 +39,11 @@ namespace Levels.Shop.View
             OpenShopHUD();
         }
 
-        public void ShowCards(UpgradeSO[] upgrades)
+        public void ShowCards((UpgradeSO, int)[] upgrades)
         {
             for (var i = 0; i < upgradeCards.Length; i++)
             {
-                if (upgrades[i])
+                if (upgrades[i].Item1)
                     upgradeCards[i]?.ActivateCard(upgrades[i]);
             }
         }

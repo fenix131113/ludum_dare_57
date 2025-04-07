@@ -27,6 +27,8 @@ namespace WeaponSystem.Weapons
             }
         }
 
+        public void SetFractionAmount(int amount) => fractionAmount = amount;
+
         private Bullet GetBullet()
         {
             var bulletExists = Pool.TryPop<Bullet>(out var bullet);

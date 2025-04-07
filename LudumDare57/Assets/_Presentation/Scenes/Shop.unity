@@ -1181,6 +1181,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 745858060417389644, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
+      propertyPath: weaponSelector
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 866306428795603775, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

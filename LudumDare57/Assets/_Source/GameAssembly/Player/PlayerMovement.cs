@@ -26,6 +26,7 @@ namespace Player
         private PlayerInput _input;
         private Vector2 _moveInput;
         private float _additionalFallSpeed;
+        private float _extraSpeed;
         private bool _canJump = true;
         private ItemHolder _itemHolder;
         private GameState _gameState;
@@ -70,7 +71,7 @@ namespace Player
                 return;
 
             var velocity = rb.linearVelocity;
-            velocity.x = _moveInput.x * _settings.PlayerSpeed;
+            velocity.x = _moveInput.x * _settings.PlayerSpeed * _extraSpeed;
 
             // Apply object weight
             if (_itemHolder.CurrentObject && _itemHolder.CurrentObject.IsPowerDepend)
@@ -116,6 +117,8 @@ namespace Player
 
         // Jump Event
         public void OnJump() => Jump();
+
+        public void SetExtraMoveSpeed(float value) => _extraSpeed = value;
 
         private void Bind()
         {
