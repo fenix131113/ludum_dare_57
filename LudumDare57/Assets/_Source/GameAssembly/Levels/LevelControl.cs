@@ -10,7 +10,13 @@ namespace Levels
         [SerializeField] private List<int> allowGameScenesIndexes = new();
         [SerializeField] private int shopSceneIndex;
 
-        private void Start() => DontDestroyOnLoad(gameObject);
+        public static LevelControl Instance;
+
+        private void Start()
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
 
         public void LoadNextRandomLevel()
         {

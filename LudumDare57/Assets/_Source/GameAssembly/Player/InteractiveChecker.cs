@@ -35,7 +35,7 @@ namespace Player
         {
             if (!LayerService.CheckLayersEquality(other.gameObject.layer, targetLayers) ||
                 !other.TryGetComponent(out IInteractableObject interactable) || !interactable.CanInteract()
-                || (_itemHolder.CurrentObject && _itemHolder.CurrentObject.ItemType == ItemType.OBJECT && interactable is ACarryObject))
+                || (_itemHolder.CurrentObject && _itemHolder.CurrentObject.ItemType == ItemType.OBJECT))
                 return;
 
             _currentInteractable = interactable;
@@ -57,7 +57,7 @@ namespace Player
             switch (_currentInteractable)
             {
                 case null:
-                    return;
+                    return; 
                 case ACarryObject carry:
                     _itemHolder.TakeItem(carry);
 

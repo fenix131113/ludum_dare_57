@@ -1,4 +1,5 @@
 using System.Collections;
+using Core;
 using Environment;
 using InputSystem;
 using ItemsSystem;
@@ -27,12 +28,14 @@ namespace Player
         private float _additionalFallSpeed;
         private bool _canJump = true;
         private ItemHolder _itemHolder;
+        private GameState _gameState;
 
         [Inject]
-        private void Construct(PlayerInput input, PlayerSettingsSO settings, ItemHolder itemHolder)
+        private void Construct(PlayerInput input, PlayerSettingsSO settings, ItemHolder itemHolder, GameState gameState)
         {
             _input = input;
             _settings = settings;
+            _gameState = gameState;
             _itemHolder = itemHolder;
         }
 
@@ -63,13 +66,15 @@ namespace Player
 
         private void Move()
         {
+            if (_gameState.GameCycleBlocked)
+                return;
+
             var velocity = rb.linearVelocity;
             velocity.x = _moveInput.x * _settings.PlayerSpeed;
 
             // Apply object weight
             if (_itemHolder.CurrentObject && _itemHolder.CurrentObject.IsPowerDepend)
                 velocity.x *= _itemHolder.CurrentObject.WeightSpeedDownPercent;
-
 
             rb.linearVelocity = velocity;
         }
@@ -91,26 +96,33 @@ namespace Player
                 hit.transform.GetComponent<Platform>().DeactivateCollision();
         }
 
-        // Move Event
-        public void OnMove(Vector2 value) => _moveInput = value;
-
-        // Jump Event
-        public void OnJump() => Jump();
-
         private void Jump()
         {
-            if (!_isGrounded || !_canJump)
+            if (!_isGrounded || !_canJump || _gameState.GameCycleBlocked)
                 return;
 
             StartCoroutine(JumpCooldown());
             rb.AddForce(Vector2.up * _settings.JumpForce, ForceMode2D.Impulse);
         }
 
+        private void OnGameCycleChanged(bool value)
+        {
+            if (value)
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        }
+
+        // Move Event
+        public void OnMove(Vector2 value) => _moveInput = value;
+
+        // Jump Event
+        public void OnJump() => Jump();
+
         private void Bind()
         {
             _input.OnMove += OnMove;
             _input.OnJump += OnJump;
             _input.OnFall += PlatformFall;
+            _gameState.OnGameCycleBlockedChanged += OnGameCycleChanged;
         }
 
         private void Expose()
@@ -118,6 +130,7 @@ namespace Player
             _input.OnMove -= OnMove;
             _input.OnJump -= OnJump;
             _input.OnFall -= PlatformFall;
+            _gameState.OnGameCycleBlockedChanged -= OnGameCycleChanged;
         }
 
         private IEnumerator JumpCooldown()

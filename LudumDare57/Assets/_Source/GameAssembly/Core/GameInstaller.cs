@@ -21,6 +21,7 @@ namespace Core
             #region Core
 
             builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
+            builder.Register<GameState>(Lifetime.Singleton);
 
             #endregion
 
@@ -35,6 +36,8 @@ namespace Core
             builder.RegisterComponentInHierarchy<ItemHolder>();
             builder.RegisterComponentInHierarchy<PlayerMovement>();
             builder.RegisterComponentInHierarchy<PlayerHealth>();
+            
+            // TODO: ADD PLAYER STATS
 
             #endregion
         }
