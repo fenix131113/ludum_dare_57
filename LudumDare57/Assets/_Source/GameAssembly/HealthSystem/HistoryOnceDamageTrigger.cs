@@ -16,7 +16,7 @@ namespace HealthSystem
             if (!LayerService.CheckLayersEquality(other.gameObject.layer, targetLayers) ||
                 !other.TryGetComponent(out IHealth health) || !Damaged.Add(health))
                 return;
-
+            
             health.TakeDamage(damage);
         }
 

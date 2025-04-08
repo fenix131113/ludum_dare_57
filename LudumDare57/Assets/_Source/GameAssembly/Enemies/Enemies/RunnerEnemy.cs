@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using HealthSystem;
 using Player;
 using UnityEngine;
 using VContainer;
@@ -17,6 +18,7 @@ namespace Enemies.Enemies
         [SerializeField] private float attackVerticalForce;
         [SerializeField] private float attackCooldown;
         [SerializeField] private Animator animator; // TODO: Make Jump Animation
+        [SerializeField] private HistoryOnceDamageTrigger attackTrigger;
 
         private PlayerMovement _playerMovement;
         private bool _firstlyNearPlayer;
@@ -83,6 +85,8 @@ namespace Enemies.Enemies
 
             _firstlyNearPlayer = false;
 
+            attackTrigger.gameObject.SetActive(true);
+            
             var xForce = _playerMovement.transform.position.x > transform.position.x
                 ? attackHorizontalForce
                 : -attackHorizontalForce;
@@ -113,6 +117,9 @@ namespace Enemies.Enemies
             yield return new WaitForSeconds(attackCooldown);
 
             _canAttack = true;
+            
+            attackTrigger.gameObject.SetActive(false);
+            attackTrigger.ResetHistory();
         }
     }
 }

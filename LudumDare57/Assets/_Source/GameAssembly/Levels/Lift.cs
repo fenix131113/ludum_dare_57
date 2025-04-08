@@ -14,7 +14,10 @@ namespace Levels
         private GameState _gameState;
         
         [Inject]
-        private void Construct(GameState gameState) => _gameState = gameState;
+        private void Construct(GameState gameState)
+        {
+            _gameState = gameState;
+        }
 
         private void Start() => Bind();
 
@@ -22,7 +25,7 @@ namespace Levels
 
         private void OnExitLeverPressed()
         {
-            FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadShopLevel());
+            FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadNextRandomLevel());
             _gameState.SetGameCycleBlocked(true);
         }
 

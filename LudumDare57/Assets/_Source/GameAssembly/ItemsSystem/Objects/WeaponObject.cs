@@ -8,6 +8,8 @@ namespace ItemsSystem.Objects
     {
         private AWeaponBase _weapon;
 
+        public AWeaponBase GetWeaponBase() => _weapon;
+
         private void Start() => _weapon = GetComponent<AWeaponBase>();
 
         public override void ResetObject()

@@ -148,8 +148,8 @@ TextureImporter:
       name: MenuButtons_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 55
+        x: 1
+        y: 76
         width: 73
         height: 23
       alignment: 0
@@ -170,8 +170,8 @@ TextureImporter:
       name: MenuButtons_1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 30
+        x: 79
+        y: 76
         width: 73
         height: 23
       alignment: 0
@@ -192,9 +192,9 @@ TextureImporter:
       name: MenuButtons_2
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 22
+        x: 1
+        y: 51
+        width: 73
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,6 +206,116 @@ TextureImporter:
       bones: []
       spriteID: db828a9ea0a5cbd70800000000000000
       internalID: 9060215553278879933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButtons_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 51
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569239b0b1f0a4444a09599708b0af42
+      internalID: 1347035742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButtons_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205d6e07776717748a9defcad4ad13ad
+      internalID: 2002039264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButtons_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 26
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80acdabc7c5b5f54a8e6dca90ce1a2cd
+      internalID: 712316821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButtons_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1cd208dbef0ff43845fbb1de9b183b
+      internalID: 309538859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButtons_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1123a9bacb1b7b341a39fb13c930faf2
+      internalID: -1857103808
       vertices: []
       indices: 
       edges: []
@@ -227,6 +337,11 @@ TextureImporter:
       MenuButtons_0: -4331849829665928538
       MenuButtons_1: -3172522754301639175
       MenuButtons_2: 9060215553278879933
+      MenuButtons_3: 1347035742
+      MenuButtons_4: 2002039264
+      MenuButtons_5: 712316821
+      MenuButtons_6: 309538859
+      MenuButtons_7: -1857103808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

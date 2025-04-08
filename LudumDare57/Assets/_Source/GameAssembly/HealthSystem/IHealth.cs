@@ -4,7 +4,8 @@
     {
         int GetHealth();
         int GetMaxHealth();
-        bool CanGetDamage();
+
+        bool CanGetDamage() => true;
         void TakeDamage(int damage);
     }
 }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace WeaponSystem
 {
@@ -8,7 +9,7 @@ namespace WeaponSystem
         
         [SerializeField] protected float reloadTime;
 
-        protected int CurrentAmmo;
+        public int CurrentAmmo { get; protected set; }
 
         private float _reloadTimer;
         private float _reloadTimeMultiplier;
@@ -17,6 +18,8 @@ namespace WeaponSystem
 
         public float ReloadProgress => _reloadTimer / reloadTime;
 
+        public event Action OnShoot;
+        
         protected override void Start()
         {
             base.Start();
@@ -42,6 +45,8 @@ namespace WeaponSystem
         {
             if(CurrentAmmo == 0 && !IsReloading)
                 Reload();
+            else
+                OnShoot?.Invoke();
         }
 
         protected virtual void OnReloadComplete() => RestoreAmmo();
