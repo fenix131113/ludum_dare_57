@@ -41,6 +41,7 @@ namespace Core
             builder.RegisterComponentInHierarchy<ItemHolder>();
             builder.RegisterComponentInHierarchy<PlayerMovement>();
             builder.RegisterComponentInHierarchy<PlayerHealth>();
+            builder.RegisterComponentInHierarchy<InteractiveChecker>();
             
             // TODO: ADD PLAYER STATS
 

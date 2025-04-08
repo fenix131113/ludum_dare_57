@@ -1,4 +1,3 @@
-using System;
 using ItemsSystem.Objects;
 using ItemsSystem.Player;
 using TMPro;

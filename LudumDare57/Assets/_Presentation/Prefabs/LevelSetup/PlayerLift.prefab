@@ -273,6 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exitLever: {fileID: 7436587699509352967}
   animTime: 2
+  loadShop: 1
 --- !u!1 &8310967701159255508
 GameObject:
   m_ObjectHideFlags: 0

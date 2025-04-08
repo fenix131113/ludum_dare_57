@@ -18,7 +18,7 @@ namespace Player
         private PlayerInput _input;
         private ItemHolder _itemHolder;
 
-        public event Action<IInteractableObject> OnInteractTargetChanged;
+        public event Action<GameObject> OnInteractTargetChanged;
 
         [Inject]
         private void Construct(PlayerInput input, ItemHolder itemHolder)
@@ -39,7 +39,7 @@ namespace Player
                 return;
 
             _currentInteractable = interactable;
-            OnInteractTargetChanged?.Invoke(interactable);
+            OnInteractTargetChanged?.Invoke(other.gameObject);
         }
 
         private void OnTriggerExit2D(Collider2D other)
@@ -68,6 +68,9 @@ namespace Player
                     break;
             }
 
+            if(_currentInteractable == null)
+                return;
+            
             _currentInteractable = null;
             OnInteractTargetChanged?.Invoke(null); //TODO: Do after new interactable check 
         }

@@ -9,8 +9,11 @@ namespace WeaponSystem.Weapons
 
         protected override void Attack()
         {
-            if(CurrentAmmo == 0 && !IsReloading)
+            if (CurrentAmmo == 0 && !IsReloading)
+            {
                 Reload();
+                return;
+            }
 
             CurrentAmmo--;
 

@@ -10,9 +10,10 @@ namespace Levels
     {
         [SerializeField] private Lever exitLever;
         [SerializeField] private float animTime;
+        [SerializeField] private bool loadShop = true;
 
         private GameState _gameState;
-        
+
         [Inject]
         private void Construct(GameState gameState)
         {
@@ -25,7 +26,11 @@ namespace Levels
 
         private void OnExitLeverPressed()
         {
-            FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadNextRandomLevel());
+            if (loadShop)
+                FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadShopLevel());
+            else
+                FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadNextRandomLevel());
+            
             _gameState.SetGameCycleBlocked(true);
         }
 
