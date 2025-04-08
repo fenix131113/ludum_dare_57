@@ -8766,12 +8766,16 @@ PrefabInstance:
       value: -4.06
       objectReference: {fileID: 0}
     - target: {fileID: 4988897958869719302, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 224.9667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988897958869719302, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -150
+      value: -127.28369
       objectReference: {fileID: 0}
     - target: {fileID: 4988897958869719302, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 53.4
+      value: 53.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5901838862314639766, guid: b815cbcbfbc9e0f4f9a552aa31959996, type: 3}
       propertyPath: autoInjectGameObjects.Array.size
@@ -34972,6 +34976,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860660140}
     m_Modifications:
+    - target: {fileID: 2022539498348394924, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4537559755221518440, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8257736

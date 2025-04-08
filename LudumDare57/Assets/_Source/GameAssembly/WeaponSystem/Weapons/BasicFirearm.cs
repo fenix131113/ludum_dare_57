@@ -31,6 +31,8 @@ namespace WeaponSystem.Weapons
             projectile.ActivateBullet(GetDamageAmount());
             projectile.gameObject.SetActive(true);
             projectile.PoolInit(Pool);
+            
+            InvokeOnShoot();
         }
 
         private Bullet GetBullet()

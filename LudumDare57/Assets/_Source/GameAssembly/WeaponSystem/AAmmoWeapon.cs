@@ -6,20 +6,31 @@ namespace WeaponSystem
     public abstract class AAmmoWeapon : AWeaponBase
     {
         [field: SerializeField] public int MaxAmmo { get; protected set; }
-        
+
         [SerializeField] protected float reloadTime;
 
-        public int CurrentAmmo { get; protected set; }
+        public int CurrentAmmo
+        {
+            get => _currentAmmo;
+            
+            protected set
+            {
+                _currentAmmo = value;
+                OnAmmoChanged?.Invoke();
+            }
+        }
 
+        private int _currentAmmo;
         private float _reloadTimer;
-        private float _reloadTimeMultiplier;
+        private float _reloadTimeMultiplier = 1;
 
         public bool IsReloading { get; private set; }
 
-        public float ReloadProgress => _reloadTimer / reloadTime;
+        public float ReloadProgress => 1f - _reloadTimer / reloadTime;
 
         public event Action OnShoot;
-        
+        public event Action OnAmmoChanged;
+
         protected override void Start()
         {
             base.Start();
@@ -43,11 +54,11 @@ namespace WeaponSystem
 
         protected override void Attack()
         {
-            if(CurrentAmmo == 0 && !IsReloading)
+            if (CurrentAmmo == 0 && !IsReloading)
                 Reload();
-            else
-                OnShoot?.Invoke();
         }
+
+        protected void InvokeOnShoot() => OnShoot?.Invoke();
 
         protected virtual void OnReloadComplete() => RestoreAmmo();
 
@@ -59,16 +70,19 @@ namespace WeaponSystem
 
         protected void Reload()
         {
-            if (CurrentAmmo < MaxAmmo)
-                IsReloading = true;
+            if (CurrentAmmo >= MaxAmmo || IsReloading)
+                return;
+            
+            ResetReloadTimer();
+            IsReloading = true;
         }
 
         public void CancelReload() => ResetReloadTimer();
-        
+
         public void RestoreAmmo() => CurrentAmmo = MaxAmmo;
-        
+
         public void ChangeMaxAmmo(int newMax) => MaxAmmo = newMax;
-        
+
         public void SetReloadTimeMultiplier(float multiplier) => _reloadTimeMultiplier = multiplier;
 
         protected override void Bind()

@@ -3,6 +3,7 @@ using ItemsSystem.Objects;
 using ItemsSystem.Player;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using VContainer;
 
 namespace WeaponSystem.View
@@ -10,6 +11,7 @@ namespace WeaponSystem.View
     public sealed class AmmoView : MonoBehaviour
     {
         [SerializeField] private TMP_Text ammoText;
+        [SerializeField] private Image reloadProgressFill;
 
         private ItemHolder _itemHolder;
         private AAmmoWeapon _currentWeapon;
@@ -21,9 +23,20 @@ namespace WeaponSystem.View
 
         private void OnDestroy() => Expose();
 
+        private void Update()
+        {
+            if(!_currentWeapon || !_currentWeapon.IsReloading)
+                return;
+            
+            reloadProgressFill.gameObject.SetActive(true);
+            reloadProgressFill.fillAmount = _currentWeapon.ReloadProgress;
+        }
+
         private void RedrawAmmo()
         {
             ammoText.gameObject.SetActive(_currentWeapon);
+            reloadProgressFill.gameObject.SetActive(_currentWeapon);
+            reloadProgressFill.fillAmount = 0f;
             
             if (_currentWeapon)
                 ammoText.text = $"{_currentWeapon.CurrentAmmo}/{_currentWeapon.MaxAmmo}";
@@ -31,8 +44,7 @@ namespace WeaponSystem.View
 
         private void OnItemChanged(ACarryObject item)
         {
-            if (item is not WeaponObject weaponObject ||
-                weaponObject.GetWeaponBase() is not AAmmoWeapon ammoWeapon)
+            if (item is not WeaponObject { GetWeaponBase: AAmmoWeapon ammoWeapon })
             {
                 _currentWeapon = null;
                 RedrawAmmo();
@@ -41,11 +53,11 @@ namespace WeaponSystem.View
 
 
             if (_currentWeapon)
-                _currentWeapon.OnShoot -= RedrawAmmo;
+                _currentWeapon.OnAmmoChanged -= RedrawAmmo;
 
             _currentWeapon = ammoWeapon;
 
-            _currentWeapon.OnShoot += RedrawAmmo;
+            _currentWeapon.OnAmmoChanged += RedrawAmmo;
             RedrawAmmo();
         }
 
@@ -56,7 +68,7 @@ namespace WeaponSystem.View
             _itemHolder.OnCurrentItemChanged -= OnItemChanged;
 
             if (_currentWeapon)
-                _currentWeapon.OnShoot -= RedrawAmmo;
+                _currentWeapon.OnAmmoChanged -= RedrawAmmo;
         }
     }
 }

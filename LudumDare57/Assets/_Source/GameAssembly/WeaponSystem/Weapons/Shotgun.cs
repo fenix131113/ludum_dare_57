@@ -9,10 +9,8 @@ namespace WeaponSystem.Weapons
 
         protected override void Attack()
         {
-            base.Attack();
-            
-            if (CurrentAmmo == 0 || IsReloading)
-                return;
+            if(CurrentAmmo == 0 && !IsReloading)
+                Reload();
 
             CurrentAmmo--;
 
@@ -20,7 +18,8 @@ namespace WeaponSystem.Weapons
             {
                 var projectile = GetBullet();
                 var spreadPart = spreadDegrees / 2;
-                var rotation = Quaternion.Euler(0, 0, shootRotatePoint.eulerAngles.z + Random.Range(-spreadPart, spreadPart));
+                var rotation = Quaternion.Euler(0, 0,
+                    shootRotatePoint.eulerAngles.z + Random.Range(-spreadPart, spreadPart));
 
                 projectile.transform.position = shootSpawnPoint.position;
                 projectile.transform.rotation = rotation;
@@ -28,6 +27,8 @@ namespace WeaponSystem.Weapons
                 projectile.gameObject.SetActive(true);
                 projectile.PoolInit(Pool);
             }
+
+            InvokeOnShoot();
         }
 
         public void SetFractionAmount(int amount) => fractionAmount = amount;
