@@ -18,5 +18,8 @@ MonoBehaviour:
   <MaxLevel>k__BackingField: 3
   <Cost>k__BackingField: 320000006400000096000000
   <UpgradeType>k__BackingField: 1
-  <FloatValue>k__BackingField: []
-  <IntValue>k__BackingField: 0a0000000a0000000a000000
+  <FloatValue>k__BackingField:
+  - 1.05
+  - 1.1
+  - 1.15
+  <IntValue>k__BackingField: 

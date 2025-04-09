@@ -745,8 +745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <ItemType>k__BackingField: 0
-  <IsPowerDepend>k__BackingField: 1
-  <WeightSpeedDownPercent>k__BackingField: 0.85
+  <IsPowerDepend>k__BackingField: 0
+  <WeightSpeedDownPercent>k__BackingField: 1
   rb: {fileID: 2512181189020363074}
 --- !u!114 &8414056336702174861
 MonoBehaviour:

@@ -25,13 +25,15 @@ namespace Levels.Shop.View
         public void OpenShopHUD()
         {
             shopPanel.SetActive(true);
-            _gameState.SetGameCycleBlocked(true);
+            Cursor.visible = true;
+            _gameState.SetPlayerMovementPaused(true);
         }
 
         public void CloseShopHUD()
         {
             shopPanel.SetActive(false);
-            _gameState.SetGameCycleBlocked(false);
+            Cursor.visible = false;
+            _gameState.SetPlayerMovementPaused(false);
         }
 
         private void OnInteractWithTrader()

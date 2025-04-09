@@ -1,4 +1,5 @@
 ﻿using System;
+using Core;
 using InputSystem;
 using Interactable;
 using ItemsSystem;
@@ -17,14 +18,16 @@ namespace Player
         private IInteractableObject _currentInteractable;
         private PlayerInput _input;
         private ItemHolder _itemHolder;
+        private GameState _gameState;
 
         public event Action<GameObject> OnInteractTargetChanged;
 
         [Inject]
-        private void Construct(PlayerInput input, ItemHolder itemHolder)
+        private void Construct(PlayerInput input, ItemHolder itemHolder, GameState gameState)
         {
             _input = input;
             _itemHolder = itemHolder;
+            _gameState = gameState;
         }
 
         private void Start() => Bind();
@@ -54,6 +57,9 @@ namespace Player
 
         private void OnInteract()
         {
+            if(_gameState.GamePaused)
+                return;
+            
             switch (_currentInteractable)
             {
                 case null:

@@ -1,4 +1,5 @@
-﻿using HealthSystem;
+﻿using System;
+using HealthSystem;
 using UnityEngine;
 
 namespace Enemies
@@ -17,10 +18,19 @@ namespace Enemies
         protected bool IsGrounded;
 
         private int _health;
+        
+        public event Action<AEnemy> OnDeath;
 
         protected virtual void Start() => _health = maxHealth;
 
-        protected virtual void Death() => gameObject.SetActive(false);
+        private void OnDestroy() => Expose();
+
+        protected virtual void Death()
+        {
+            gameObject.SetActive(false); //TODO: Make Object Pool
+            OnDeath?.Invoke(this);
+            Expose();
+        }
 
         protected void CheckGround()
         {
@@ -48,5 +58,7 @@ namespace Enemies
         public void SetDamageAmount(int newDamage) => damage = Mathf.Clamp(newDamage, 0, maxHealth);
 
         public int GetDamageAmount() => damage;
+
+        private void Expose() => OnDeath = null;
     }
 }

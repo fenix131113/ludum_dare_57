@@ -12,7 +12,7 @@ namespace WeaponSystem
         public int CurrentAmmo
         {
             get => _currentAmmo;
-            
+
             protected set
             {
                 _currentAmmo = value;
@@ -22,7 +22,6 @@ namespace WeaponSystem
 
         private int _currentAmmo;
         private float _reloadTimer;
-        private float _reloadTimeMultiplier = 1;
 
         public bool IsReloading { get; private set; }
 
@@ -38,22 +37,27 @@ namespace WeaponSystem
             RestoreAmmo();
         }
 
-        protected virtual void Update()
+        protected override void Update()
         {
-            if (IsReloading)
+            base.Update();
+
+            if (!IsReloading)
+                return;
+
+            if (_reloadTimer > 0)
+                _reloadTimer -= Time.deltaTime;
+            else
             {
-                if (_reloadTimer > 0)
-                    _reloadTimer -= Time.deltaTime;
-                else
-                {
-                    OnReloadComplete();
-                    ResetReloadTimer();
-                }
+                OnReloadComplete();
+                ResetReloadTimer();
             }
         }
 
         protected override void Attack()
         {
+            if(!CanAttackCondition())
+                return;
+            
             if (CurrentAmmo == 0 && !IsReloading)
                 Reload();
         }
@@ -65,14 +69,14 @@ namespace WeaponSystem
         protected void ResetReloadTimer()
         {
             IsReloading = false;
-            _reloadTimer = reloadTime * _reloadTimeMultiplier;
+            _reloadTimer = reloadTime;
         }
 
         protected void Reload()
         {
             if (CurrentAmmo >= MaxAmmo || IsReloading)
                 return;
-            
+
             ResetReloadTimer();
             IsReloading = true;
         }
@@ -83,7 +87,7 @@ namespace WeaponSystem
 
         public void ChangeMaxAmmo(int newMax) => MaxAmmo = newMax;
 
-        public void SetReloadTimeMultiplier(float multiplier) => _reloadTimeMultiplier = multiplier;
+        public void SetReloadTimeMultiplier(float multiplier) => reloadTime *= multiplier;
 
         protected override void Bind()
         {

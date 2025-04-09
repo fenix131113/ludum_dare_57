@@ -14,6 +14,9 @@ namespace WeaponSystem.Weapons
                 Reload();
                 return;
             }
+            
+            if(IsReloading)
+                return;
 
             CurrentAmmo--;
 

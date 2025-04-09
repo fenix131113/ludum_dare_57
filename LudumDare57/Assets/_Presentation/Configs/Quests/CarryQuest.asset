@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CarryQuest
   m_EditorClassIdentifier: 
   <QuestName>k__BackingField: Loader
-  <Description>k__BackingField: Need to bring {0} boxes to the elevator
-  <NeedValueMin>k__BackingField: 1
-  <NeedValueMax>k__BackingField: 2
+  <Description>k__BackingField: Need to bring {1} boxes to the elevator\n{0}/{1}
+  <NeedValueMin>k__BackingField: 2
+  <NeedValueMax>k__BackingField: 6

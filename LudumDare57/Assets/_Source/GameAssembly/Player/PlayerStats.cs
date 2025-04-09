@@ -16,7 +16,7 @@ namespace Player
 
         public void AddCoins(int amount)
         {
-            Coins = Mathf.Clamp(Coins + Mathf.Abs(amount), 0, int.MaxValue);
+            Coins = Mathf.Clamp(Coins + amount, 0, int.MaxValue);
             OnCoinsChanged?.Invoke();
         }
 
@@ -25,7 +25,7 @@ namespace Player
             if (Coins < amount)
                 return false;
 
-            Coins = Mathf.Clamp(Coins - Mathf.Abs(amount), 0, int.MaxValue);
+            Coins = Mathf.Clamp(Coins - amount, 0, int.MaxValue);
             OnCoinsChanged?.Invoke();
             return true;
         }

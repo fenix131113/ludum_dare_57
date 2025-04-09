@@ -18,11 +18,16 @@ namespace Levels
             Instance = this;
         }
 
-        public void LoadNextRandomLevel()
+        public void LoadNextRandomLevel(bool includeCurrent)
         {
-            var nextSceneIndex =
-                allowGameScenesIndexes.Except(new[] { SceneManager.GetActiveScene().buildIndex }).ToList()[
-                    Random.Range(0, allowGameScenesIndexes.Count)];
+            int nextSceneIndex;
+
+            if (includeCurrent)
+                nextSceneIndex = allowGameScenesIndexes[Random.Range(0, allowGameScenesIndexes.Count)];
+            else
+                nextSceneIndex = allowGameScenesIndexes.Except(new[] { SceneManager.GetActiveScene().buildIndex })
+                    .ToList()[
+                        Random.Range(0, allowGameScenesIndexes.Count)];
 
             SceneManager.LoadScene(nextSceneIndex);
         }

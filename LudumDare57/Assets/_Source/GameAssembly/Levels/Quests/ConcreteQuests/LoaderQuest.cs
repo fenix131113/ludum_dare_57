@@ -9,6 +9,7 @@ namespace Levels.Quests.ConcreteQuests
     {
         [SerializeField] private CallbackTrigger callbackTrigger;
         [SerializeField] private GameObject questBoxPrefab;
+        [SerializeField] private int coinsPerBox;
         
         public override void Setup(QuestsManager questsManager)
         {
@@ -16,9 +17,10 @@ namespace Levels.Quests.ConcreteQuests
             callbackTrigger.gameObject.SetActive(true);
             
             SpawnSpecialItems();
-            
             Bind();
         }
+
+        public override int GetReward() => QuestsManager.NeedValue * coinsPerBox;
 
         private void OnDestroy() => Expose();
 

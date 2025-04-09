@@ -5,20 +5,35 @@ namespace Core
 {
     public class GameState
     {
-        public bool GameCycleBlocked;
+        public bool GamePaused;
+        public bool PlayerDamagePaused;
+        public bool PlayerMovementPaused;
         
-        public event Action<bool> OnGameCycleBlockedChanged;
+        public event Action<bool> OnGamePausedChanged;
+        public event Action<bool> OnPlayerDamagePausedChanged;
+        public event Action<bool> OnMovementPausedChanged;
 
-        public GameState()
+        public GameState() => SetGamePaused(false);
+
+        /// <summary>
+        /// For menu. Change game paused state and toggle cursor
+        /// </summary>
+        public void SetGamePaused(bool value)
         {
-            SetGameCycleBlocked(false);
+            GamePaused = value;
+            OnGamePausedChanged?.Invoke(value);
         }
-        
-        public void SetGameCycleBlocked(bool value, bool visibleCursor = false)
+
+        public void SetPlayerDamagePaused(bool value)
         {
-            GameCycleBlocked = value;
-            Cursor.visible = visibleCursor;
-            OnGameCycleBlockedChanged?.Invoke(value);
+            PlayerDamagePaused = value;
+            OnPlayerDamagePausedChanged?.Invoke(value);
+        }
+
+        public void SetPlayerMovementPaused(bool value)
+        {
+            PlayerMovementPaused = value;
+            OnMovementPausedChanged?.Invoke(value);
         }
     }
 }

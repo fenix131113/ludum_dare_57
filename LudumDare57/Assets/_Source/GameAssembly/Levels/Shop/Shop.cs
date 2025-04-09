@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Levels.Shop.View;
-using NUnit.Framework;
 using Player;
 using UnityEngine;
 using Upgrades;
@@ -36,21 +35,21 @@ namespace Levels.Shop
         {
             var allowTraders = new List<Trader>();
 
-            if (abilitiesUpgrades.Any(ability => !_playerStats.Upgrades.ContainsKey(ability) ||
-                                                 _playerStats.Upgrades[ability] < ability.MaxLevel))
+            if (abilitiesUpgrades.Any(upgrade => !_playerStats.Upgrades.ContainsKey(upgrade) ||
+                                                 _playerStats.Upgrades[upgrade] < upgrade.MaxLevel))
                 allowTraders.Add(sofaTrader);
             
-            if (statsUpgrades.Any(ability => !_playerStats.Upgrades.ContainsKey(ability) ||
-                                             _playerStats.Upgrades[ability] < ability.MaxLevel))
-                allowTraders.Add(volosovTrader);
-            
-            if (weaponUpgrades.Any(ability => !_playerStats.Upgrades.ContainsKey(ability) ||
-                                             _playerStats.Upgrades[ability] < ability.MaxLevel))
+            if (weaponUpgrades.Any(upgrade => !_playerStats.Upgrades.ContainsKey(upgrade) ||
+                                              _playerStats.Upgrades[upgrade] < upgrade.MaxLevel))
                 allowTraders.Add(graykTrader);
 
-            if(allowTraders.Count == 0)
+            if (statsUpgrades.Any(upgrade => !_playerStats.Upgrades.ContainsKey(upgrade) ||
+                                             _playerStats.Upgrades[upgrade] < upgrade.MaxLevel))
+                allowTraders.Add(volosovTrader);
+
+            if (allowTraders.Count == 0)
                 return;
-            
+
             var selectedTrader = allowTraders[Random.Range(0, allowTraders.Count)];
 
             _currentTrader = selectedTrader.UpgradeType switch
@@ -71,16 +70,9 @@ namespace Levels.Shop
                 _ => throw new ArgumentOutOfRangeException()
             };
 
-            var excepted = new List<UpgradeSO>();
-            foreach (var upgrade in selectedUpgrades)
-            {
-                if (_playerStats.Upgrades.ContainsKey(upgrade) && _playerStats.Upgrades[upgrade] >= upgrade.MaxLevel)
-                    return;
-
-                excepted.Add(upgrade);
-            }
-
-            _currentTrader.gameObject.SetActive(true);
+            var excepted = selectedUpgrades.TakeWhile(upgrade =>
+                    !_playerStats.Upgrades.ContainsKey(upgrade) || _playerStats.Upgrades[upgrade] < upgrade.MaxLevel)
+                .ToList();
 
             var sellUpgrades = new (UpgradeSO, int)[3];
 
@@ -91,9 +83,13 @@ namespace Levels.Shop
 
                 var selected = excepted[Random.Range(0, excepted.Count)];
                 sellUpgrades[i] = (selected, _playerStats.Upgrades.GetValueOrDefault(selected, 0) + 1);
-                excepted.Remove(sellUpgrades[i].Item1);
+                excepted.Remove(selected);
             }
 
+            if (sellUpgrades.Length == 0)
+                return;
+
+            _currentTrader.gameObject.SetActive(true);
             shopHUD.ShowCards(sellUpgrades);
         }
     }

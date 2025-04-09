@@ -14,6 +14,7 @@ namespace InputSystem
         public event Action OnShoot;
         public event Action OnAim;
         public event Action OnReload;
+        public event Action OnMenu;
 
         public void Tick()
         {
@@ -25,6 +26,7 @@ namespace InputSystem
             ReadShootInput();
             ReadReloadInput();
             ReadAimInput();
+            ReadMenuInput();
         }
 
         private void ReadMoveInput()
@@ -75,6 +77,12 @@ namespace InputSystem
         {
             if (Input.GetKey(KeyCode.R))
                 OnReload?.Invoke();
+        }
+
+        private void ReadMenuInput()
+        {
+            if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Tab))
+                OnMenu?.Invoke();
         }
     }
 }

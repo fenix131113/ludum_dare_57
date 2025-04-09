@@ -20,10 +20,7 @@ namespace Levels.Shop
 
         public void Interact()
         {
-            if(_gameState.GameCycleBlocked)
-                return;
-            
-            _gameState.SetGameCycleBlocked(true, true);
+            _gameState.SetPlayerMovementPaused(true);
             OnInteract?.Invoke();
         }
 

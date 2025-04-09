@@ -36,9 +36,9 @@ namespace Upgrades
                     case UpgradeItem.DOUBLE_JUMP:
                         break;
                     case UpgradeItem.FAST_RELOAD:
-                        shotgunWeapon.SetReloadTimeMultiplier(1.25f);
-                        pistolWeapon.SetReloadTimeMultiplier(1.25f);
-                        autoRifleWeapon.SetReloadTimeMultiplier(1.25f);
+                        shotgunWeapon.SetReloadTimeMultiplier(0.75f);
+                        pistolWeapon.SetReloadTimeMultiplier(0.75f);
+                        autoRifleWeapon.SetReloadTimeMultiplier(0.75f);
                         break;
                     case UpgradeItem.MORE_HEALTH:
                         _playerHealth.ChangeMaxHealth(_playerHealth.GetMaxHealth() + 2 * upgrade.Value);
@@ -64,7 +64,7 @@ namespace Upgrades
                         shotgunWeapon.SetFractionAmount(upgrade.Key.IntValue[upgrade.Value - 1]);
                         break;
                     case UpgradeItem.AUTO_RIFLE_BUY:
-                        weaponSelector?.AddWeapon(shotgunWeapon.GetComponent<WeaponObject>());
+                        weaponSelector?.AddWeapon(autoRifleWeapon.GetComponent<WeaponObject>());
                         break;
                     case UpgradeItem.AUTO_RIFLE_CLIP_INCREASE:
                         autoRifleWeapon.ChangeMaxAmmo(upgrade.Key.IntValue[upgrade.Value - 1]);

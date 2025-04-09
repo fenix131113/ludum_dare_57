@@ -10,6 +10,7 @@ namespace Upgrades
         [field: SerializeField] public string UpgradeName { get; protected set; }
         [field: SerializeField] public string Description { get; protected set; }
         [field: SerializeField] public int MaxLevel { get; protected set; }
+        [field: SerializeField] public Sprite Icon { get; protected set; }
         [field: SerializeField] public List<int> Cost { get; protected set; }
         [field: SerializeField] public UpgradeType UpgradeType { get; protected set; }
         [field: SerializeField] public List<float> FloatValue { get; protected set; }

@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 2281516337130421060}
   - component: {fileID: 4350382552718373642}
   - component: {fileID: 3510386372991506951}
+  - component: {fileID: 8382564396556388109}
   m_Layer: 3
   m_Name: PlayerLift
   m_TagString: Untagged
@@ -274,6 +275,19 @@ MonoBehaviour:
   exitLever: {fileID: 7436587699509352967}
   animTime: 2
   loadShop: 1
+--- !u!114 &8382564396556388109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8003947482781123206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf4dd2d06664d6bae3a91cf9460905d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lever: {fileID: 7436587699509352967}
 --- !u!1 &8310967701159255508
 GameObject:
   m_ObjectHideFlags: 0

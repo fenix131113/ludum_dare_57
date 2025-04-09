@@ -129,3 +129,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   callbackTrigger: {fileID: 0}
   questBoxPrefab: {fileID: 7828822698188678917, guid: 55f4482fac127174b905d49216f39f7b, type: 3}
+  coinsPerBox: 30

@@ -1,4 +1,5 @@
-﻿using Player;
+﻿using System.Linq;
+using Player;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -34,16 +35,16 @@ namespace Levels.Shop.View
         {
             if (_playerStats.Coins < _upgrade.Item1.Cost[_upgrade.Item2 - 1])
                 return;
-            
-            if(!_playerStats.TryRemoveCoins(_upgrade.Item1.Cost[_upgrade.Item2 - 1]))
-                   return;
-            
+
+            if (!_playerStats.TryRemoveCoins(_upgrade.Item1.Cost[_upgrade.Item2 - 1]))
+                return;
+
             if (!_playerStats.Upgrades.TryAdd(_upgrade.Item1, _upgrade.Item2))
                 _playerStats.Upgrades[_upgrade.Item1]++;
-            
+
             gameObject.SetActive(false);
         }
-        
+
         private void Start() => Bind();
 
         private void OnDestroy() => Expose();

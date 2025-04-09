@@ -29,9 +29,10 @@ namespace Levels
             if (loadShop)
                 FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadShopLevel());
             else
-                FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadNextRandomLevel());
+                FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadNextRandomLevel(true));
             
-            _gameState.SetGameCycleBlocked(true);
+            _gameState.SetPlayerMovementPaused(true);
+            _gameState.SetPlayerDamagePaused(true);
         }
 
         private void Bind() => exitLever.OnLeverPressed += OnExitLeverPressed;

@@ -27,7 +27,7 @@ namespace ItemsSystem.Player
 
         private void OnInteract()
         {
-            if (!CurrentObject || CurrentObject.ItemType != ItemType.OBJECT || _gameState.GameCycleBlocked)
+            if (!CurrentObject || CurrentObject.ItemType != ItemType.OBJECT || _gameState.GamePaused)
                 return;
 
             // Prevent double interaction

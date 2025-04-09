@@ -15,7 +15,7 @@ namespace Player
         private static readonly int _groundedKey = Animator.StringToHash("IsGrounded");
         private static readonly int _isRunningKey = Animator.StringToHash("IsRunning");
         private static readonly int _jumpKey = Animator.StringToHash("Jump");
-        
+
         [SerializeField] private Rigidbody2D rb;
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private LayerMask platformLayer;
@@ -75,7 +75,7 @@ namespace Player
 
         private void Move()
         {
-            if (_gameState.GameCycleBlocked)
+            if (_gameState.PlayerMovementPaused || _gameState.GamePaused)
                 return;
 
             var velocity = rb.linearVelocity;
@@ -109,7 +109,7 @@ namespace Player
 
         private void Jump()
         {
-            if (!_isGrounded || !_canJump || _gameState.GameCycleBlocked)
+            if (!_isGrounded || !_canJump || _gameState.PlayerMovementPaused)
                 return;
 
             anim.SetTrigger(_jumpKey);
@@ -118,10 +118,13 @@ namespace Player
             rb.AddForce(Vector2.up * _settings.JumpForce, ForceMode2D.Impulse);
         }
 
-        private void OnGameCycleChanged(bool value)
+        private void OnMovementBlockChanged(bool value)
         {
-            if (value)
-                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            if (!value)
+                return;
+
+            anim.SetBool(_isRunningKey, false);
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
 
         // Move Event
@@ -137,7 +140,7 @@ namespace Player
             _input.OnMove += OnMove;
             _input.OnJump += OnJump;
             _input.OnFall += PlatformFall;
-            _gameState.OnGameCycleBlockedChanged += OnGameCycleChanged;
+            _gameState.OnMovementPausedChanged += OnMovementBlockChanged;
         }
 
         private void Expose()
@@ -145,7 +148,7 @@ namespace Player
             _input.OnMove -= OnMove;
             _input.OnJump -= OnJump;
             _input.OnFall -= PlatformFall;
-            _gameState.OnGameCycleBlockedChanged -= OnGameCycleChanged;
+            _gameState.OnMovementPausedChanged -= OnMovementBlockChanged;
         }
 
         private IEnumerator JumpCooldown()

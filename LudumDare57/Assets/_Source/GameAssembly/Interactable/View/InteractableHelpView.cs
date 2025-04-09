@@ -39,7 +39,7 @@ namespace Interactable.View
             if (!target)
             {
                 _currentTarget = null;
-                _anim.Kill();
+                _anim?.Kill();
 
                 _anim = DOTween.Sequence();
                 _anim.Append(helpText.transform.DOLocalMoveY(0, animationDuration));
@@ -53,6 +53,9 @@ namespace Interactable.View
                 SetTextFade(0f);
                 helpText.gameObject.SetActive(true);
                 helpText.transform.localPosition = Vector3.zero;
+                
+                _anim?.Kill();
+                
                 _anim = DOTween.Sequence();
                 _anim.Append(helpText.transform.DOLocalMoveY(helpText.transform.localPosition.y + yOffset, animationDuration));
                 _anim.Insert(0, DOTween.To(() => helpText.color.a, SetTextFade, 1f, animationDuration));

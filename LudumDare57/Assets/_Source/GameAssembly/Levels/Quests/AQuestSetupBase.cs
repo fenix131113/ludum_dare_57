@@ -7,5 +7,6 @@ namespace Levels.Quests
         protected QuestsManager QuestsManager;
 
         public virtual void Setup(QuestsManager questsManager) => QuestsManager = questsManager;
+        public abstract int GetReward();
     }
 }

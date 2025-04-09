@@ -1,5 +1,6 @@
 using InputSystem;
 using ItemsSystem.Player;
+using Levels.Quests;
 using Player;
 using Player.Data;
 using UnityEngine;
@@ -11,7 +12,7 @@ namespace Core
     public class GameInstaller : LifetimeScope
     {
         [field: SerializeField] public Transform DefaultSpawnParent { get; private set; }
-        
+
         [SerializeField] private PlayerSettingsSO playerSettingsSO;
 
         private static GameInstaller _instance;
@@ -19,7 +20,7 @@ namespace Core
         protected override void Configure(IContainerBuilder builder)
         {
             _instance = this;
-            
+
             #region Core
 
             builder.Register<DictionaryObjectPool>(Lifetime.Singleton);
@@ -42,12 +43,16 @@ namespace Core
             builder.RegisterComponentInHierarchy<PlayerMovement>();
             builder.RegisterComponentInHierarchy<PlayerHealth>();
             builder.RegisterComponentInHierarchy<InteractiveChecker>();
-            
+
             // TODO: ADD PLAYER STATS
 
             #endregion
         }
 
-        public static GameObject InstantiateInjectedObject(GameObject go) => _instance.Container.Instantiate(go, _instance.DefaultSpawnParent);
+        public static GameObject InstantiateInjectedObject(GameObject obj)
+        {
+            var spawned = _instance.Container.Instantiate(obj, _instance.DefaultSpawnParent);
+            return spawned;
+        }
     }
 }
