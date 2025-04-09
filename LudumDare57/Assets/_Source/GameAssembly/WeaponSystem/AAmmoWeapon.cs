@@ -56,11 +56,11 @@ namespace WeaponSystem
 
         protected override void Attack()
         {
-            if (!CanAttackCondition())
-                return;
-            
             if (CurrentAmmo == 0 && !IsReloading)
                 Reload();
+            
+            if (!CanAttackCondition())
+                return;
         }
 
         protected void InvokeOnShoot() => OnShoot?.Invoke();

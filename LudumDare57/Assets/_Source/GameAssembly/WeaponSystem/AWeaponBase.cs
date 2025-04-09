@@ -55,7 +55,7 @@ namespace WeaponSystem
         
         public int GetDamageAmount() => damage;
 
-        protected virtual bool CanAttackCondition() => CanAttack && !(GameState.PlayerMovementPaused || GameState.GamePaused);
+        protected virtual bool CanAttackCondition() => CanAttack && !GameState.PlayerMovementPaused && !GameState.GamePaused;
 
         protected virtual void Bind() => Input.OnShoot += ShootInvoker;
 

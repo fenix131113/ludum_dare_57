@@ -1,4 +1,5 @@
 ﻿using System;
+using DG.Tweening;
 using HealthSystem;
 using UnityEngine;
 
@@ -11,14 +12,16 @@ namespace Enemies
         [SerializeField] protected Vector2 groundCheckSize;
         [SerializeField] protected SpriteRenderer rootEnemyRenderer;
         [SerializeField] protected Rigidbody2D rb;
+        [SerializeField] protected float damageAnimDuration;
 
         [SerializeField] private int maxHealth;
         [SerializeField] private int damage;
 
+        private Tween _damageTween;
         protected bool IsGrounded;
 
         private int _health;
-        
+
         public event Action<AEnemy> OnDeath;
 
         protected virtual void Start() => _health = maxHealth;
@@ -49,6 +52,11 @@ namespace Enemies
 
         public void TakeDamage(int amount)
         {
+            _damageTween?.Kill();
+            _damageTween = rootEnemyRenderer.DOColor(Color.red, damageAnimDuration / 2);
+            _damageTween.onComplete += () =>
+                _damageTween = rootEnemyRenderer.DOColor(Color.white, damageAnimDuration / 2);
+
             _health = Mathf.Clamp(_health - amount, 0, maxHealth);
 
             if (_health == 0)

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using HealthSystem;
 using Player;
+using Services;
 using UnityEngine;
 using VContainer;
 
@@ -19,6 +20,7 @@ namespace Enemies.Enemies
         [SerializeField] private float attackCooldown;
         [SerializeField] private Animator animator; // TODO: Make Jump Animation
         [SerializeField] private HistoryOnceDamageTrigger attackTrigger;
+        [SerializeField] private ParticleSystem fleshParticles;
 
         private PlayerMovement _playerMovement;
         private bool _firstlyNearPlayer;
@@ -67,6 +69,15 @@ namespace Enemies.Enemies
             RotateEnemy(_playerMovement.transform.position.x > transform.position.x);
         }
 
+        protected override void Death()
+        {
+            fleshParticles.gameObject.SetActive(true);
+            fleshParticles.Play();
+            fleshParticles.transform.parent = null;
+            ParticleLifeControl.RegisterParticleLifeWithTime(fleshParticles, fleshParticles.main.duration);
+            base.Death();
+        }
+
         private void JumpUp()
         {
             if (!_canJump || !IsGrounded)
@@ -86,7 +97,7 @@ namespace Enemies.Enemies
             _firstlyNearPlayer = false;
 
             attackTrigger.gameObject.SetActive(true);
-            
+
             var xForce = _playerMovement.transform.position.x > transform.position.x
                 ? attackHorizontalForce
                 : -attackHorizontalForce;
@@ -117,7 +128,7 @@ namespace Enemies.Enemies
             yield return new WaitForSeconds(attackCooldown);
 
             _canAttack = true;
-            
+
             attackTrigger.gameObject.SetActive(false);
             attackTrigger.ResetHistory();
         }
