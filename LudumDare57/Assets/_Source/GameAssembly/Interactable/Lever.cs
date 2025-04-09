@@ -14,7 +14,9 @@ namespace Interactable
         private bool _pressed;
 
         public event Action OnLeverPressed;
-        
+
+        private void OnDestroy() => OnLeverPressed = null;
+
         public void Interact()
         {
             _pressed = true;

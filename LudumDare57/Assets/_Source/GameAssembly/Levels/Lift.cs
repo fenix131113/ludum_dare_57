@@ -22,8 +22,6 @@ namespace Levels
 
         private void Start() => Bind();
 
-        private void OnDestroy() => Expose();
-
         private void OnExitLeverPressed()
         {
             if (loadShop)
@@ -35,8 +33,6 @@ namespace Levels
             _gameState.SetPlayerDamagePaused(true);
         }
 
-        private void Bind() => exitLever.OnLeverPressed += OnExitLeverPressed;
-
-        private void Expose() => exitLever.OnLeverPressed -= OnExitLeverPressed;
+        private void Bind() => exitLever.OnLeverPressed += OnExitLeverPressed; // Expose in lever
     }
 }

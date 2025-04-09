@@ -15,12 +15,8 @@ namespace Levels.Quests
 
         private void Start() => Bind();
 
-        private void OnDestroy() => Expose();
-
         private void GiveReward() => _questsManager.GiveReward();
 
-        private void Bind() => lever.OnLeverPressed += GiveReward;
-
-        private void Expose() => lever.OnLeverPressed -= GiveReward;
+        private void Bind() => lever.OnLeverPressed += GiveReward; // Expose in lever
     }
 }

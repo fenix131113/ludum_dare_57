@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Core;
+using UnityEngine;
 
 namespace WeaponSystem.Weapons
 {
@@ -18,6 +19,7 @@ namespace WeaponSystem.Weapons
             if(IsReloading)
                 return;
 
+            CameraShaker.Instance.Shake(1.5f, 1.5f,0.15f);
             CurrentAmmo--;
 
             for (var i = 0; i < fractionAmount; i++)

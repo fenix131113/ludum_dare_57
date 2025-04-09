@@ -1,4 +1,5 @@
 ﻿using Core;
+using Core.Ui;
 using InputSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,8 +11,8 @@ namespace Menu.InGame
     public class InGameMenu : MonoBehaviour
     {
         [SerializeField] private GameObject menu;
-        [SerializeField] private Button continueButton;
-        [SerializeField] private Button exitButton;
+        [SerializeField] private SpriteButton continueButton;
+        [SerializeField] private SpriteButton exitButton;
 
         private PlayerInput _playerInput;
         private GameState _gameState;
@@ -59,15 +60,15 @@ namespace Menu.InGame
         private void Bind()
         {
             _playerInput.OnMenu += ToggleMenu;
-            continueButton.onClick.AddListener(ToggleMenu);
-            exitButton.onClick.AddListener(LoadMenu);
+            continueButton.OnClick += ToggleMenu;
+            exitButton.OnClick += LoadMenu;
         }
 
         private void Expose()
         {
             _playerInput.OnMenu -= ToggleMenu;
-            continueButton.onClick.RemoveAllListeners();
-            exitButton.onClick.RemoveAllListeners();
+            continueButton.OnClick -= ToggleMenu;
+            exitButton.OnClick -= LoadMenu;
         }
     }
 }

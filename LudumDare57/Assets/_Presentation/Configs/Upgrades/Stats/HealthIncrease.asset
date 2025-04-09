@@ -16,6 +16,7 @@ MonoBehaviour:
   <UpgradeName>k__BackingField: Increase Health
   <Description>k__BackingField: 
   <MaxLevel>k__BackingField: 5
+  <Icon>k__BackingField: {fileID: -6008677655824650914, guid: e62c5c99853f8294f99c424c8ecd2b7a, type: 3}
   <Cost>k__BackingField: 19000000320000004b0000006400000096000000
   <UpgradeType>k__BackingField: 1
   <FloatValue>k__BackingField: []

@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Player;
+﻿using Player;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,6 +13,7 @@ namespace Levels.Shop.View
         [SerializeField] private TMP_Text costLabel;
         [SerializeField] private TMP_Text nameLabel;
         [SerializeField] private TMP_Text descriptionLabel;
+        [SerializeField] private Image upgradeImage;
 
         private (UpgradeSO, int) _upgrade;
 
@@ -26,6 +26,7 @@ namespace Levels.Shop.View
         {
             _upgrade = upgrade;
             gameObject.SetActive(true);
+            upgradeImage.sprite = upgrade.Item1.Icon;
             costLabel.text = _upgrade.Item1.Cost[upgrade.Item2 - 1].ToString() + "$";
             descriptionLabel.text = _upgrade.Item1.Description;
             nameLabel.text = _upgrade.Item1.UpgradeName;

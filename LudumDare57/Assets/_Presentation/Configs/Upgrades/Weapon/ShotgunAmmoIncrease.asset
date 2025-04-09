@@ -16,6 +16,7 @@ MonoBehaviour:
   <UpgradeName>k__BackingField: Shotgun Ammo Increase
   <Description>k__BackingField: 
   <MaxLevel>k__BackingField: 3
+  <Icon>k__BackingField: {fileID: -6569168778252414200, guid: e62c5c99853f8294f99c424c8ecd2b7a, type: 3}
   <Cost>k__BackingField: 4b0000007d000000af000000
   <UpgradeType>k__BackingField: 2
   <FloatValue>k__BackingField: []

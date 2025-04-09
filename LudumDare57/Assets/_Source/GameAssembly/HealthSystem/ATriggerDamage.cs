@@ -20,6 +20,8 @@ namespace HealthSystem
             OnDamageGiven();
         }
 
+        protected virtual bool CanApplyDamage() => true;
+
         protected virtual void OnDamageGiven()
         {
         }

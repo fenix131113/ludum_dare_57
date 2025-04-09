@@ -13,6 +13,7 @@ namespace WeaponSystem
         [SerializeField] private float deadTime;
 
         private DictionaryObjectPool _pool;
+        private bool _damageGiven;
 
         private void Update() => transform.position += transform.right * (speed * Time.deltaTime);
 
@@ -25,8 +26,13 @@ namespace WeaponSystem
         public void ActivateBullet(int overrideDamage = 0)
         {
             SetDamageAmount(overrideDamage == 0 ? Damage : overrideDamage);
+            _damageGiven = false;
             gameObject.SetActive(true);
         }
+
+        protected override void OnDamageGiven() => _damageGiven = true;
+
+        protected override bool CanApplyDamage() => !_damageGiven;
 
         public void PoolInit(DictionaryObjectPool pool)
         {

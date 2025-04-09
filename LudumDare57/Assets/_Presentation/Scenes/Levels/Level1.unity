@@ -35189,8 +35189,8 @@ MonoBehaviour:
   - {fileID: 1793977757}
   - {fileID: 7296040}
   - {fileID: 399092003}
-  minTimeBetweenSpawns: 6
-  maxTimeBetweenSpawns: 8
+  minTimeBetweenSpawns: 5
+  maxTimeBetweenSpawns: 7
   maxCount: 8
 --- !u!1 &1882023835
 GameObject:

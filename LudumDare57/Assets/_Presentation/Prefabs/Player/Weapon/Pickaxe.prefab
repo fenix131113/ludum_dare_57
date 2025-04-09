@@ -764,7 +764,9 @@ MonoBehaviour:
   attackCooldown: 1
   thrownPickaxe: {fileID: 1572005985297489111}
   damageTrigger: {fileID: 2786171508049153447}
-  attackDuration: 0.1
+  attackDuration: 0.11
+  hitPickaxeAnim: {fileID: 0}
+  slideAttackAnim: {fileID: 0}
 --- !u!1 &8728459456216585488
 GameObject:
   m_ObjectHideFlags: 0

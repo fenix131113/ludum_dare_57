@@ -21,6 +21,8 @@ namespace WeaponSystem.Weapons
             
             if(CurrentAmmo == 0 || IsReloading)
                 return;
+            
+            CameraShaker.Instance.Shake(1.5f, 1.5f,0.15f);
 
             CurrentAmmo--;
 

@@ -47,10 +47,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allQuests:
   - {fileID: 11400000, guid: 298b3f3362d6da4409bed517e0c4f388, type: 2}
+  - {fileID: 11400000, guid: 1ebf88f58e8b2d646976c817009ba3f3, type: 2}
   questSetups:
   - <Quest>k__BackingField: {fileID: 11400000, guid: 298b3f3362d6da4409bed517e0c4f388, type: 2}
     <QuestSetupBase>k__BackingField: {fileID: 3279159968192811445}
+  - <Quest>k__BackingField: {fileID: 11400000, guid: 1ebf88f58e8b2d646976c817009ba3f3, type: 2}
+    <QuestSetupBase>k__BackingField: {fileID: 5741965628872455145}
   specialItemsPoints: []
+--- !u!1 &5262892920799244700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5351806303231196015}
+  - component: {fileID: 5741965628872455145}
+  m_Layer: 0
+  m_Name: LeversQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5351806303231196015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5262892920799244700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3283267977206982156}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5741965628872455145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5262892920799244700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5881387e04a14d7d9a3ab5ce0043a3d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leverPrefab: {fileID: 5320718717509405047, guid: 0ed078e47f280ce4b9661644408b22e2, type: 3}
+  rewardPerLever: 25
 --- !u!1 &5938660979946445114
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,6 +130,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6270383917891193369}
+  - {fileID: 5351806303231196015}
   m_Father: {fileID: 8169537380638832171}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7771286651093605312

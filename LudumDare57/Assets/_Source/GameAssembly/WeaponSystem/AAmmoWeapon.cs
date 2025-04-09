@@ -1,4 +1,5 @@
 ﻿using System;
+using Core;
 using UnityEngine;
 
 namespace WeaponSystem
@@ -55,7 +56,7 @@ namespace WeaponSystem
 
         protected override void Attack()
         {
-            if(!CanAttackCondition())
+            if (!CanAttackCondition())
                 return;
             
             if (CurrentAmmo == 0 && !IsReloading)
