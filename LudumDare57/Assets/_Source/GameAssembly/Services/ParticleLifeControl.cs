@@ -12,7 +12,8 @@ namespace Services
         {
             yield return new WaitForSeconds(lifetime);
 
-            Object.Destroy(particles.gameObject);
+            if (particles.gameObject != null)
+                Object.Destroy(particles.gameObject);
         }
     }
 }
