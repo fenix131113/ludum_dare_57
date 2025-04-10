@@ -7,9 +7,12 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     path: Assets/_Presentation/Scenes/Menu.unity
     guid: 712c0ac0e384b0b4893453e172b171af
 =======
+=======
+>>>>>>> Stashed changes
     path: Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
     guid: 7cd331f4cb339c84f818b78a30981e1c
 >>>>>>> Stashed changes
