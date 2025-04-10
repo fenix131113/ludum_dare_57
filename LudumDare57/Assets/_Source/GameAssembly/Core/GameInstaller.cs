@@ -54,6 +54,10 @@ namespace Core
             return spawned;
         }
 
-        public static void InjectObject(object obj) => _instance?.Container.Inject(obj);
+        public static void InjectObject(object obj)
+        {
+            if (_instance && obj != null)
+                _instance.Container.Inject(obj);
+        }
     }
 }

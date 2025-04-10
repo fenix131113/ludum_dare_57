@@ -6,7 +6,7 @@ namespace Menu
 {
     public class Menu : MonoBehaviour
     {
-        [SerializeField] private SpriteButton spriteButton;
+        [SerializeField] private SpriteButton loadGameButton;
 
         private void Start()
         {
@@ -20,8 +20,8 @@ namespace Menu
 
         private void LoadGame() => LevelControl.Instance.LoadNextRandomLevel(false);
 
-        private void Bind() => spriteButton.OnClick += LoadGame;
+        private void Bind() => loadGameButton.OnClick += LoadGame;
 
-        private void Expose() => spriteButton.OnClick -= LoadGame;
+        private void Expose() => loadGameButton.OnClick -= LoadGame;
     }
 }
