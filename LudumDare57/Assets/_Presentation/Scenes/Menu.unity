@@ -780,7 +780,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842a3a76c0094dc5adf411956eff8b15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allowGameScenesIndexes: 02000000
+  levelsSpawnData:
+  - <LoadAfter>k__BackingField: 0
+    <LevelIndexes>k__BackingField: 02000000
   shopSceneIndex: 1
 --- !u!1 &2002306934
 GameObject:

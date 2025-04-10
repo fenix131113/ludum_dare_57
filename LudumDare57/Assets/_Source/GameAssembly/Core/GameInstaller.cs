@@ -1,6 +1,5 @@
 using InputSystem;
 using ItemsSystem.Player;
-using Levels.Quests;
 using Player;
 using Player.Data;
 using UnityEngine;
@@ -51,8 +50,10 @@ namespace Core
 
         public static GameObject InstantiateInjectedObject(GameObject obj)
         {
-            var spawned = _instance.Container.Instantiate(obj, _instance.DefaultSpawnParent);
+            var spawned = _instance?.Container.Instantiate(obj, _instance.DefaultSpawnParent);
             return spawned;
         }
+
+        public static void InjectObject(object obj) => _instance?.Container.Inject(obj);
     }
 }

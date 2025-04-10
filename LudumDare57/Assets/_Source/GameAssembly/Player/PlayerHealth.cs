@@ -20,16 +20,18 @@ namespace Player
         private int _maxHealth;
         private bool _afterDamageImmune;
         private GameState _gameState;
+        private PlayerStats _playerStats;
         private Tween _damageTween;
 
         public event Action OnHealthChanged;
 
         [Inject]
-        public void Construct(PlayerSettingsSO playerSettings, GameState gameState)
+        public void Construct(PlayerSettingsSO playerSettings, GameState gameState, PlayerStats playerStats)
         {
             _maxHealth = playerSettings.MaxHealth;
             _health = _maxHealth;
             _gameState = gameState;
+            _playerStats = playerStats;
         }
 
         public int GetHealth() => _health;
@@ -60,8 +62,11 @@ namespace Player
             OnHealthChanged?.Invoke();
 
             //TODO: refactor this
-            if (_health == 0)
-                SceneManager.LoadScene(0);
+            if (_health != 0)
+                return;
+            
+            _playerStats.ResetStats();
+            SceneManager.LoadScene(0);
         }
 
         public void Heal(int amount)

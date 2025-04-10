@@ -8,11 +8,14 @@ namespace Player
     public sealed class PlayerStats : MonoBehaviour
     {
         public int Coins { get; private set; }
+        public int CompletedLevels { get; private set; }
         public Dictionary<UpgradeSO, int> Upgrades { get; private set; } = new();
         
         public event Action OnCoinsChanged;
 
         private void Awake() => DontDestroyOnLoad(gameObject);
+
+        public void IncreaseCompleteLevels() => CompletedLevels++;
 
         public void AddCoins(int amount)
         {
@@ -34,6 +37,7 @@ namespace Player
         {
             Coins = 0;
             OnCoinsChanged?.Invoke();
+            CompletedLevels = 0;
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Core;
 using Interactable;
+using Player;
 using Services;
 using UnityEngine;
 using VContainer;
@@ -13,11 +14,13 @@ namespace Levels
         [SerializeField] private bool loadShop = true;
 
         private GameState _gameState;
+        private PlayerStats _playerStats;
 
         [Inject]
-        private void Construct(GameState gameState)
+        private void Construct(GameState gameState, PlayerStats playerStats)
         {
             _gameState = gameState;
+            _playerStats = playerStats;
         }
 
         private void Start() => Bind();
@@ -29,6 +32,7 @@ namespace Levels
             else
                 FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadNextRandomLevel(true));
             
+            _playerStats.IncreaseCompleteLevels();
             _gameState.SetPlayerMovementPaused(true);
             _gameState.SetPlayerDamagePaused(true);
         }
