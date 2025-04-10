@@ -34,7 +34,7 @@ namespace WeaponSystem
 
         protected override bool CanApplyDamage() => !_damageGiven;
 
-        public void PoolInit(DictionaryObjectPool pool)
+        public void InitPool(DictionaryObjectPool pool)
         {
             _pool = pool;
             StartCoroutine(DespawnCooldown());

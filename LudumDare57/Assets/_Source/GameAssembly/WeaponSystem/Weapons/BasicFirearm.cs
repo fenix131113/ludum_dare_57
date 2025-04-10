@@ -32,7 +32,7 @@ namespace WeaponSystem.Weapons
             projectile.transform.rotation = shootRotatePoint.rotation; 
             projectile.ActivateBullet(GetDamageAmount());
             projectile.gameObject.SetActive(true);
-            projectile.PoolInit(Pool);
+            projectile.InitPool(Pool);
             
             InvokeOnShoot();
         }

@@ -8,14 +8,18 @@ namespace HealthSystem
     public abstract class ATriggerDamage : MonoBehaviour, IDamageApplier
     {
         [SerializeField] protected LayerMask damageTargetLayers;
-        
+
         public abstract int Damage { get; protected set; }
 
         protected virtual void OnTriggerEnter2D(Collider2D other)
         {
-            if(!LayerService.CheckLayersEquality(other.gameObject.layer, damageTargetLayers) || !other.TryGetComponent<IHealth>(out var health))
+            if (!LayerService.CheckLayersEquality(other.gameObject.layer, damageTargetLayers) ||
+                !other.TryGetComponent<IHealth>(out var health) || !CanApplyDamage())
+            {
+                OnCollideNotWithTarget();
                 return;
-            
+            }
+
             health.TakeDamage(Damage);
             OnDamageGiven();
         }
@@ -23,6 +27,10 @@ namespace HealthSystem
         protected virtual bool CanApplyDamage() => true;
 
         protected virtual void OnDamageGiven()
+        {
+        }
+        
+        protected virtual void OnCollideNotWithTarget()
         {
         }
 

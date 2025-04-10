@@ -27,7 +27,7 @@ namespace Upgrades
             _playerMovement = playerMovement;
         }
 
-        private void Start()
+        private void Awake()
         {
             foreach (var upgrade in _playerStats.Upgrades)
             {

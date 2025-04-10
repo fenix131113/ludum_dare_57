@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using HealthSystem;
-using Player;
 using UnityEngine;
 
 namespace WeaponSystem.Weapons.Pickaxe

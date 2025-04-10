@@ -16,7 +16,11 @@ namespace Player.View
         [Inject]
         private void Construct(PlayerHealth playerHealth) => _playerHealth = playerHealth;
 
-        private void Start() => Bind();
+        private void Start()
+        {
+            Bind();
+            DrawHealth();
+        }
 
         private void OnDestroy() => Expose();
 
