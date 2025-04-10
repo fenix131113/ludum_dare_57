@@ -1189,6 +1189,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &128591050
 GameObject:
@@ -1200,10 +1201,15 @@ MonoBehaviour:
 --- !u!114 &126281348
 MonoBehaviour:
 >>>>>>> Stashed changes
+=======
+--- !u!114 &126281348
+MonoBehaviour:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   serializedVersion: 6
@@ -1290,6 +1296,8 @@ SpriteRenderer:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1319,7 +1327,10 @@ SpriteRenderer:
   m_Flags: 3
   m_ColliderType: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &137310795
@@ -9467,11 +9478,15 @@ MonoBehaviour:
   m_ShadowCastingSource: 2
   m_ShadowMesh:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
     m_Mesh: {fileID: 2072368464}
 =======
     m_Mesh: {fileID: 1531845689}
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+    m_Mesh: {fileID: 1531845689}
+>>>>>>> Stashed changes
 =======
     m_Mesh: {fileID: 1531845689}
 >>>>>>> Stashed changes
@@ -11298,6 +11313,7 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &521237364
 GameObject:
@@ -11309,10 +11325,15 @@ Sprite:
 --- !u!213 &513259632
 Sprite:
 >>>>>>> Stashed changes
+=======
+--- !u!213 &513259632
+Sprite:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   serializedVersion: 6
@@ -11397,6 +11418,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Name: 
@@ -11605,7 +11628,10 @@ SpriteRenderer:
   m_ScriptableObjects: []
   m_SpriteID: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &529905997
@@ -11783,6 +11809,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &572312551
 GameObject:
@@ -11794,10 +11821,15 @@ Sprite:
 --- !u!213 &573876317
 Sprite:
 >>>>>>> Stashed changes
+=======
+--- !u!213 &573876317
+Sprite:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   serializedVersion: 6
@@ -11969,6 +12001,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Name: 
@@ -12177,7 +12211,10 @@ SpriteRenderer:
   m_ScriptableObjects: []
   m_SpriteID: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &590013231
@@ -13775,6 +13812,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &815852951
 GameObject:
@@ -13786,10 +13824,15 @@ Mesh:
 --- !u!43 &814735158
 Mesh:
 >>>>>>> Stashed changes
+=======
+--- !u!43 &814735158
+Mesh:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   serializedVersion: 6
@@ -13999,6 +14042,8 @@ Transform:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_Name: 
   serializedVersion: 11
   m_SubMeshes:
@@ -14159,7 +14204,10 @@ Transform:
     size: 0
     path: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &829389801
@@ -28194,6 +28242,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -28201,6 +28250,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -28284,6 +28337,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -28291,6 +28345,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -30104,6 +30162,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -30111,6 +30170,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -30225,6 +30288,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -30239,6 +30303,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -30246,6 +30315,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -30256,6 +30326,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -30318,6 +30393,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -30325,6 +30401,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -31998,6 +32078,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -32005,6 +32086,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -32089,6 +32174,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -32103,6 +32189,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -32110,6 +32201,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -32120,6 +32212,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -32162,6 +32259,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -32169,6 +32267,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -33774,6 +33876,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -33781,6 +33884,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -33813,6 +33920,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -33827,6 +33935,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -33834,6 +33947,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -33844,6 +33958,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -33876,6 +33995,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -33883,6 +34003,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -35396,6 +35520,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -35403,6 +35528,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -35467,6 +35596,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -35481,6 +35611,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -35488,6 +35623,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -35498,6 +35634,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -35590,6 +35731,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 21
       m_TileSpriteIndex: 15
@@ -35597,6 +35739,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -37021,6 +37167,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -37035,6 +37182,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -37042,6 +37194,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -37052,6 +37205,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -37074,6 +37232,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -37081,6 +37240,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -37596,6 +37759,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -37603,6 +37767,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -37647,11 +37815,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -38402,6 +38574,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -38409,6 +38582,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -38424,6 +38601,7 @@ Tilemap:
       m_TileIndex: 21
       m_TileSpriteIndex: 15
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -38431,6 +38609,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 3
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 3
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 3
@@ -38473,6 +38655,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -38487,12 +38670,18 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
   - first: {x: -35, y: -8, z: 0}
     second:
       serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
@@ -38501,6 +38690,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -38956,6 +39149,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -38963,6 +39157,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -39015,6 +39213,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -39029,6 +39228,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -39036,6 +39240,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -39046,6 +39251,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -39101,11 +39311,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -39777,11 +39991,15 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 10
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 20
 =======
       m_TileSpriteIndex: 37
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 37
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 37
 >>>>>>> Stashed changes
@@ -39796,6 +40014,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -39803,6 +40022,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -39835,6 +40058,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -39844,6 +40068,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -39927,6 +40156,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -39936,6 +40166,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -39958,6 +40193,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -39965,6 +40201,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -40360,6 +40600,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -40367,6 +40608,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -40409,6 +40654,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -40423,6 +40669,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -40430,6 +40681,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -40440,6 +40692,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -40465,11 +40722,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -41202,6 +41463,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -41209,6 +41471,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -41231,6 +41497,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -41245,6 +41512,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -41252,6 +41524,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -41262,6 +41535,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -41294,6 +41572,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 21
       m_TileSpriteIndex: 15
@@ -41301,6 +41580,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -41386,6 +41669,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -41393,6 +41677,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -41494,6 +41782,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 21
       m_TileSpriteIndex: 15
@@ -41501,6 +41790,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -41646,6 +41939,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -41653,6 +41947,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -41695,6 +41993,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -41709,6 +42008,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -41716,6 +42020,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -41726,6 +42031,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -41781,11 +42091,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -42398,6 +42712,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -42405,6 +42720,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -42447,6 +42766,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -42461,6 +42781,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -42468,6 +42793,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -42478,6 +42804,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -42500,6 +42831,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -42507,6 +42839,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -42562,6 +42898,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -42569,6 +42906,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -42581,6 +42922,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -42590,6 +42932,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -42603,6 +42950,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -42612,6 +42960,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -42634,6 +42987,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -42641,6 +42995,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -42736,6 +43094,7 @@ Tilemap:
       m_TileIndex: 21
       m_TileSpriteIndex: 15
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -42743,6 +43102,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 3
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 3
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 3
@@ -42775,6 +43138,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -42789,6 +43153,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -42796,6 +43165,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -42806,6 +43176,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -42851,11 +43226,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -43428,11 +43807,15 @@ Tilemap:
       m_TileIndex: 6
       m_TileSpriteIndex: 25
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 2
 =======
       m_TileMatrixIndex: 3
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 3
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 3
 >>>>>>> Stashed changes
@@ -43444,6 +43827,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -43451,6 +43835,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -43466,6 +43854,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -43473,6 +43862,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -43535,6 +43928,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -43544,6 +43938,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -43586,6 +43985,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -43593,6 +43993,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -43638,6 +44042,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -43645,6 +44050,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -43677,6 +44086,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -43686,6 +44096,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -43739,6 +44154,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -43748,6 +44164,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -43901,6 +44322,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 3
@@ -43915,6 +44337,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -43922,6 +44349,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -43932,6 +44360,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -43975,6 +44408,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 3
@@ -43989,6 +44423,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -43996,6 +44435,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -44006,6 +44446,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -44021,11 +44466,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -44587,6 +45036,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -44596,6 +45046,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -44628,6 +45083,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -44635,6 +45091,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -44650,6 +45110,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -44657,6 +45118,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -44719,6 +45184,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -44733,6 +45199,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -44740,6 +45211,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -44750,6 +45222,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -44782,6 +45259,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -44789,6 +45267,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -44834,6 +45316,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -44841,6 +45324,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -44883,6 +45370,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -44892,6 +45380,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -44914,6 +45407,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -44921,6 +45415,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -44946,6 +45444,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 3
       m_TileColorIndex: 0
@@ -44953,6 +45452,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -44976,6 +45479,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 4
       m_TileColorIndex: 0
@@ -44983,6 +45487,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -45026,6 +45534,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 3
       m_TileColorIndex: 0
@@ -45033,6 +45542,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -45065,6 +45578,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 3
@@ -45079,6 +45593,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -45086,6 +45605,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -45096,6 +45616,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -45111,11 +45636,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -45667,6 +46196,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -45676,6 +46206,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -45779,6 +46314,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -45793,6 +46329,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -45800,6 +46341,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -45810,6 +46352,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -45853,6 +46400,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -45862,6 +46410,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -45965,6 +46518,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -45974,6 +46528,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -46006,6 +46565,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 21
       m_TileSpriteIndex: 15
@@ -46013,6 +46573,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -46098,6 +46662,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 3
       m_TileColorIndex: 0
@@ -46105,6 +46670,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -46187,6 +46756,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 3
@@ -46196,6 +46766,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -46251,11 +46826,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -46748,6 +47327,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -46755,6 +47335,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -46767,6 +47351,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -46776,6 +47361,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -46828,6 +47418,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -46835,6 +47426,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -46849,6 +47444,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -46858,6 +47454,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -46890,6 +47491,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -46897,6 +47499,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -47032,6 +47638,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 3
       m_TileColorIndex: 0
@@ -47039,6 +47646,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -47071,6 +47682,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -47080,6 +47692,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -47125,11 +47742,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -47591,6 +48212,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -47600,6 +48222,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -47622,6 +48249,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -47629,6 +48257,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -47644,6 +48276,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -47651,6 +48284,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -47683,6 +48320,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -47692,6 +48330,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -47714,6 +48357,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 21
       m_TileSpriteIndex: 15
@@ -47721,6 +48365,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -47785,6 +48433,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -47794,6 +48443,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -47836,6 +48490,7 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileIndex: 35
       m_TileSpriteIndex: 7
@@ -47843,6 +48498,10 @@ Tilemap:
       m_TileIndex: 5
       m_TileSpriteIndex: 13
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileIndex: 5
+      m_TileSpriteIndex: 13
+>>>>>>> Stashed changes
 =======
       m_TileIndex: 5
       m_TileSpriteIndex: 13
@@ -47888,6 +48547,7 @@ Tilemap:
       m_TileIndex: 21
       m_TileSpriteIndex: 15
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -47895,6 +48555,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 3
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 3
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 3
@@ -47967,11 +48631,15 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 12
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 34
 =======
       m_TileSpriteIndex: 38
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 38
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 38
 >>>>>>> Stashed changes
@@ -47995,6 +48663,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 3
@@ -48009,6 +48678,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -48016,6 +48690,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -48026,6 +48701,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -48061,11 +48741,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -48497,6 +49181,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -48506,6 +49191,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -48569,6 +49259,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -48583,6 +49274,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -48590,6 +49286,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -48600,6 +49297,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -48633,6 +49335,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -48642,6 +49345,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -48685,6 +49393,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -48699,6 +49408,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -48706,6 +49420,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -48716,6 +49431,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -48741,11 +49461,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -48807,6 +49531,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -48816,6 +49541,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -49249,6 +49979,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -49258,6 +49989,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -50392,6 +51128,7 @@ Tilemap:
       m_TileIndex: 35
       m_TileSpriteIndex: 7
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
@@ -50399,6 +51136,10 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileMatrixIndex: 0
       m_TileColorIndex: 5
@@ -50411,6 +51152,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
@@ -50420,6 +51162,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -50763,6 +51510,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 11
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
@@ -50777,6 +51525,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 1
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 34
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 1
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -50784,6 +51537,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 36
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
@@ -50799,6 +51553,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -50809,11 +51568,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -52735,6 +53498,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -52744,6 +53508,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -52759,11 +53528,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -54315,6 +55088,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -54324,6 +55098,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -54907,6 +55686,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 36
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
@@ -54916,6 +55696,11 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 2
+>>>>>>> Stashed changes
 =======
       m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
@@ -54931,11 +55716,15 @@ Tilemap:
       m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
       m_TileColorIndex: 0
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      m_TileColorIndex: 5
+>>>>>>> Stashed changes
 =======
       m_TileColorIndex: 5
 >>>>>>> Stashed changes
@@ -56118,6 +56907,7 @@ Tilemap:
   - m_RefCount: 19
     m_Data: {fileID: 1227144379, guid: 3958d1f99cd63c84a918e3351a0e478b, type: 3}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   - m_RefCount: 59
     m_Data: {fileID: -203675848, guid: e7fe13da728035b46871ed256cb0c88f, type: 3}
@@ -56125,6 +56915,10 @@ Tilemap:
   - m_RefCount: 36
     m_Data: {fileID: 573876317}
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+  - m_RefCount: 36
+    m_Data: {fileID: 573876317}
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 36
     m_Data: {fileID: 573876317}
@@ -56140,6 +56934,7 @@ Tilemap:
   - m_RefCount: 20
     m_Data: {fileID: 1260351005, guid: 6b643debff86f284ca92a95041c59113, type: 3}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   - m_RefCount: 67
     m_Data: {fileID: 1867543717, guid: e7fe13da728035b46871ed256cb0c88f, type: 3}
@@ -56150,6 +56945,8 @@ Tilemap:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 28
     m_Data: {fileID: -1314432595, guid: e7fe13da728035b46871ed256cb0c88f, type: 3}
   - m_RefCount: 34
@@ -56157,7 +56954,10 @@ Tilemap:
   - m_RefCount: 3
     m_Data: {fileID: 1600861466}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   - m_RefCount: 2
@@ -56168,6 +56968,7 @@ Tilemap:
     m_Data: {fileID: 1834490571, guid: 3958d1f99cd63c84a918e3351a0e478b, type: 3}
   - m_RefCount: 14
     m_Data: {fileID: 910297520220164635, guid: 4b90980bd8496a3479e341369e60cb44, type: 3}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   - m_RefCount: 1
@@ -56195,16 +56996,29 @@ Tilemap:
     m_Data: {fileID: 4149775717211021064, guid: 07c6b157ca5e82448a26c18b44e4972b, type: 3}
   - m_RefCount: 1
 >>>>>>> Stashed changes
+=======
+  - m_RefCount: 67
+    m_Data: {fileID: 513259632}
+  - m_RefCount: 3
+    m_Data: {fileID: -1335657268040408301, guid: e7fe13da728035b46871ed256cb0c88f, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: 4149775717211021064, guid: 07c6b157ca5e82448a26c18b44e4972b, type: 3}
+  - m_RefCount: 1
+>>>>>>> Stashed changes
     m_Data: {fileID: -257637395302876345, guid: 4b90980bd8496a3479e341369e60cb44, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -3938207112713408161, guid: 4b90980bd8496a3479e341369e60cb44, type: 3}
   - m_RefCount: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
     m_Data: {fileID: -670070508601637095, guid: a775555565e367b4abed579b66038662, type: 3}
 =======
     m_Data: {fileID: 2822347592611901883, guid: a775555565e367b4abed579b66038662, type: 3}
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+    m_Data: {fileID: 2822347592611901883, guid: a775555565e367b4abed579b66038662, type: 3}
+>>>>>>> Stashed changes
 =======
     m_Data: {fileID: 2822347592611901883, guid: a775555565e367b4abed579b66038662, type: 3}
 >>>>>>> Stashed changes
@@ -56226,6 +57040,7 @@ Tilemap:
     m_Data: {fileID: 1508646330, guid: 3958d1f99cd63c84a918e3351a0e478b, type: 3}
   - m_RefCount: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
     m_Data: {fileID: 1729022860, guid: 3958d1f99cd63c84a918e3351a0e478b, type: 3}
 =======
@@ -56234,14 +57049,26 @@ Tilemap:
 =======
     m_Data: {fileID: 1733098609}
 >>>>>>> Stashed changes
+=======
+    m_Data: {fileID: 1733098609}
+>>>>>>> Stashed changes
   - m_RefCount: 1
     m_Data: {fileID: -1042349758, guid: 3958d1f99cd63c84a918e3351a0e478b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1453801450, guid: 6b643debff86f284ca92a95041c59113, type: 3}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   m_TileMatrixArray:
   - m_RefCount: 3818
+=======
+  - m_RefCount: 1
+    m_Data: {fileID: -317420897, guid: c3c459a1caaef3545a342ed2acafb062, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1729022860, guid: 3958d1f99cd63c84a918e3351a0e478b, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 3871
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 1
     m_Data: {fileID: -317420897, guid: c3c459a1caaef3545a342ed2acafb062, type: 3}
@@ -56268,7 +57095,11 @@ Tilemap:
       e32: 0
       e33: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - m_RefCount: 56
+=======
+  - m_RefCount: 14
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 14
 >>>>>>> Stashed changes
@@ -56280,7 +57111,10 @@ Tilemap:
       e10: 0
       e11: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       e12: 0
       e13: 0
       e20: 0
@@ -56329,6 +57163,7 @@ Tilemap:
       e32: 0
       e33: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - m_RefCount: 1
 =======
   - m_RefCount: 1
@@ -56338,6 +57173,9 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 3871
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+  - m_RefCount: 0
+>>>>>>> Stashed changes
 =======
   - m_RefCount: 0
 >>>>>>> Stashed changes
@@ -56353,6 +57191,7 @@ Tilemap:
       e20: 0
       e21: 0
       e22: 0
+<<<<<<< Updated upstream
       e23: 0
       e30: 0
       e31: 0
@@ -56372,10 +57211,13 @@ Tilemap:
       e20: 0
       e21: 0
       e22: 1
+=======
+>>>>>>> Stashed changes
       e23: 0
       e30: 0
       e31: 0
       e32: 0
+<<<<<<< Updated upstream
       e33: 1
   - m_RefCount: 0
     m_Data:
@@ -56438,6 +57280,11 @@ Tilemap:
   m_TileColorArray:
   - m_RefCount: 3780
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+      e33: 0
+  m_TileColorArray:
+  - m_RefCount: 3780
+>>>>>>> Stashed changes
 =======
       e33: 0
   m_TileColorArray:
@@ -56512,6 +57359,7 @@ MonoBehaviour:
   m_ShadowCastingSource: 2
   m_ShadowMesh:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
     m_Mesh: {fileID: 791448693}
     m_LocalBounds:
@@ -56523,6 +57371,12 @@ MonoBehaviour:
       m_Center: {x: 2, y: -7, z: 0}
       m_Extent: {x: 36, y: 9, z: 0}
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+    m_Mesh: {fileID: 814735158}
+    m_LocalBounds:
+      m_Center: {x: 2, y: -7, z: 0}
+      m_Extent: {x: 36, y: 9, z: 0}
+>>>>>>> Stashed changes
 =======
     m_Mesh: {fileID: 814735158}
     m_LocalBounds:
@@ -61372,9 +62226,12 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &1513795263
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!43 &1531845689
@@ -61923,6 +62780,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &1614706034
 GameObject:
@@ -61934,10 +62792,15 @@ Sprite:
 --- !u!213 &1600861466
 Sprite:
 >>>>>>> Stashed changes
+=======
+--- !u!213 &1600861466
+Sprite:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   serializedVersion: 6
@@ -62022,6 +62885,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Name: 
@@ -62230,7 +63095,10 @@ SpriteRenderer:
   m_ScriptableObjects: []
   m_SpriteID: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &1617714874
@@ -62798,6 +63666,7 @@ Transform:
   m_Father: {fileID: 1836773267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &1736209077
 GameObject:
@@ -62809,10 +63678,15 @@ Sprite:
 --- !u!213 &1733098609
 Sprite:
 >>>>>>> Stashed changes
+=======
+--- !u!213 &1733098609
+Sprite:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   serializedVersion: 6
@@ -62897,6 +63771,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Name: 
@@ -63105,7 +63981,10 @@ SpriteRenderer:
   m_ScriptableObjects: []
   m_SpriteID: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &1736568614
@@ -65402,6 +66281,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
 --- !u!1 &2054405061
 GameObject:
@@ -65413,10 +66293,15 @@ MonoBehaviour:
 --- !u!114 &2041430790
 MonoBehaviour:
 >>>>>>> Stashed changes
+=======
+--- !u!114 &2041430790
+MonoBehaviour:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:LudumDare57/Assets/_Presentation/Scenes/Levels/Level1.unity
   serializedVersion: 6
@@ -65704,6 +66589,8 @@ Transform:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -65733,7 +66620,10 @@ Transform:
   m_Flags: 3
   m_ColliderType: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:LudumDare57/Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &2085165151
