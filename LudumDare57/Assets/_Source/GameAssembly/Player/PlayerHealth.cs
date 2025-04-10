@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using Core;
+using DG.Tweening;
 using HealthSystem;
 using Player.Data;
 using UnityEngine;
@@ -11,12 +12,15 @@ namespace Player
 {
     public class PlayerHealth : MonoBehaviour, IHealth
     {
+        [SerializeField] private SpriteRenderer playerRenderer;
         [SerializeField] private float afterDamageImmuneTime = 0.15f;
+        [SerializeField] private float damageAnimDuration = 0.125f;
         
         private int _health;
         private int _maxHealth;
         private bool _afterDamageImmune;
         private GameState _gameState;
+        private Tween _damageTween;
 
         public event Action OnHealthChanged;
 
@@ -46,6 +50,11 @@ namespace Player
             if(!CanGetDamage())
                 return;
 
+            _damageTween?.Kill();
+            _damageTween = playerRenderer.DOColor(Color.red, damageAnimDuration / 2);
+            _damageTween.onComplete += () =>
+                _damageTween = playerRenderer.DOColor(Color.white, damageAnimDuration / 2);
+            
             StartCoroutine(AfterDamageImmuneCoroutine());
             _health = Mathf.Clamp(_health - damage, 0, _maxHealth);
             OnHealthChanged?.Invoke();

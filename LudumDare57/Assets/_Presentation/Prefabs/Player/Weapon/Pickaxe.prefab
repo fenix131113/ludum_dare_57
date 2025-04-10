@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b75cd4630a439095a8c80c1e192a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 3
   attackCooldown: 1
   thrownPickaxe: {fileID: 1572005985297489111}
   damageTrigger: {fileID: 2786171508049153447}

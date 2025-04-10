@@ -996,7 +996,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da413ccb6444e5fb52e5de8eb783f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRenderer: {fileID: 1654454560492638788}
   afterDamageImmuneTime: 0.15
+  damageAnimDuration: 0.125
 --- !u!95 &4385210982515147876
 Animator:
   serializedVersion: 7

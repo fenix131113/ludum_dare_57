@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 4472f925332807542a61f5c39d47cb31
+guid: deaf127cf9bef81469760f079e612ff0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6189289526238714443
-    second: Particles_0
+      213: 5720901112771956604
+    second: TankJumpAnim_0
+  - first:
+      213: -8001117902179999557
+    second: TankJumpAnim_1
+  - first:
+      213: -3212216562028860088
+    second: TankJumpAnim_2
+  - first:
+      213: -1313058043549592846
+    second: TankJumpAnim_3
+  - first:
+      213: -3495116677302723038
+    second: TankJumpAnim_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,23 +151,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Particles_0
+      name: TankJumpAnim_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 75
-        height: 4
+        width: 48
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b5ee78d7f93b1aa0800000000000000
-      internalID: -6189289526238714443
+      spriteID: c7fc8ed5049b46f40800000000000000
+      internalID: 5720901112771956604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankJumpAnim_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0ea82e8a156f090800000000000000
+      internalID: -8001117902179999557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankJumpAnim_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84da4ae4e0aeb63d0800000000000000
+      internalID: -3212216562028860088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankJumpAnim_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2d1c09aa417cde0800000000000000
+      internalID: -1313058043549592846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankJumpAnim_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c7aa563f19f1f45944a8f92ec2308a
+      internalID: -3495116677302723038
       vertices: []
       indices: 
       edges: []
@@ -164,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4445b2dc318a48e43902dffe16f1deb4
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Particles_0: -6189289526238714443
+      TankJumpAnim_0: 5720901112771956604
+      TankJumpAnim_1: -8001117902179999557
+      TankJumpAnim_2: -3212216562028860088
+      TankJumpAnim_3: -1313058043549592846
+      TankJumpAnim_4: -3495116677302723038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
