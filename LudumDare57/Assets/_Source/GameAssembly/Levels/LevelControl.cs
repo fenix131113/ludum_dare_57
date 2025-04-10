@@ -34,7 +34,8 @@ namespace Levels
         {
             int nextSceneIndex;
 
-            var allowGameScenesIndexes = GetAllowGameScenesIndexes();
+            var allowGameScenesIndexes =
+                _playerStats == null ? levelsSpawnData[0].LevelIndexes : GetAllowGameScenesIndexes();
 
             if (includeCurrent)
                 nextSceneIndex = allowGameScenesIndexes[Random.Range(0, allowGameScenesIndexes.Count)];
