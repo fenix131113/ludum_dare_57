@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 445e61a524e0ee84a8e8ae5ba36b0e1b
+guid: 1a8319b273733004b9fbdb2640f49ce3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4144211891965706218
-    second: VerticalBack_0
+      213: 1755334907609537201
+    second: backgroundlast_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,50 +96,33 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VerticalBack_0
+      name: backgroundlast_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 1920
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cf2e3349fea484ea4a082726adc508
+      internalID: -299954675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroundlast_1
       rect:
         serializedVersion: 2
         x: 0
@@ -154,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fecb3e97840ac84e86b52c5bdee56c9
-      internalID: 2104061105
+      spriteID: 90a6d1d6e3e90d14bab435b030a2337e
+      internalID: -1519186665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VerticalBack_1
+      name: backgroundlast_2
       rect:
         serializedVersion: 2
         x: 0
@@ -176,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f99c07d1b66291644a7b8b4d9623e72b
-      internalID: 1297895781
+      spriteID: 8121d0137044c104bbba15d6d94962e9
+      internalID: -1642627083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VerticalBack_2
+      name: backgroundlast_3
       rect:
         serializedVersion: 2
         x: 0
@@ -198,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d710579c71bba474ca53ecd573ba6d49
-      internalID: -1550600155
+      spriteID: 7257503af04885a42b6bd24402d2f0e5
+      internalID: 562447998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VerticalBack_3
+      name: backgroundlast_4
       rect:
         serializedVersion: 2
         x: 0
@@ -220,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8eefa00fde3d98408292179e5d9a4ae
-      internalID: -1848412571
+      spriteID: e6b64562d9952934baeaf83e395b36bb
+      internalID: -2041035577
       vertices: []
       indices: 
       edges: []
@@ -230,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bef644a68d65927499203df7bd2d0a9c
+    spriteID: 6ddf4bee6ecf5fd489555924181e9bdb
     internalID: 0
     vertices: []
     indices: 
@@ -240,10 +223,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      VerticalBack_0: 2104061105
-      VerticalBack_1: 1297895781
-      VerticalBack_2: -1550600155
-      VerticalBack_3: -1848412571
+      backgroundlast_0: -299954675
+      backgroundlast_1: -1519186665
+      backgroundlast_2: -1642627083
+      backgroundlast_3: 562447998
+      backgroundlast_4: -2041035577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
