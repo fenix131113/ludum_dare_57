@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -1335657268040408301
     second: Tilts_0
+  - first:
+      213: -3341744546940817956
+    second: Tilts_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,45 +99,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -153,25 +117,83 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: 16, y: 12}
-        - {x: 12, y: 9}
-        - {x: 9, y: 8}
-        - {x: 5, y: 4}
-        - {x: 3, y: 1}
-        - {x: 1, y: -1}
-        - {x: -2, y: -5}
-        - {x: -5, y: -7}
+        - {x: 14, y: 11}
+        - {x: 13, y: 10}
+        - {x: 10, y: 9}
+        - {x: 4, y: 3}
+        - {x: 2, y: 0}
+        - {x: -3, y: -5}
         - {x: -6, y: -10}
-        - {x: -10, y: -14}
+        - {x: -8, y: -13}
         - {x: -11, y: -16}
-        - {x: 16, y: -16}
-      - - {x: -2, y: -5}
-        - {x: -2, y: -5}
-        - {x: -2, y: -5}
-        - {x: -2, y: -5}
+        - {x: 7, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -15}
+        - {x: 8, y: -14}
+        - {x: 10, y: -14}
+        - {x: 10, y: -13}
+        - {x: 12, y: -13}
+        - {x: 12, y: -11}
+        - {x: 13, y: -11}
+        - {x: 13, y: -10}
+        - {x: 14, y: -10}
+        - {x: 14, y: -9}
+        - {x: 15, y: -9}
+        - {x: 15, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: -6}
       tessellationDetail: 0
       bones: []
       spriteID: 31368c49acac67de0800000000000000
       internalID: -1335657268040408301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilts_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 12}
+        - {x: 14, y: 11}
+        - {x: 13, y: 10}
+        - {x: 10, y: 9}
+        - {x: 4, y: 3}
+        - {x: 2, y: 0}
+        - {x: -3, y: -5}
+        - {x: -6, y: -10}
+        - {x: -8, y: -13}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -15}
+        - {x: 8, y: -14}
+        - {x: 10, y: -14}
+        - {x: 10, y: -13}
+        - {x: 12, y: -13}
+        - {x: 12, y: -11}
+        - {x: 13, y: -11}
+        - {x: 13, y: -10}
+        - {x: 14, y: -10}
+        - {x: 14, y: -9}
+        - {x: 15, y: -9}
+        - {x: 15, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd6e753a0dbf91d0800000000000000
+      internalID: -3341744546940817956
       vertices: []
       indices: 
       edges: []
@@ -192,21 +214,82 @@ TextureImporter:
       physicsShape:
       - - {x: 16, y: 12}
         - {x: 14, y: 11}
-        - {x: 11, y: 9}
-        - {x: 8, y: 5}
-        - {x: 4.537407, y: 3.5374146}
-        - {x: 2, y: 1}
-        - {x: 0, y: -3}
-        - {x: -2, y: -5}
-        - {x: -4, y: -7}
+        - {x: 13, y: 10}
+        - {x: 10, y: 9}
+        - {x: 4, y: 3}
+        - {x: 2, y: 0}
+        - {x: -3, y: -5}
         - {x: -6, y: -10}
-        - {x: -8, y: -12}
+        - {x: -8, y: -13}
         - {x: -11, y: -16}
-        - {x: 16, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -15}
+        - {x: 8, y: -14}
+        - {x: 10, y: -14}
+        - {x: 10, y: -13}
+        - {x: 12, y: -13}
+        - {x: 12, y: -11}
+        - {x: 13, y: -11}
+        - {x: 13, y: -10}
+        - {x: 14, y: -10}
+        - {x: 14, y: -9}
+        - {x: 15, y: -9}
+        - {x: 15, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: -6}
       tessellationDetail: 0
       bones: []
-      spriteID: 00773685a72002043846b43a8d40d1d4
-      internalID: 1867543717
+      spriteID: fdbb7261d5b565f44bf28f6264571526
+      internalID: -720506660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilts_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 12}
+        - {x: 14, y: 11}
+        - {x: 13, y: 10}
+        - {x: 10, y: 9}
+        - {x: 4, y: 3}
+        - {x: 2, y: 0}
+        - {x: -3, y: -5}
+        - {x: -6, y: -10}
+        - {x: -8, y: -13}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -15}
+        - {x: 8, y: -14}
+        - {x: 10, y: -14}
+        - {x: 10, y: -13}
+        - {x: 12, y: -13}
+        - {x: 12, y: -11}
+        - {x: 13, y: -11}
+        - {x: 13, y: -10}
+        - {x: 14, y: -10}
+        - {x: 14, y: -9}
+        - {x: 15, y: -9}
+        - {x: 15, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8642e26015037db4dbdc09ceb26425b0
+      internalID: 1671027251
       vertices: []
       indices: 
       edges: []
@@ -215,7 +298,7 @@ TextureImporter:
       name: Tilts_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 0
         width: 32
         height: 32
@@ -225,22 +308,57 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape:
-      - - {x: 16, y: 16}
+      - - {x: -15, y: -5}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -11, y: -4}
+        - {x: -11, y: -3}
+        - {x: -10, y: -3}
+        - {x: -10, y: -1}
+        - {x: -10, y: 0}
+        - {x: -9, y: 0}
+        - {x: -9, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: 2}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 10}
+        - {x: 2, y: 10}
+        - {x: 2, y: 9}
+        - {x: 3, y: 9}
+        - {x: 3, y: 10}
+        - {x: 4, y: 10}
+        - {x: 4, y: 12}
+        - {x: 5, y: 12}
+        - {x: 5, y: 13}
+        - {x: 7, y: 13}
+        - {x: 7, y: 15}
+        - {x: 8, y: 15}
+        - {x: 8, y: 16}
         - {x: -11, y: 16}
         - {x: -11, y: 15}
-        - {x: -16, y: 13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+        - {x: -13, y: 14}
+        - {x: -15, y: 13}
+        - {x: -16, y: 12}
+        - {x: -16, y: -3}
+        - {x: -15, y: -3}
       tessellationDetail: 0
       bones: []
-      spriteID: c1340af1fb78ab640b0293cd9f90bfb4
-      internalID: 804446370
+      spriteID: abff995f90382624aa4b840ac3b45576
+      internalID: -1314432595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilts_6
+      name: Tilts_5
       rect:
         serializedVersion: 2
         x: 64
@@ -253,16 +371,169 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape:
-      - - {x: 16, y: 16}
+      - - {x: -15, y: -5}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -11, y: -4}
+        - {x: -11, y: -3}
+        - {x: -10, y: -3}
+        - {x: -10, y: -1}
+        - {x: -10, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 10}
+        - {x: 2, y: 10}
+        - {x: 2, y: 9}
+        - {x: 3, y: 9}
+        - {x: 3, y: 10}
+        - {x: 4, y: 10}
+        - {x: 4, y: 12}
+        - {x: 5, y: 12}
+        - {x: 5, y: 13}
+        - {x: 7, y: 13}
+        - {x: 7, y: 15}
+        - {x: 8, y: 15}
+        - {x: 8, y: 16}
         - {x: -11, y: 16}
         - {x: -11, y: 15}
-        - {x: -16, y: 13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+        - {x: -13, y: 14}
+        - {x: -15, y: 13}
+        - {x: -16, y: 12}
+        - {x: -16, y: -3}
+        - {x: -15, y: -3}
       tessellationDetail: 0
       bones: []
-      spriteID: b38c59fc1c513984f9f1eb19d50d618d
-      internalID: -203675848
+      spriteID: 3ee0c6f64a0aede49bbdf0cee67f429b
+      internalID: 566773512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilts_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -11, y: -4}
+        - {x: -11, y: -3}
+        - {x: -10, y: -3}
+        - {x: -10, y: -1}
+        - {x: -10, y: 0}
+        - {x: -9, y: 0}
+        - {x: -6, y: 0}
+        - {x: -6, y: 1}
+        - {x: -5, y: 1}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 9}
+        - {x: 3, y: 9}
+        - {x: 3, y: 10}
+        - {x: 4, y: 10}
+        - {x: 4, y: 12}
+        - {x: 5, y: 12}
+        - {x: 5, y: 13}
+        - {x: 7, y: 13}
+        - {x: 7, y: 15}
+        - {x: 8, y: 15}
+        - {x: 8, y: 16}
+        - {x: -11, y: 16}
+        - {x: -11, y: 15}
+        - {x: -13, y: 14}
+        - {x: -15, y: 13}
+        - {x: -16, y: 12}
+        - {x: -16, y: -3}
+        - {x: -16, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c45dd60c4202148a46a6e694445eb3
+      internalID: 161848979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilts_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -11, y: -4}
+        - {x: -11, y: -3}
+        - {x: -10, y: -3}
+        - {x: -10, y: -1}
+        - {x: -10, y: 0}
+        - {x: -9, y: 0}
+        - {x: -6, y: 0}
+        - {x: -6, y: 1}
+        - {x: -5, y: 1}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 9}
+        - {x: 3, y: 9}
+        - {x: 3, y: 10}
+        - {x: 4, y: 10}
+        - {x: 4, y: 12}
+        - {x: 5, y: 12}
+        - {x: 5, y: 13}
+        - {x: 7, y: 13}
+        - {x: 7, y: 15}
+        - {x: 8, y: 15}
+        - {x: 8, y: 16}
+        - {x: -11, y: 16}
+        - {x: -11, y: 15}
+        - {x: -13, y: 14}
+        - {x: -15, y: 13}
+        - {x: -16, y: 12}
+        - {x: -16, y: -3}
+        - {x: -16, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d79fb1fee590648992da4a8f31c568
+      internalID: 1378454646
       vertices: []
       indices: 
       edges: []
@@ -271,7 +542,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c1740d86744fc8c44afc0a1219373dd2
+    spriteID: 2013d39f1edb16e4bbe2ea87d0badbc6
     internalID: 0
     vertices: []
     indices: 
@@ -282,13 +553,13 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Tilts_0: -1335657268040408301
-      Tilts_1: 1835179592
-      Tilts_2: 1867543717
-      Tilts_3: -1102165614
-      Tilts_4: 804446370
-      Tilts_5: -685661361
-      Tilts_6: -203675848
-      Tilts_7: 1730689856
+      Tilts_1: -3341744546940817956
+      Tilts_2: -720506660
+      Tilts_3: 1671027251
+      Tilts_4: -1314432595
+      Tilts_5: 566773512
+      Tilts_6: 161848979
+      Tilts_7: 1378454646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

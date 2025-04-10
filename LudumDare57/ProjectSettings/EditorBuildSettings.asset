@@ -6,8 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/_Presentation/Scenes/Menu.unity
     guid: 712c0ac0e384b0b4893453e172b171af
+=======
+    path: Assets/_Presentation/Scenes/Levels/Level Plateau Dirt.unity
+    guid: 7cd331f4cb339c84f818b78a30981e1c
+>>>>>>> Stashed changes
   - enabled: 1
     path: Assets/_Presentation/Scenes/Shop.unity
     guid: 1dea2467741495d45a76166b796a054b
