@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 1a8319b273733004b9fbdb2640f49ce3
+guid: 7d329e4b24d3f7041b7584b2736b4eee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1755334907609537201
-    second: backgroundlast_0
+      213: 2193457762571044518
+    second: Vipukli_0
+  - first:
+      213: -8220419377826014392
+    second: Vipukli_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,111 +103,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: backgroundlast_0
+      name: Vipukli_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5120
-        width: 1920
-        height: 1280
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6cedfa63ab07e10800000000000000
+      internalID: 2193457762571044518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vipukli_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b51f721243bed80800000000000000
+      internalID: -8220419377826014392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vipukli_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18cf2e3349fea484ea4a082726adc508
-      internalID: -299954675
+      spriteID: a352cfd8b0b7eed4caccf9f44ae9327e
+      internalID: 471524817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundlast_1
+      name: Vipukli_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3840
-        width: 1920
-        height: 1280
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a6d1d6e3e90d14bab435b030a2337e
-      internalID: -1519186665
+      spriteID: 6eb14a8427011284ba3d5b2276e82491
+      internalID: -1829688772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundlast_2
+      name: Vipukli_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2560
-        width: 1920
-        height: 1280
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8121d0137044c104bbba15d6d94962e9
-      internalID: -1642627083
+      spriteID: 68d8155651d9fb74daad4b969ff8befb
+      internalID: -692671373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundlast_3
+      name: Vipukli_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1280
-        width: 1920
-        height: 1280
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7257503af04885a42b6bd24402d2f0e5
-      internalID: 562447998
+      spriteID: c5ba48098a55efd459fb184870b2f238
+      internalID: 429661610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundlast_4
+      name: Vipukli_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dde950582ef054dbe2876497aebd42
+      internalID: 111065324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vipukli_7
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1280
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6b64562d9952934baeaf83e395b36bb
-      internalID: -2041035577
+      spriteID: 80f1ed443f4dedd4e86a292632a16aa5
+      internalID: 2002981694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vipukli_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defd3c6a0e9bd684ba48ad2e9dd25b1b
+      internalID: -997045825
       vertices: []
       indices: 
       edges: []
@@ -213,7 +304,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6ddf4bee6ecf5fd489555924181e9bdb
+    spriteID: 853079b7e15caea4abbea4f70050bdc4
     internalID: 0
     vertices: []
     indices: 
@@ -223,11 +314,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      backgroundlast_0: -299954675
-      backgroundlast_1: -1519186665
-      backgroundlast_2: -1642627083
-      backgroundlast_3: 562447998
-      backgroundlast_4: -2041035577
+      Vipukli_0: 2193457762571044518
+      Vipukli_1: -8220419377826014392
+      Vipukli_2: 471524817
+      Vipukli_3: -1829688772
+      Vipukli_4: -692671373
+      Vipukli_5: 429661610
+      Vipukli_6: 111065324
+      Vipukli_7: 2002981694
+      Vipukli_8: -997045825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
