@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/_Presentation/Scenes/Shop.unity
     guid: 1dea2467741495d45a76166b796a054b
   - enabled: 1
+    path: Assets/_Presentation/Scenes/Levels/Level 1.unity
+    guid: 1b8163e8f74b30447b09a7b29bb4d8d8
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/Levels/Level 2.unity
+    guid: c68339f6835877542b6c9873e1b6191a
+  - enabled: 1
     path: Assets/_Presentation/Scenes/Levels/Level Plateau Dirt Easy.unity
     guid: 98ab57481b7bce34ca095531b8b9c943
   - enabled: 1
