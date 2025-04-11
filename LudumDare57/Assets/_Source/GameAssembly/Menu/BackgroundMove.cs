@@ -5,16 +5,21 @@ namespace Menu
     public class BackgroundMove : MonoBehaviour
     {
         [SerializeField] private float speed;
-        [SerializeField] private RectTransform[] backs;
+        [SerializeField] private float upperEdge;
+        [SerializeField] private float downSpawnCoords;
+        [SerializeField] private Transform[] backs;
 
         private int _currentBackIndex;
         
         private void Update()
         {
-            if (backs[_currentBackIndex].localPosition.y >= 2160)
+            foreach (var back in backs)
+                back.transform.position -= new Vector3(0, speed * Time.fixedDeltaTime, 0);
+            
+            if (backs[_currentBackIndex].localPosition.y >= upperEdge)
             {
                 backs[_currentBackIndex].transform.localPosition = new Vector3(
-                    backs[_currentBackIndex].transform.localPosition.x, -1080f,
+                    backs[_currentBackIndex].transform.localPosition.x, downSpawnCoords + 0.09f,
                     backs[_currentBackIndex].transform.localPosition.z);
 
                 if (_currentBackIndex + 1 > backs.Length - 1)
@@ -22,9 +27,6 @@ namespace Menu
                 else
                     _currentBackIndex++;
             }
-            
-            foreach (var back in backs)
-                back.transform.position -= new Vector3(0, speed * Time.fixedDeltaTime, 0);
         }
     }
 }

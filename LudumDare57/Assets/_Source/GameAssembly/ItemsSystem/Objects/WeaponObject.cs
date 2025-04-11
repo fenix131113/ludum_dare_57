@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using WeaponSystem;
 
 namespace ItemsSystem.Objects
@@ -7,6 +8,8 @@ namespace ItemsSystem.Objects
     public class WeaponObject : ACarryObject
     {
         private AWeaponBase _weapon;
+
+        public event Action OnWeaponReset; 
 
         public AWeaponBase GetWeaponBase
         {
@@ -25,6 +28,7 @@ namespace ItemsSystem.Objects
                 ammoWeapon.CancelReload();
 
             gameObject.SetActive(false);
+            OnWeaponReset?.Invoke();
         }
     }
 }

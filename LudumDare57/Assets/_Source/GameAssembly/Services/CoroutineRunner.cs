@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Services
@@ -19,6 +20,8 @@ namespace Services
                 return _instance;
             }
         }
+
+        private void OnDestroy() => StopAllCoroutines();
 
         public static void Run(IEnumerator coroutine) => Instance.StartCoroutine(coroutine);
     }

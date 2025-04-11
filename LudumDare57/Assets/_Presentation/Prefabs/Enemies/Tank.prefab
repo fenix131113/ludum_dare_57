@@ -141,6 +141,8 @@ MonoBehaviour:
   rootEnemyRenderer: {fileID: 9209380105351339880}
   rb: {fileID: 7650358638696504974}
   damageAnimDuration: 0.3
+  dropItem: {fileID: 5963727282258738809, guid: bbb6c255641dc8b4a9a776a9938ff3b7, type: 3}
+  dropItemChance: 0.15
   maxHealth: 8
   damage: 2
   minSpeed: 3.3

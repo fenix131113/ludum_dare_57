@@ -57,6 +57,7 @@ namespace Levels
                     continue;
 
                 allowed = data.LevelIndexes;
+                Debug.Log(data.LevelIndexes.Count);
                 break;
             }
 

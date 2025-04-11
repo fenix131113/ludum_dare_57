@@ -10,10 +10,20 @@ namespace Services
 
         private static IEnumerator ParticleLifeCoroutine(ParticleSystem particles, float lifetime)
         {
-            yield return new WaitForSeconds(lifetime);
+            var timer = 0f;
+            while (timer < lifetime)
+            {
+                if (particles == null || particles.gameObject == null)
+                    yield break;
 
-            if (particles.gameObject != null)
+                timer += Time.deltaTime;
+                yield return null;
+            }
+
+            if (particles != null && particles.gameObject != null)
+            {
                 Object.Destroy(particles.gameObject);
+            }
         }
     }
 }

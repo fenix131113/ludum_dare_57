@@ -5168,6 +5168,8 @@ MonoBehaviour:
   rootEnemyRenderer: {fileID: 1699999587313799728}
   rb: {fileID: 465661627579793433}
   damageAnimDuration: 0.3
+  dropItem: {fileID: 5963727282258738809, guid: bbb6c255641dc8b4a9a776a9938ff3b7, type: 3}
+  dropItemChance: 1
   maxHealth: 3
   damage: 2
   shootCheckRayLayers:

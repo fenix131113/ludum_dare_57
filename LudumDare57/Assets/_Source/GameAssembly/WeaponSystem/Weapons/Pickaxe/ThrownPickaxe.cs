@@ -20,12 +20,13 @@ namespace WeaponSystem.Weapons.Pickaxe
         private Rigidbody2D _rb;
         private Transform _startParent;
         private Coroutine _pickaxeReturnCoroutine;
-        private bool _throwOnRightRotate;
+        private float _startSizeY;
 
         private void Awake()
         {
             _currentRotateSpeed = rotateSpeed;
             _startParent = transform.parent;
+            _startSizeY = transform.localScale.y;
             _rb = GetComponent<Rigidbody2D>();
         }
 
@@ -55,10 +56,7 @@ namespace WeaponSystem.Weapons.Pickaxe
         {
             if (!gameObject.activeInHierarchy || Thrown)
                 return;
-            
-            var shootPointRotate = transform.parent.parent;
-            _throwOnRightRotate = shootPointRotate.localScale.y > 0;
-            
+
             stuckChecker.gameObject.SetActive(true);
             Thrown = true;
             _rb.bodyType = RigidbodyType2D.Dynamic;
@@ -77,21 +75,19 @@ namespace WeaponSystem.Weapons.Pickaxe
             Stuck = false;
             Thrown = false;
             _currentRotateSpeed = rotateSpeed;
+            
             transform.parent = _startParent;
             _rb.bodyType = RigidbodyType2D.Kinematic;
             _rb.linearVelocity = Vector2.zero;
             transform.localPosition = Vector3.zero;
             transform.rotation = transform.parent.parent.rotation;
             damageCollider.enabled = false;
-            
-            var shootPointRotate = transform.parent.parent;
 
-            var currentRightRotate = shootPointRotate.localScale.y > 0;
-            
             // Rotate pickaxe after parent assign
-            if (_throwOnRightRotate != currentRightRotate)
-                transform.localScale = new Vector3(transform.localScale.x,
-                    -transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(transform.localScale.x,
+                _startSizeY, transform.localScale.z);
+            
+            Debug.Log(_startParent.parent.name + " = " + _startParent.parent.localScale.y);
 
             if (_pickaxeReturnCoroutine != null)
                 StopCoroutine(_pickaxeReturnCoroutine);

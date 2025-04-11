@@ -1,7 +1,10 @@
 ﻿using System;
+using CollectablesSystem;
+using Core;
 using DG.Tweening;
 using HealthSystem;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Enemies
 {
@@ -13,6 +16,8 @@ namespace Enemies
         [SerializeField] protected SpriteRenderer rootEnemyRenderer;
         [SerializeField] protected Rigidbody2D rb;
         [SerializeField] protected float damageAnimDuration;
+        [SerializeField] protected CollectableObject dropItem;
+        [SerializeField][Range(0f, 1f)] protected float dropItemChance;
 
         [SerializeField] private int maxHealth;
         [SerializeField] private int damage;
@@ -30,6 +35,12 @@ namespace Enemies
 
         protected virtual void Death()
         {
+            if (dropItem && Random.Range(0f, 1f) <= dropItemChance)
+            {
+                var spawned = GameInstaller.InstantiateInjectedObject(dropItem.gameObject);
+                spawned.transform.position = transform.position;
+            }
+            
             gameObject.SetActive(false); //TODO: Make Object Pool
             OnDeath?.Invoke(this);
             Expose();
