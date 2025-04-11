@@ -173,7 +173,10 @@ MonoBehaviour:
   rb: {fileID: 8354549992931524464}
   damageAnimDuration: 0.3
   dropItem: {fileID: 5963727282258738809, guid: bbb6c255641dc8b4a9a776a9938ff3b7, type: 3}
-  dropItemChance: 0.05
+  dropItemChance: 0.02
+  deathSounds:
+  - {fileID: 8300000, guid: e3ff50df60d600c4689d96689ff9858c, type: 3}
+  - {fileID: 8300000, guid: 8a1069e8fe2c33742a11ad358483dbb4, type: 3}
   maxHealth: 3
   damage: 1
   minSpeed: 3

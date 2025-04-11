@@ -13,7 +13,17 @@ namespace Player
         
         public event Action OnCoinsChanged;
 
-        private void Awake() => DontDestroyOnLoad(gameObject);
+        private void Awake()
+        {
+            var find = FindAnyObjectByType<PlayerStats>();
+            if (find && find != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
+            DontDestroyOnLoad(gameObject);
+        }
 
         public void IncreaseCompleteLevels() => CompletedLevels++;
 

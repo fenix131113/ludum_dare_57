@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Core;
-using NUnit.Framework;
 using Player;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,6 +24,12 @@ namespace Levels
 
         private void Start()
         {
+            if (Instance && Instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
             GameInstaller.InjectObject(this);
             DontDestroyOnLoad(gameObject);
             Instance = this;
@@ -43,7 +48,7 @@ namespace Levels
                 nextSceneIndex = allowGameScenesIndexes.Except(new[] { SceneManager.GetActiveScene().buildIndex })
                     .ToList()[
                         Random.Range(0, allowGameScenesIndexes.Count)];
-
+            
             SceneManager.LoadScene(nextSceneIndex);
         }
 
@@ -57,7 +62,6 @@ namespace Levels
                     continue;
 
                 allowed = data.LevelIndexes;
-                Debug.Log(data.LevelIndexes.Count);
                 break;
             }
 

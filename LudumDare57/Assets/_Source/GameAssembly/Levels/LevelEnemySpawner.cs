@@ -21,7 +21,11 @@ namespace Levels
             StartCoroutine(SpawnCoroutine());
         }
 
-        private void OnEnemyDead(AEnemy enemy) => enemy.OnDeath -= OnEnemyDead;
+        private void OnEnemyDead(AEnemy enemy)
+        {
+            _currentEnemyCount--;
+            enemy.OnDeath -= OnEnemyDead;
+        }
 
         private IEnumerator SpawnCoroutine()
         {

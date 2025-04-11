@@ -26,6 +26,8 @@ namespace WeaponSystem.Weapons
 
             CurrentAmmo--;
 
+            PlayShootSound();
+
             var projectile = GetBullet();
             
             projectile.transform.position = shootSpawnPoint.position + shootSpawnPoint.right * 0.3f;

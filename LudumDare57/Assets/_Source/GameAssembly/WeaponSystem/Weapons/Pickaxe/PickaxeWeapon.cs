@@ -26,6 +26,9 @@ namespace WeaponSystem.Weapons.Pickaxe
 
         protected override void Attack()
         {
+            if(!CanAttackCondition())
+                return;
+            
             _damageTriggerCoroutine ??= StartCoroutine(DamageTriggerCoroutine());
             hitPickaxeAnim.SetTrigger(_hit);
         }

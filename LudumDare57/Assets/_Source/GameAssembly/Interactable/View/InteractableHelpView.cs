@@ -42,23 +42,32 @@ namespace Interactable.View
                 _anim?.Kill();
 
                 _anim = DOTween.Sequence();
-                _anim.Append(helpText.transform.DOLocalMoveY(0, animationDuration));
-                _anim.Insert(0, DOTween.To(() => helpText.color.a, SetTextFade, 0f, animationDuration));
-                _anim.onComplete += () => { helpText.gameObject.SetActive(false); };
+
+                if (helpText.gameObject && helpText)
+                {
+                    _anim.Append(helpText.transform.DOLocalMoveY(0, animationDuration));
+                    _anim.Insert(0, DOTween.To(() => helpText.color.a, SetTextFade, 0f, animationDuration));
+                    _anim.onComplete += () => { helpText.gameObject.SetActive(false); };
+                }
             }
             else
             {
                 _currentTarget = target;
                 SetTextCanvasPosition(_currentTarget.transform.position);
                 SetTextFade(0f);
-                helpText.gameObject.SetActive(true);
-                helpText.transform.localPosition = Vector3.zero;
-                
-                _anim?.Kill();
-                
-                _anim = DOTween.Sequence();
-                _anim.Append(helpText.transform.DOLocalMoveY(helpText.transform.localPosition.y + yOffset, animationDuration));
-                _anim.Insert(0, DOTween.To(() => helpText.color.a, SetTextFade, 1f, animationDuration));
+
+                if (helpText.gameObject && helpText)
+                {
+                    helpText.gameObject.SetActive(true);
+                    helpText.transform.localPosition = Vector3.zero;
+
+                    _anim?.Kill();
+
+                    _anim = DOTween.Sequence();
+                    _anim.Append(helpText.transform.DOLocalMoveY(helpText.transform.localPosition.y + yOffset,
+                        animationDuration));
+                    _anim.Insert(0, DOTween.To(() => helpText.color.a, SetTextFade, 1f, animationDuration));
+                }
             }
         }
 

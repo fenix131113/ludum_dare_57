@@ -3,6 +3,7 @@ using CollectablesSystem;
 using Core;
 using DG.Tweening;
 using HealthSystem;
+using Services;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -18,6 +19,7 @@ namespace Enemies
         [SerializeField] protected float damageAnimDuration;
         [SerializeField] protected CollectableObject dropItem;
         [SerializeField][Range(0f, 1f)] protected float dropItemChance;
+        [SerializeField] private AudioClip[] deathSounds;
 
         [SerializeField] private int maxHealth;
         [SerializeField] private int damage;
@@ -41,9 +43,12 @@ namespace Enemies
                 spawned.transform.position = transform.position;
             }
             
-            gameObject.SetActive(false); //TODO: Make Object Pool
+            if(deathSounds.Length > 0)
+                SoundPlayService.Instance.PlaySound(deathSounds[Random.Range(0, deathSounds.Length)]);
+            
             OnDeath?.Invoke(this);
             Expose();
+            Destroy(gameObject); //TODO: Make Object Pool
         }
 
         protected void CheckGround()

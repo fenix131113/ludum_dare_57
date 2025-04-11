@@ -1,6 +1,7 @@
 ﻿using System;
 using Core;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace WeaponSystem
 {
@@ -9,6 +10,8 @@ namespace WeaponSystem
         [field: SerializeField] public int MaxAmmo { get; protected set; }
 
         [SerializeField] protected float reloadTime;
+        [SerializeField] protected AudioClip[] shootSounds;
+        [SerializeField] protected AudioSource shootSourceAudio;
 
         public int CurrentAmmo
         {
@@ -58,9 +61,12 @@ namespace WeaponSystem
         {
             if (CurrentAmmo == 0 && !IsReloading)
                 Reload();
-            
-            if (!CanAttackCondition())
-                return;
+        }
+
+        protected void PlayShootSound()
+        {
+            if (shootSounds.Length != 0)
+                shootSourceAudio.PlayOneShot(shootSounds[Random.Range(0, shootSounds.Length)], shootSourceAudio.volume);
         }
 
         protected void InvokeOnShoot() => OnShoot?.Invoke();

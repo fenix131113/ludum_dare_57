@@ -15,10 +15,28 @@ namespace Core.Ui
 
         private void Start() => buttonImage.sprite = spriteDefault;
 
-        public void OnPointerClick(PointerEventData eventData) => OnClick?.Invoke();
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            if(eventData.pointerEnter != gameObject)
+                return;
+            
+            OnClick?.Invoke();
+        }
 
-        public void OnPointerEnter(PointerEventData eventData) => buttonImage.sprite = spriteHover;
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            if(eventData.pointerEnter != gameObject)
+                return;
+            
+            buttonImage.sprite = spriteHover;
+        }
 
-        public void OnPointerExit(PointerEventData eventData) => buttonImage.sprite = spriteDefault;
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            if(eventData.pointerEnter != gameObject)
+                return;
+
+            buttonImage.sprite = spriteDefault;
+        }
     }
 }

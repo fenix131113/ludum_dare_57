@@ -21,6 +21,7 @@ namespace WeaponSystem.Weapons
 
             CameraShaker.Instance.Shake(1.5f, 1.5f,0.15f);
             CurrentAmmo--;
+            PlayShootSound();
 
             for (var i = 0; i < fractionAmount; i++)
             {

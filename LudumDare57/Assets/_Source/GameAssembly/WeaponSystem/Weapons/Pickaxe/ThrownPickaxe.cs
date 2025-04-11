@@ -86,8 +86,6 @@ namespace WeaponSystem.Weapons.Pickaxe
             // Rotate pickaxe after parent assign
             transform.localScale = new Vector3(transform.localScale.x,
                 _startSizeY, transform.localScale.z);
-            
-            Debug.Log(_startParent.parent.name + " = " + _startParent.parent.localScale.y);
 
             if (_pickaxeReturnCoroutine != null)
                 StopCoroutine(_pickaxeReturnCoroutine);
