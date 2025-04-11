@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: e595b2ac6fff42141b54d95ddea13c20
+guid: ae6216b7d577ecd45b7ae64c155377e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 910358100625835684
-    second: backgroundsheet_0
+      213: -8525991677984414101
+    second: More background 1_0
+  - first:
+      213: 8852913083696955609
+    second: More background 1_1
+  - first:
+      213: -6804829182852874432
+    second: More background 1_2
+  - first:
+      213: -5682974992274850554
+    second: More background 1_3
+  - first:
+      213: 5492658927018027214
+    second: More background 1_4
+  - first:
+      213: -5947054734844613186
+    second: More background 1_5
+  - first:
+      213: 8249916406950268515
+    second: More background 1_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +92,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -96,154 +114,181 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: backgroundsheet_0
+      name: More background 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5120
-        width: 1920
-        height: 1280
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6c3368edd32ac00800000000000000
-      internalID: 910358100625835684
+      spriteID: 7743a6fd96352864f8719ffad1cad73e
+      internalID: -26602004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundsheet_1
+      name: More background 1_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3840
-        width: 1920
-        height: 1275
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f89a4862ccd95748bde93a787078a6c
-      internalID: 1890980689
+      spriteID: 074bde23372142843930521e0e897dc7
+      internalID: -1926266748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundsheet_2
+      name: More background 1_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2560
-        width: 1920
-        height: 1273
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8369b53114489f438ebb0e97fa47184
-      internalID: -1215932056
+      spriteID: 48766a336bad1a64e968ed63008a03f7
+      internalID: -170223948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundsheet_3
+      name: More background 1_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1280
-        width: 1920
-        height: 1276
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80d80b99237246244a4e4a22fba68c51
-      internalID: -1907435007
+      spriteID: 8cb1d0a708147334493bc66c13e5ae29
+      internalID: -1973865379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backgroundsheet_4
+      name: More background 1_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1278
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0095e859d0d06e74683f574ce8519168
-      internalID: -1866938387
+      spriteID: 18617134bbb5b6844bef104a36f14cc3
+      internalID: -1131700127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More background 1_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16707f9a4549a6743921f3d4fb13c857
+      internalID: -444899903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More background 1_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65324c08b22881f49ba9b767e52c2e16
+      internalID: -460852874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More background 1_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857ca0665b2642048b1d67c5261463db
+      internalID: -550150657
       vertices: []
       indices: 
       edges: []
@@ -252,7 +297,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 085a2dbdf61ab934da4fd1926c162f2f
+    spriteID: 903e942b85797e64a9d93d51162de647
     internalID: 0
     vertices: []
     indices: 
@@ -262,11 +307,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      backgroundsheet_0: 910358100625835684
-      backgroundsheet_1: 1890980689
-      backgroundsheet_2: -1215932056
-      backgroundsheet_3: -1907435007
-      backgroundsheet_4: -1866938387
+      More background 1_0: -26602004
+      More background 1_1: -1926266748
+      More background 1_2: -170223948
+      More background 1_3: -1973865379
+      More background 1_4: -1131700127
+      More background 1_5: -444899903
+      More background 1_6: -460852874
+      More background 1_7: -550150657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
