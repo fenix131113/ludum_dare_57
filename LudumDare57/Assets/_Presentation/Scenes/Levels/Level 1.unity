@@ -3398,6 +3398,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7436587699509352967, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
+      propertyPath: questsManager
+      value: 
+      objectReference: {fileID: 1137217337}
     - target: {fileID: 8003947482781123206, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
       propertyPath: m_Name
       value: PlayerLift
@@ -3415,6 +3419,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4537559755221518440, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
   m_PrefabInstance: {fileID: 794132654}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &794132656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5555361110496182144, guid: 35d91812f833f7840a5eb4c08ea186fc, type: 3}
+  m_PrefabInstance: {fileID: 794132654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1203d9174c2f45a4bb66ae148266d76c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &806991464
 GameObject:
   m_ObjectHideFlags: 0
@@ -38528,6 +38543,10 @@ PrefabInstance:
       propertyPath: 'specialItemsPoints.Array.data[4]'
       value: 
       objectReference: {fileID: 887474977}
+    - target: {fileID: 3279159968192811445, guid: 43afac88a21d34e45a9c0dd84d757700, type: 3}
+      propertyPath: callbackTrigger
+      value: 
+      objectReference: {fileID: 794132656}
     - target: {fileID: 8169537380638832171, guid: 43afac88a21d34e45a9c0dd84d757700, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -38578,6 +38597,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8169537380638832171, guid: 43afac88a21d34e45a9c0dd84d757700, type: 3}
   m_PrefabInstance: {fileID: 1137217335}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1137217337 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2444719196782508427, guid: 43afac88a21d34e45a9c0dd84d757700, type: 3}
+  m_PrefabInstance: {fileID: 1137217335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1413dd638c3d4343a429f6f9fcf70d24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1140659008
 GameObject:
   m_ObjectHideFlags: 0
@@ -74943,7 +74973,6 @@ MonoBehaviour:
   - {fileID: 253095913}
   - {fileID: 184457703}
   - {fileID: 887474977}
-  - {fileID: 0}
   minTimeBetweenSpawns: 3
   maxTimeBetweenSpawns: 7
   maxCount: 5
