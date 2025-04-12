@@ -28,11 +28,13 @@ namespace Levels
         private void OnExitLeverPressed()
         {
             if (loadShop)
+            {
+                _playerStats.IncreaseCompleteLevels();
                 FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadShopLevel());
+            }
             else
                 FadeService.Instance.FadeIn(animTime, () => LevelControl.Instance.LoadNextRandomLevel(true));
-            
-            _playerStats.IncreaseCompleteLevels();
+
             _gameState.SetPlayerMovementPaused(true);
             _gameState.SetPlayerDamagePaused(true);
         }

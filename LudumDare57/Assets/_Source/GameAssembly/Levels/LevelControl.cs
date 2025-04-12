@@ -12,15 +12,11 @@ namespace Levels
 {
     public class LevelControl : MonoBehaviour
     {
+        [SerializeField] private PlayerStats playerStats;
         [SerializeField] private List<LevelSpawnData> levelsSpawnData;
         [SerializeField] private int shopSceneIndex;
 
         public static LevelControl Instance;
-
-        private PlayerStats _playerStats;
-
-        [Inject]
-        private void Construct(PlayerStats playerStats) => _playerStats = playerStats;
 
         private void Start()
         {
@@ -29,8 +25,8 @@ namespace Levels
                 Destroy(gameObject);
                 return;
             }
-
-            GameInstaller.InjectObject(this);
+            
+            GameInstaller.InjectObject(gameObject);
             DontDestroyOnLoad(gameObject);
             Instance = this;
         }
@@ -40,7 +36,7 @@ namespace Levels
             int nextSceneIndex;
 
             var allowGameScenesIndexes =
-                _playerStats ? GetAllowGameScenesIndexes() : levelsSpawnData[0].LevelIndexes;
+                playerStats ? GetAllowGameScenesIndexes() : levelsSpawnData[0].LevelIndexes;
 
             if (includeCurrent)
                 nextSceneIndex = allowGameScenesIndexes[Random.Range(0, allowGameScenesIndexes.Count)];
@@ -58,7 +54,7 @@ namespace Levels
 
             foreach (var data in levelsSpawnData.OrderByDescending(x => x.LoadAfter))
             {
-                if (data.LoadAfter > _playerStats.CompletedLevels)
+                if (data.LoadAfter > playerStats.CompletedLevels)
                     continue;
 
                 allowed = data.LevelIndexes;

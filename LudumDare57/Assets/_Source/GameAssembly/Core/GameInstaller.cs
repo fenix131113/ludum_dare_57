@@ -54,10 +54,10 @@ namespace Core
             return spawned;
         }
 
-        public static void InjectObject(object obj)
+        public static void InjectObject(GameObject obj)
         {
-            if (_instance && obj != null)
-                _instance.Container.Inject(obj);
+            if (_instance && obj)
+                _instance.Container.InjectGameObject(obj);
         }
     }
 }

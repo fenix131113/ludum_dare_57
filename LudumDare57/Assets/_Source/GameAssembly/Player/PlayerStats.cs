@@ -25,7 +25,11 @@ namespace Player
             DontDestroyOnLoad(gameObject);
         }
 
-        public void IncreaseCompleteLevels() => CompletedLevels++;
+        public void IncreaseCompleteLevels()
+        {
+            CompletedLevels++;
+            Debug.Log(CompletedLevels);
+        }
 
         public void AddCoins(int amount)
         {
