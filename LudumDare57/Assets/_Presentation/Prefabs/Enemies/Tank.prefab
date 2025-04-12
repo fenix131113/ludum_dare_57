@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1188230929
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7498181338342997729, guid: 8f6de59c87a55ac40b8ccec34ddc46a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   rb: {fileID: 7650358638696504974}
   damageAnimDuration: 0.3
   dropItem: {fileID: 5963727282258738809, guid: bbb6c255641dc8b4a9a776a9938ff3b7, type: 3}
-  dropItemChance: 0.1
+  dropItemChance: 0.13
   deathSounds:
   - {fileID: 8300000, guid: 259863889a9e0ad4bbfec341ab9bae0b, type: 3}
   - {fileID: 8300000, guid: dbac938069ddc984ca75288248b175e3, type: 3}

@@ -68,6 +68,7 @@ namespace Levels
             return allowed;
         }
 
+
         public void LoadShopLevel() => SceneManager.LoadScene(shopSceneIndex);
 
         [Serializable]

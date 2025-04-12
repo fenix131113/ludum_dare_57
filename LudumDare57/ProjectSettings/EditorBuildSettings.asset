@@ -29,6 +29,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Presentation/Scenes/Levels/Level Plateau Dirt Very Hard.unity
     guid: 3abffd36de4f1344c978d77e7864d0e8
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/Levels/Level Plateau Mine Easy 1.unity
+    guid: 1c284d0fc732c81438df2721faa92aaa
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/Levels/Level Plateau Mine Medium.unity
+    guid: 5ebac7b9879f9964e8da54b8753de0be
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/Levels/Level Plateau Mine Hard.unity
+    guid: d9f576bc57eb68f45a85c9282ce141fd
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/Levels/Level Plateau Mine very Hard 1.unity
+    guid: a563d8e37b640a04b8bb0fdff86f0acf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
