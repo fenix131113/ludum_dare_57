@@ -38,7 +38,7 @@ namespace Levels.Shop
             if (abilitiesUpgrades.Any(upgrade => !_playerStats.Upgrades.ContainsKey(upgrade) ||
                                                  _playerStats.Upgrades[upgrade] < upgrade.MaxLevel))
                 allowTraders.Add(sofaTrader);
-            
+
             if (weaponUpgrades.Any(upgrade => !_playerStats.Upgrades.ContainsKey(upgrade) ||
                                               _playerStats.Upgrades[upgrade] < upgrade.MaxLevel))
                 allowTraders.Add(graykTrader);
@@ -70,9 +70,11 @@ namespace Levels.Shop
                 _ => throw new ArgumentOutOfRangeException()
             };
 
-            var excepted = selectedUpgrades.TakeWhile(upgrade =>
-                    !_playerStats.Upgrades.ContainsKey(upgrade) || _playerStats.Upgrades[upgrade] < upgrade.MaxLevel)
-                .ToList();
+            var haveUpgrades = (from upgrade in _playerStats.Upgrades
+                where upgrade.Value >= upgrade.Key.MaxLevel
+                select upgrade.Key).ToList();
+
+            var excepted = selectedUpgrades.Except(haveUpgrades).ToList();
 
             var sellUpgrades = new (UpgradeSO, int)[3];
 

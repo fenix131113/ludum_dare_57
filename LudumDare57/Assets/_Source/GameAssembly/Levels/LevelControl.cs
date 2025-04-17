@@ -65,7 +65,10 @@ namespace Levels
         }
 
 
-        public void LoadShopLevel() => SceneManager.LoadScene(shopSceneIndex);
+        public void LoadShopLevel()
+        {
+            SceneManager.LoadScene(shopSceneIndex);
+        }
 
         [Serializable]
         public class LevelSpawnData
